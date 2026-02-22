@@ -12,12 +12,11 @@
         <div class="card-toolbar">
             <!--begin::Menu-->
             <button class="btn btn-icon btn-color-gray-500 btn-active-color-primary justify-content-end"
-                data-kt-menu-trigger="click"
-                data-kt-menu-placement="bottom-end"
-                data-kt-menu-overflow="true">
-                <i class="ki-duotone ki-dots-square fs-1"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+                data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
+                <i class="ki-outline ki-dots-square fs-1 text-gray-500 me-n1"></i>
             </button>
-<!--layout-partial:partials/menus/_menu-2.html-->
+            <!--layout-partial:partials/menus/_menu-2.html-->
+            @include('admin.partials.menus._menu-2')
             <!--end::Menu-->
         </div>
         <!--end::Toolbar-->
@@ -32,3 +31,4 @@
     <!--end::Card body-->
 </div>
 <!--end::Chart widget 24-->
+

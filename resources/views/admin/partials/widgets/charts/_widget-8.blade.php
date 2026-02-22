@@ -12,10 +12,14 @@
         <div class="card-toolbar">
             <ul class="nav" id="kt_chart_widget_8_tabs">
                 <li class="nav-item">
-                    <a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-light fw-bold px-4 me-1" data-bs-toggle="tab" id="kt_chart_widget_8_week_toggle" href="#kt_chart_widget_8_week_tab">Month</a>
+                    <a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-light fw-bold px-4 me-1"
+                        data-bs-toggle="tab" id="kt_chart_widget_8_week_toggle"
+                        href="#kt_chart_widget_8_week_tab">Month</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-light fw-bold px-4 me-1 active" data-bs-toggle="tab" id="kt_chart_widget_8_month_toggle" href="#kt_chart_widget_8_month_tab">Week</a>
+                    <a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-light fw-bold px-4 me-1 active"
+                        data-bs-toggle="tab" id="kt_chart_widget_8_month_toggle"
+                        href="#kt_chart_widget_8_month_tab">Week</a>
                 </li>
             </ul>
         </div>
@@ -35,7 +39,8 @@
                         <span class="fs-1 fw-semibold text-gray-500 me-1 mt-n1">$</span>
                         <span class="fs-3x fw-bold text-gray-800 me-2 lh-1 ls-n2">18,89</span>
                         <span class="badge badge-light-success fs-base">
-                            <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span class="path2"></span></i>
+                            <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span
+                                    class="path2"></span></i>
                             4,8%
                         </span>
                     </div>
@@ -135,7 +140,8 @@
                         <span class="fs-1 fw-semibold text-gray-500 me-1 mt-n1">$</span>
                         <span class="fs-3x fw-bold text-gray-800 me-2 lh-1 ls-n2">8,55</span>
                         <span class="badge badge-light-success fs-base">
-                            <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span class="path2"></span></i>
+                            <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span
+                                    class="path2"></span></i>
                             2.2%
                         </span>
                     </div>

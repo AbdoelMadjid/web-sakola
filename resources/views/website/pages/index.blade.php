@@ -805,11 +805,194 @@
         <!-- End Events -->
 
         <!-- News -->
-        @include('website.partials.news')
+        <div class="container g-pt-100">
+            <div class="g-px-30--lg">
+                <!-- Heading -->
+                <div class="g-max-width-645 text-center mx-auto g-mb-30">
+                    <h2 class="h1 mb-3">Latest News &amp; Opinions</h2>
+                    <p>Our duty towards you is to share our experience we're reaching in our work path with you.</p>
+                </div>
+                <!-- End Heading -->
+
+                <!-- News Carousel -->
+                <div class="js-carousel u-carousel-v5 g-mx-minus-15" data-slides-show="3" data-slides-scroll="1"
+                    data-arrows-classes="u-icon-v3 u-icon-size--sm g-absolute-centered--y g-color-primary g-color-white--hover g-bg-primary-opacity-0_1 g-bg-primary--hover rounded-circle g-pa-11"
+                    data-arrow-left-classes="fa fa-angle-left g-left-0 g-ml-minus-50--lg"
+                    data-arrow-right-classes="fa fa-angle-right g-right-0 g-mr-minus-50--lg"
+                    data-pagi-classes="u-carousel-indicators-v35 g-pos-rel text-center g-mt-30"
+                    data-responsive='[{
+                 "breakpoint": 992,
+                 "settings": {
+                   "slidesToShow": 2
+                 }
+               }, {
+                 "breakpoint": 768,
+                 "settings": {
+                   "slidesToShow": 1
+                 }
+               }, {
+                 "breakpoint": 554,
+                 "settings": {
+                   "slidesToShow": 1
+                 }
+               }]'>
+
+                    <!-- News -->
+                    <div class="js-slide u-shadow-v38 g-bg-size-cover g-bg-pos-center rounded g-mx-15 g-my-30"
+                        style="background-image: url(web/assets/img-temp/400x500/img1.jpg);">
+                        <article class="align-self-end text-center g-pos-rel g-z-index-1 g-pa-40 mx-auto">
+                            <h3 class="g-color-white">Unify University announces a new student award in honour of
+                                Fashion</h3>
+                            <div class="mt-4">
+                                <span class="d-block g-color-white g-font-size-16 mb-2">Neyton Burchie</span>
+                                <div class="d-inline-block g-width-40 g-height-40">
+                                    <img class="img-fluid g-brd-around g-brd-2 g-brd-primary-opacity-0_1 rounded-circle"
+                                        src="web/assets/img-temp/100x100/img3.jpg" alt="Image Description">
+                                </div>
+                            </div>
+                            <a class="u-link-v2" href="page-blog-single-item-1.html"></a>
+                        </article>
+                    </div>
+                    <!-- End News -->
+
+                    <!-- News -->
+                    <div class="js-slide g-flex-centered u-shadow-v38 rounded g-mx-15 g-my-30">
+                        <article class="g-pa-40">
+                            <blockquote class="g-brd-left-none g-color-main-dark-v3 g-font-size-18 g-pl-0 mb-5">" Unify
+                                welcomes the downtown to uptown in advance of the IT Technology. At the welcome
+                                ceremony, Lenton announced a new award in the IT Technology in support of increased
+                                access to postsecondary education. "</blockquote>
+                            <div class="text-center mb-3">
+                                <span class="d-block g-color-text-light-v1 g-font-size-16 mb-2">Keith Margaret</span>
+                                <div class="d-inline-block g-width-40 g-height-40">
+                                    <img class="img-fluid g-brd-around g-brd-2 g-brd-primary-opacity-0_1 rounded-circle"
+                                        src="web/assets/img-temp/100x100/img2.jpg" alt="Image Description">
+                                </div>
+                            </div>
+                            <a class="btn btn-block g-color-primary g-color-white--hover g-bg-primary-opacity-0_1 g-bg-primary--hover g-rounded-20 g-py-10"
+                                href="page-blog-single-item-1.html">Read more</a>
+                        </article>
+                    </div>
+                    <!-- End News -->
+
+                    <!-- News -->
+                    <div class="js-slide u-shadow-v38 g-bg-size-cover g-bg-pos-center rounded g-mx-15 g-my-30"
+                        style="background-image: url(web/assets/img-temp/400x500/img3.jpg);">
+                        <article class="align-self-end text-center g-pos-rel g-z-index-1 g-pa-40 mx-auto">
+                            <h3 class="g-color-white">The Fashion Gallery of Unify welcomes downtown to the future of
+                                Ontario.</h3>
+                            <div class="mt-4">
+                                <span class="d-block g-color-white g-font-size-16 mb-2">Tina Krueger</span>
+                                <div class="d-inline-block g-width-40 g-height-40">
+                                    <img class="img-fluid g-brd-around g-brd-2 g-brd-primary-opacity-0_1 rounded-circle"
+                                        src="web/assets/img-temp/100x100/img5.jpg" alt="Image Description">
+                                </div>
+                            </div>
+                            <a class="u-link-v2" href="page-blog-single-item-1.html"></a>
+                        </article>
+                    </div>
+                    <!-- End News -->
+
+                    <!-- News -->
+                    <div class="js-slide g-flex-centered u-shadow-v38 rounded g-mx-15 g-my-30">
+                        <article class="g-pa-40">
+                            <blockquote class="g-brd-left-none g-color-main-dark-v3 g-font-size-18 g-pl-0 mb-5">"
+                                Augustana Long Range Development Plan Open House - Sept. 28. The University of Unify
+                                will be holding a public open house that will provide an update on the amendment of land
+                                use plans for the Augustana Campus. "</blockquote>
+                            <div class="text-center mb-3">
+                                <span class="d-block g-color-text-light-v1 g-font-size-16 mb-2">Neyton Burchie</span>
+                                <div class="d-inline-block g-width-40 g-height-40">
+                                    <img class="img-fluid g-brd-around g-brd-2 g-brd-primary-opacity-0_1 rounded-circle"
+                                        src="web/assets/img-temp/100x100/img3.jpg" alt="Image Description">
+                                </div>
+                            </div>
+                            <a class="btn btn-block g-color-primary g-color-white--hover g-bg-primary-opacity-0_1 g-bg-primary--hover g-rounded-20 g-py-10"
+                                href="page-blog-single-item-1.html">Read more</a>
+                        </article>
+                    </div>
+                    <!-- End News -->
+
+                    <!-- News -->
+                    <div class="js-slide u-shadow-v38 g-bg-size-cover g-bg-pos-center rounded g-mx-15 g-my-30"
+                        style="background-image: url(web/assets/img-temp/400x500/img2.jpg);">
+                        <article class="align-self-end text-center g-pos-rel g-z-index-1 g-pa-40 mx-auto">
+                            <h3 class="g-color-white">University of Unify joins new network to drive defence research
+                            </h3>
+                            <div class="mt-4">
+                                <span class="d-block g-color-white g-font-size-16 mb-2">Liza Nelson</span>
+                                <div class="d-inline-block g-width-40 g-height-40">
+                                    <img class="img-fluid g-brd-around g-brd-2 g-brd-primary-opacity-0_1 rounded-circle"
+                                        src="web/assets/img-temp/100x100/img4.jpg" alt="Image Description">
+                                </div>
+                            </div>
+                            <a class="u-link-v2" href="page-blog-single-item-1.html"></a>
+                        </article>
+                    </div>
+                    <!-- End News -->
+                </div>
+                <!-- End News Carousel -->
+            </div>
+        </div>
         <!-- End News -->
 
         <!-- Call to Action -->
-        @include('website.partials.call-to-action')
+        <div class="g-pos-rel">
+            <div class="container text-center g-pt-100 g-pb-50">
+                <!-- Heading -->
+                <div class="g-max-width-645 mx-auto g-mb-40">
+                    <h2 class="h1 mb-3">Join Unify University</h2>
+                    <p>Our strategy is simple: to create a place where the best researchers and most promising students
+                        can achieve their full potential.</p>
+                </div>
+                <!-- End Heading -->
+
+                <a class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-rounded-30 g-px-35 g-py-13"
+                    href="page-apply-1.html">Apply Now</a>
+
+                <!-- SVG Shape -->
+                <svg class="d-inline-block g-width-35" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 37 1"
+                    enable-background="new 0 0 37 1" xml:space="preserve">
+                    <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="0" y1="0.5"
+                        x2="37" y2="0.5">
+                        <stop offset="0" style="stop-color:#f5f6fa" />
+                        <stop offset="1" style="stop-color:#b5b8cb" />
+                    </linearGradient>
+                    <line fill="none" stroke="url(#SVGID_5_)" stroke-miterlimit="10" x1="37"
+                        y1="0.5" x2="0" y2="0.5" />
+                </svg>
+                <!-- End SVG Shape -->
+
+                <span class="align-middle g-color-primary mx-1">or</span>
+
+                <!-- SVG Shape -->
+                <svg class="d-inline-block g-width-35" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 37 1"
+                    enable-background="new 0 0 37 1" xml:space="preserve">
+                    <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-10" y1="-1.5"
+                        x2="27" y2="-1.5" gradientTransform="matrix(-1 0 0 -1 27 -1)">
+                        <stop offset="0" style="stop-color:#f5f6fa" />
+                        <stop offset="1" style="stop-color:#b5b8cb" />
+                    </linearGradient>
+                    <line fill="none" stroke="url(#SVGID_6_)" stroke-miterlimit="10" x1="0"
+                        y1="0.5" x2="37" y2="0.5" />
+                </svg>
+                <!-- End SVG Shape -->
+
+                <a class="btn u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-rounded-30 g-px-35 g-py-13"
+                    href="page-contacts-1.html">Contact Us</a>
+            </div>
+
+            <!-- SVG Background Shape -->
+            <svg class="g-pos-abs g-bottom-0 g-left-0 g-z-index-minus-1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 323"
+                enable-background="new 0 0 1920 323" xml:space="preserve">
+                <polygon fill="#f0f2f8" points="0,323 1920,323 1920,0 " />
+                <polygon fill="#f5f6fa" points="-0.5,322.5 -0.5,131.5 658.3,212.3 " />
+            </svg>
+            <!-- End SVG Background Shape -->
+        </div>
         <!-- End Call to Action -->
 
         <!-- Footer -->

@@ -36,7 +36,13 @@
         </li>
         <li class="dropdown-item g-px-0 g-py-2">
             <a class="nav-link g-color-white g-bg-primary g-bg-primary-light-v1--hover g-font-size-default"
-                href="{{ route('navbar.page', ['page' => 'signin']) }}">Sign in</a>
+                href="@auth{{ route('dashboard') }}@else{{ route('navbar.page', ['page' => 'signin']) }}@endauth">
+                @auth
+                    Dashboard
+                @else
+                    Sign in
+                @endauth
+            </a>
         </li>
     </ul>
 </li>

@@ -129,8 +129,12 @@
                             </li>
                             <li class="py-2">
                                 <a class="d-flex g-color-main g-color-primary--hover g-text-underline--none--hover g-py-5"
-                                    href="{{ route('navbar.page', ['page' => 'signin']) }}">
-                                    Signin
+                                    href="@auth{{ route('dashboard') }}@else{{ route('navbar.page', ['page' => 'signin']) }} @endauth">
+                                    @auth
+                                        Dashboard
+                                    @else
+                                        Signin
+                                    @endauth
                                     <i
                                         class="g-color-primary g-font-size-15 g-pos-rel g-top-5 ml-auto material-icons">arrow_forward</i>
                                 </a>
@@ -190,4 +194,3 @@
         </li>
     </ul>
 </div>
-

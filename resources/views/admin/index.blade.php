@@ -38,16 +38,16 @@ License: For each use you must have a valid license purchased only from above li
     <meta property="og:url" content="https://keenthemes.com/metronic" />
     <meta property="og:site_name" content="Metronic by Keenthemes" />
     <link rel="canonical" href="http://preview.keenthemes.com?page=index" />
-    <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+    <link rel="shortcut icon" href="admin/assets/media/logos/favicon.ico" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" /> <!--end::Fonts-->
     <!--begin::Vendor Stylesheets(used for this page only)-->
-    <link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="admin/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="admin/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
     <!--end::Vendor Stylesheets-->
     <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
-    <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="admin/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="admin/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->
     <script>
         // Frame-busting to prevent site from being loaded within a frame without permission (click-jacking)
@@ -64,26 +64,35 @@ License: For each use you must have a valid license purchased only from above li
     data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true"
     data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
     <!--layout-partial:partials/theme-mode/_init.html-->
+    @include('admin.partials.theme-mode._init')
     <!--layout-partial:layout/_default.html-->
+    @include('admin.layout._default')
     <!--layout-partial:partials/_scrolltop.html-->
+    @include('admin.partials._scrolltop')
     <!--begin::Modals-->
     <!--layout-partial:partials/modals/_upgrade-plan.html-->
+    @include('admin.partials.modals._upgrade-plan')
     <!--layout-partial:partials/modals/create-app/_main.html-->
+    @include('admin.partials.modals.create-app._main')
     <!--layout-partial:partials/modals/_new-target.html-->
+    @include('admin.partials.modals._new-target')
     <!--layout-partial:partials/modals/_view-users.html-->
+    @include('admin.partials.modals._view-users')
     <!--layout-partial:partials/modals/users-search/_main.html-->
+    @include('admin.partials.modals.users-search._main')
     <!--layout-partial:partials/modals/_invite-friends.html-->
+    @include('admin.partials.modals._invite-friends')
     <!--end::Modals-->
     <!--begin::Javascript-->
     <script>
-        var hostUrl = "assets/";
+        var hostUrl = "admin/assets/";
     </script>
     <!--begin::Global Javascript Bundle(mandatory for all pages)-->
-    <script src="assets/plugins/global/plugins.bundle.js"></script>
-    <script src="assets/js/scripts.bundle.js"></script>
+    <script src="admin/assets/plugins/global/plugins.bundle.js"></script>
+    <script src="admin/assets/js/scripts.bundle.js"></script>
     <!--end::Global Javascript Bundle-->
     <!--begin::Vendors Javascript(used for this page only)-->
-    <script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+    <script src="admin/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
@@ -95,19 +104,20 @@ License: For each use you must have a valid license purchased only from above li
     <script src="https://cdn.amcharts.com/lib/5/geodata/usaLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZonesLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZoneAreasLow.js"></script>
-    <script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+    <script src="admin/assets/plugins/custom/datatables/datatables.bundle.js"></script>
     <!--end::Vendors Javascript-->
     <!--begin::Custom Javascript(used for this page only)-->
-    <script src="assets/js/widgets.bundle.js"></script>
-    <script src="assets/js/custom/widgets.js"></script>
-    <script src="assets/js/custom/apps/chat/chat.js"></script>
-    <script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-    <script src="assets/js/custom/utilities/modals/create-app.js"></script>
-    <script src="assets/js/custom/utilities/modals/new-target.js"></script>
-    <script src="assets/js/custom/utilities/modals/users-search.js"></script>
+    <script src="admin/assets/js/widgets.bundle.js"></script>
+    <script src="admin/assets/js/custom/widgets.js"></script>
+    <script src="admin/assets/js/custom/apps/chat/chat.js"></script>
+    <script src="admin/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+    <script src="admin/assets/js/custom/utilities/modals/create-app.js"></script>
+    <script src="admin/assets/js/custom/utilities/modals/new-target.js"></script>
+    <script src="admin/assets/js/custom/utilities/modals/users-search.js"></script>
     <!--end::Custom Javascript-->
     <!--end::Javascript-->
 </body>
 <!--end::Body-->
 
 </html>
+

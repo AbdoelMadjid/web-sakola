@@ -39,6 +39,9 @@
 </head>
 
 <body>
+    @php
+        $authMode = $authMode ?? 'signin';
+    @endphp
     <main>
         <!-- Header -->
         @include('website.layouts.header')
@@ -64,10 +67,80 @@
                     <div class="row justify-content-between">
                         <div class="col-md-6 col-lg-5 order-md-2 g-pos-abs--md g-top-0 g-right-0">
                             <!-- Contact Form -->
-                            <form>
-                                <!-- Signin -->
-                                <div id="signin">
+                            <!-- Signin -->
+                            <div id="signin">
+                                <form method="POST" action="{{ route('login') }}">
+                                    @csrf
                                     <div class="u-shadow-v35 g-bg-white rounded g-px-40 g-py-50">
+                                        @if ($authMode === 'signin' && session('status'))
+                                            <div class="alert alert-success g-mb-20">{{ session('status') }}</div>
+                                        @endif
+                                        @if ($authMode === 'signin' && $errors->any())
+                                            <div class="alert alert-danger g-mb-20">{{ $errors->first() }}</div>
+                                        @endif
+
+                                        <div class="g-mb-20">
+                                            <label class="g-color-text-light-v1 g-font-weight-500">Email</label>
+                                            <div class="input-group">
+                                                <span
+                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-secondary g-rounded-right-0">
+                                                    <div
+                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
+                                                        <i class="icon-education-166 u-line-icon-pro"></i>
+                                                    </div>
+                                                </span>
+                                                <input
+                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
+                                                    type="email" name="email" value="{{ old('email') }}"
+                                                    placeholder="john@gmail.com" required autofocus
+                                                    autocomplete="username">
+                                            </div>
+                                        </div>
+
+                                        <div class="g-mb-20">
+                                            <label class="g-color-text-light-v1 g-font-weight-500">Password</label>
+                                            <div class="input-group">
+                                                <span
+                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-secondary g-rounded-right-0">
+                                                    <div
+                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
+                                                        <i class="icon-finance-135 u-line-icon-pro"></i>
+                                                    </div>
+                                                </span>
+                                                <input
+                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
+                                                    type="password" name="password" placeholder="*********" required
+                                                    autocomplete="current-password">
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a class="g-color-text-light-v1 g-font-size-default"
+                                                id="forgot-password-link" href="{{ route('password.request') }}">Forgot
+                                                Password?</a>
+                                            <button type="submit"
+                                                class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-font-size-default rounded g-px-25 g-py-7">Signin</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <div class="text-center g-pt-30">
+                                    <p class="g-color-text-light-v1 g-font-size-default mb-0">Do not have an
+                                        account? <a class="g-font-size-default" id="signup-link"
+                                            href="{{ route('register') }}">Create Account</a></p>
+                                </div>
+                            </div>
+                            <!-- End Signin -->
+
+                            <!-- Signup -->
+                            <div id="signup" style="display: none;">
+                                <form method="POST" action="{{ route('register') }}">
+                                    @csrf
+                                    <div class="u-shadow-v35 g-bg-white rounded g-px-40 g-py-50">
+                                        @if ($authMode === 'signup' && $errors->any())
+                                            <div class="alert alert-danger g-mb-20">{{ $errors->first() }}</div>
+                                        @endif
+
                                         <div class="g-mb-20">
                                             <label class="g-color-text-light-v1 g-font-weight-500">Full name</label>
                                             <div class="input-group">
@@ -80,7 +153,8 @@
                                                 </span>
                                                 <input
                                                     class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
-                                                    type="text" placeholder="John Doe">
+                                                    type="text" name="name" value="{{ old('name') }}"
+                                                    placeholder="John Doe" required autocomplete="name">
                                             </div>
                                         </div>
 
@@ -96,7 +170,8 @@
                                                 </span>
                                                 <input
                                                     class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
-                                                    type="email" placeholder="john@gmail.com">
+                                                    type="email" name="email" value="{{ old('email') }}"
+                                                    placeholder="john@gmail.com" required autocomplete="username">
                                             </div>
                                         </div>
 
@@ -112,58 +187,8 @@
                                                 </span>
                                                 <input
                                                     class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
-                                                    type="password" placeholder="*********">
-                                            </div>
-                                        </div>
-
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <a class="g-color-text-light-v1 g-font-size-default"
-                                                id="forgot-password-link" href="#">Forgot Password?</a>
-                                            <button type="submit"
-                                                class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-font-size-default rounded g-px-25 g-py-7">Signin</button>
-                                        </div>
-                                    </div>
-
-                                    <div class="text-center g-pt-30">
-                                        <p class="g-color-text-light-v1 g-font-size-default mb-0">Do not have an
-                                            account? <a class="g-font-size-default" id="signup-link"
-                                                href="#">Create Account</a></p>
-                                    </div>
-                                </div>
-                                <!-- End Signin -->
-
-                                <!-- Signup -->
-                                <div id="signup" style="display: none;">
-                                    <div class="u-shadow-v35 g-bg-white rounded g-px-40 g-py-50">
-                                        <div class="g-mb-20">
-                                            <label class="g-color-text-light-v1 g-font-weight-500">Email</label>
-                                            <div class="input-group">
-                                                <span
-                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-secondary g-rounded-right-0">
-                                                    <div
-                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
-                                                        <i class="icon-education-166 u-line-icon-pro"></i>
-                                                    </div>
-                                                </span>
-                                                <input
-                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
-                                                    type="email" placeholder="john@gmail.com">
-                                            </div>
-                                        </div>
-
-                                        <div class="g-mb-20">
-                                            <label class="g-color-text-light-v1 g-font-weight-500">Password</label>
-                                            <div class="input-group">
-                                                <span
-                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-secondary g-rounded-right-0">
-                                                    <div
-                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
-                                                        <i class="icon-finance-135 u-line-icon-pro"></i>
-                                                    </div>
-                                                </span>
-                                                <input
-                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
-                                                    type="password" placeholder="*********">
+                                                    type="password" name="password" placeholder="*********" required
+                                                    autocomplete="new-password">
                                             </div>
                                         </div>
 
@@ -180,7 +205,8 @@
                                                 </span>
                                                 <input
                                                     class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
-                                                    type="password" placeholder="*********">
+                                                    type="password" name="password_confirmation"
+                                                    placeholder="*********" required autocomplete="new-password">
                                             </div>
                                         </div>
 
@@ -189,18 +215,28 @@
                                                 class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-font-size-default rounded g-px-25 g-py-7 ml-auto">Signup</button>
                                         </div>
                                     </div>
+                                </form>
 
-                                    <div class="text-center g-pt-30">
-                                        <p class="g-color-text-light-v1 g-font-size-default mb-0">Already have an
-                                            account? <a class="g-font-size-default" id="signin-link"
-                                                href="#">Signin</a></p>
-                                    </div>
+                                <div class="text-center g-pt-30">
+                                    <p class="g-color-text-light-v1 g-font-size-default mb-0">Already have an
+                                        account? <a class="g-font-size-default" id="signin-link"
+                                            href="{{ route('login') }}">Signin</a></p>
                                 </div>
-                                <!-- End Signup -->
+                            </div>
+                            <!-- End Signup -->
 
-                                <!-- Forgot Password -->
-                                <div id="forgot-password" style="display: none;">
+                            <!-- Forgot Password -->
+                            <div id="forgot-password" style="display: none;">
+                                <form method="POST" action="{{ route('password.email') }}">
+                                    @csrf
                                     <div class="u-shadow-v35 g-bg-white rounded g-px-40 g-py-50">
+                                        @if ($authMode === 'forgot' && session('status'))
+                                            <div class="alert alert-success g-mb-20">{{ session('status') }}</div>
+                                        @endif
+                                        @if ($authMode === 'forgot' && $errors->any())
+                                            <div class="alert alert-danger g-mb-20">{{ $errors->first() }}</div>
+                                        @endif
+
                                         <div class="g-mb-20">
                                             <label class="g-color-text-light-v1 g-font-weight-500">Enter your
                                                 email</label>
@@ -214,7 +250,8 @@
                                                 </span>
                                                 <input
                                                     class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
-                                                    type="email" placeholder="john@gmail.com">
+                                                    type="email" name="email" value="{{ old('email') }}"
+                                                    placeholder="john@gmail.com" required autocomplete="username">
                                             </div>
                                         </div>
 
@@ -224,15 +261,15 @@
                                                 Password</button>
                                         </div>
                                     </div>
+                                </form>
 
-                                    <div class="text-center g-pt-30">
-                                        <p class="g-color-text-light-v1 g-font-size-default mb-0">Remember your
-                                            password? <a class="g-font-size-default" id="go-back-link"
-                                                href="#">Signin</a></p>
-                                    </div>
+                                <div class="text-center g-pt-30">
+                                    <p class="g-color-text-light-v1 g-font-size-default mb-0">Remember your
+                                        password? <a class="g-font-size-default" id="go-back-link"
+                                            href="{{ route('login') }}">Signin</a></p>
                                 </div>
-                                <!-- End Forgot Password -->
-                            </form>
+                            </div>
+                            <!-- End Forgot Password -->
                             <!-- End Contact Form -->
 
                             <hr class="g-hidden-md-up g-my-60">
@@ -390,26 +427,31 @@
             // initialization of go to
             $.HSCore.components.HSGoTo.init('.js-go-to');
 
+            const authMode = @json($authMode);
+
+            function showAuthPane(mode) {
+                const targetMode = mode || 'signin';
+                $('#signin').toggle(targetMode === 'signin');
+                $('#signup').toggle(targetMode === 'signup');
+                $('#forgot-password').toggle(targetMode === 'forgot');
+            }
+
+            showAuthPane(authMode);
+
             // Signin Tab
             $('#signin-link, #go-back-link').on('click', function(e) {
                 e.preventDefault();
-                $('#signin, #go-back-link').show();
-                $('#signup').hide();
-                $('#forgot-password').hide();
+                showAuthPane('signin');
             });
 
             $('#signup-link').on('click', function(e) {
                 e.preventDefault();
-                $('#signup').show();
-                $('#signin, #go-back-link').hide();
-                $('#forgot-password').hide();
+                showAuthPane('signup');
             });
 
             $('#forgot-password-link').on('click', function(e) {
                 e.preventDefault();
-                $('#forgot-password').show();
-                $('#signin').hide();
-                $('#signup').hide();
+                showAuthPane('forgot');
             });
         });
     </script>

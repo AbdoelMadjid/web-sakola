@@ -1,6 +1,6 @@
 <!--begin::Card widget 20-->
 <div class="card card-flush bgi-no-repeat bgi-size-contain bgi-position-x-end h-md-50 mb-5 mb-xl-10"
-style="background-color: #F1416C;background-image:url('assets/media/patterns/vector-1.png')">
+    style="background-color: #F1416C;background-image:url('admin/assets/media/patterns/vector-1.png')">
     <!--begin::Header-->
     <div class="card-header pt-5">
         <!--begin::Title-->
@@ -24,7 +24,8 @@ style="background-color: #F1416C;background-image:url('assets/media/patterns/vec
                 <span>72%</span>
             </div>
             <div class="h-8px mx-3 w-100 bg-white bg-opacity-50 rounded">
-                <div class="bg-white rounded h-8px" role="progressbar" style="width: 72%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="bg-white rounded h-8px" role="progressbar" style="width: 72%;" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
         <!--end::Progress-->
@@ -32,3 +33,4 @@ style="background-color: #F1416C;background-image:url('assets/media/patterns/vec
     <!--end::Card body-->
 </div>
 <!--end::Card widget 20-->
+

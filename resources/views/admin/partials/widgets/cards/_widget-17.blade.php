@@ -14,7 +14,8 @@
                 <!--end::Amount-->
                 <!--begin::Badge-->
                 <span class="badge badge-light-success fs-base">
-                    <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span class="path2"></span></i>
+                    <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span
+                            class="path2"></span></i>
                     2.2%
                 </span>
                 <!--end::Badge-->
@@ -31,10 +32,7 @@
     <div class="card-body pt-2 pb-4 d-flex flex-wrap align-items-center">
         <!--begin::Chart-->
         <div class="d-flex flex-center me-5 pt-2">
-            <div
-                id="kt_card_widget_17_chart"
-                style="min-width: 70px; min-height: 70px"
-                data-kt-size="70"
+            <div id="kt_card_widget_17_chart" style="min-width: 70px; min-height: 70px" data-kt-size="70"
                 data-kt-line="11">
             </div>
         </div>

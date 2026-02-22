@@ -1,0 +1,25 @@
+<div class="card card-xxl-stretch mb-xl-8 theme-dark-bg-body" style="background-color: #f7d9e3">
+    <!--begin::Body-->
+    <div class="card-body d-flex flex-column">
+        <!--begin::Wrapper-->
+        <div class="d-flex flex-column flex-grow-1">
+            <!--begin::Title-->
+            <a href="#" class="text-gray-900 text-hover-primary fw-bold fs-3">Contributors</a>
+            <!--end::Title-->
+            <!--begin::Chart-->
+            <div class="mixed-widget-14-chart" style="height: 125px"></div>
+            <!--end::Chart-->
+        </div>
+        <!--end::Wrapper-->
+        <!--begin::Stats-->
+        <div class="pt-5">
+            <!--begin::Number-->
+            <span class="text-gray-900 fw-bold fs-3x me-2 lh-0">47</span>
+            <!--end::Number-->
+            <!--begin::Text-->
+            <span class="text-gray-900 fw-bold fs-6 lh-0">- 12% this week</span>
+            <!--end::Text-->
+        </div>
+        <!--end::Stats-->
+    </div>
+</div>

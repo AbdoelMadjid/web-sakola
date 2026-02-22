@@ -4,13 +4,13 @@
     <div class="card-header pt-7 mb-7">
         <!--begin::Title-->
         <h3 class="card-title align-items-start flex-column">
-			<span class="card-label fw-bold text-gray-800">Warephase stats</span>
-			<span class="text-gray-500 mt-1 fw-semibold fs-6">8k social visitors</span>
-		</h3>
+            <span class="card-label fw-bold text-gray-800">Warephase stats</span>
+            <span class="text-gray-500 mt-1 fw-semibold fs-6">8k social visitors</span>
+        </h3>
         <!--end::Title-->
         <!--begin::Toolbar-->
         <div class="card-toolbar">
-            <a href="?page=apps/ecommerce/catalog/add-product" class="btn btn-sm btn-light">PDF Report</a>
+            <a href="/apps/ecommerce/catalog/add-product" class="btn btn-sm btn-light">PDF Report</a>
         </div>
         <!--end::Toolbar-->
     </div>
