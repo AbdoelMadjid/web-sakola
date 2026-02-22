@@ -1,7 +1,7 @@
 @extends('website.layouts.master')
 
 @section('title')
-    Program
+    {{ str_starts_with(app()->getLocale(), 'id') ? 'Program' : 'Program' }}
 @endsection
 
 @section('styles')

@@ -1,28 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('website.layouts.master')
 
-<!-- Mirrored from htmlstream.com/preview/unify-v2.6.3/multipage/education/page-current-students-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Feb 2026 13:34:24 GMT -->
+@section('title')
+    {{ str_starts_with(app()->getLocale(), 'id') ? 'Mahasiswa Saat Ini' : 'Current Students' }}
+@endsection
 
-<head>
-    <base href="{{ url('/') }}/">
-    <!-- Title -->
-    <title>{{ str_starts_with(app()->getLocale(), 'id') ? 'Multipage - Halaman Siswa Saat Ini Pendidikan | Unify - Template Website Responsif' : 'Multipage - Education Current Students Page | Unify - Responsive Website Template' }}</title>
-
-    <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="web/assets/img/favicon.ico">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400" rel="stylesheet">
-
-    <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="web/assets/vendor/bootstrap/bootstrap.min.css">
-
-    <!-- CSS Implementing Plugins -->
+@section('styles')
     <link rel="stylesheet" href="web/assets/vendor/icon-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="web/assets/vendor/icon-line-pro/style.css">
     <link rel="stylesheet" href="web/assets/vendor/icon-hs/style.css">
@@ -31,372 +13,351 @@
     <link rel="stylesheet" href="web/assets/vendor/hs-megamenu/src/hs.megamenu.css">
     <link rel="stylesheet" href="web/assets/vendor/hamburgers/hamburgers.min.css">
     <link rel="stylesheet" href="web/assets/vendor/slick-carousel/slick/slick.css">
+@endsection
 
-    <!-- CSS Unify Theme -->
-    <link rel="stylesheet" href="web/assets/css/styles.multipage-education.css">
-
-    <!-- CSS Customization -->
-    <link rel="stylesheet" href="web/assets/css/custom.css">
-</head>
-
-<body>
-    <main>
-        <!-- Header -->
-        @include('website.layouts.header')
-        <!-- End Header -->
-
-        <!-- Promo Block -->
-        <div class="g-bg-img-hero g-pos-rel" style="background-image: url(web/assets/img/bg/bg-img1.png);">
-            <div class="container g-pt-100">
-                <div class="row justify-content-lg-between">
-                    <div class="col-lg-4 g-pt-50--lg">
-                        <div class="mb-5">
-                            <h1 class="g-font-size-45 mb-4">Welcome Back!</h1>
-                            <p>Explore all the September events and back-to-school resources to welcome you to campus.
-                            </p>
-                        </div>
-
-                        <a class="js-go-to btn u-shadow-v33 g-hidden-md-down g-color-white g-bg-primary g-bg-main--hover g-rounded-30 g-px-35 g-py-10"
-                            href="#" data-target="#content">Explore Now</a>
+@section('content')
+    <!-- Promo Block -->
+    <div class="g-bg-img-hero g-pos-rel" style="background-image: url(web/assets/img/bg/bg-img1.png);">
+        <div class="container g-pt-100">
+            <div class="row justify-content-lg-between">
+                <div class="col-lg-4 g-pt-50--lg">
+                    <div class="mb-5">
+                        <h1 class="g-font-size-45 mb-4">Welcome Back!</h1>
+                        <p>Explore all the September events and back-to-school resources to welcome you to campus.
+                        </p>
                     </div>
 
-                    <div class="col-lg-8 align-self-end">
-                        <div class="u-shadow-v40 g-brd-around g-brd-7 g-brd-secondary rounded">
-                            <img class="img-fluid rounded" src="web/assets/img-temp/900x600/img1.jpg"
-                                alt="Image Description">
-                        </div>
+                    <a class="js-go-to btn u-shadow-v33 g-hidden-md-down g-color-white g-bg-primary g-bg-main--hover g-rounded-30 g-px-35 g-py-10"
+                        href="#" data-target="#content">Explore Now</a>
+                </div>
+
+                <div class="col-lg-8 align-self-end">
+                    <div class="u-shadow-v40 g-brd-around g-brd-7 g-brd-secondary rounded">
+                        <img class="img-fluid rounded" src="web/assets/img-temp/900x600/img1.jpg" alt="Image Description">
                     </div>
                 </div>
             </div>
-
-            <!-- SVG Bottom Background Shape -->
-            <svg class="g-pos-abs g-bottom-0" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1921 183.5"
-                enable-background="new 0 0 1921 183.5" xml:space="preserve">
-                <path fill="#FFFFFF" d="M0,183.5v-142c0,0,507,171,1171,58c0,0,497-93,750,84H0z" />
-                <path opacity="0.2" fill="#FFFFFF" d="M0,183V0c0,0,507,220.4,1171,74.7c0,0,497-119.9,750,108.3H0z" />
-            </svg>
-            <!-- End SVG Bottom Background Shape -->
         </div>
-        <!-- End Promo Block -->
 
-        <!-- About Current Students -->
-        <div id="content" class="container g-py-70">
-            <div class="row">
-                <div class="col-lg-9 order-lg-2">
-                    <div class="g-pl-15--lg">
-                        <h2>Current Students</h2>
-                        <p>As a student, it's all about having the right information at the right time. You need to know
-                            how to get information when you need it—whether it’s tips on how to study, important dates
-                            or access to your student records. And it's not all about the classroom—making time for
-                            other activities on campus, such as fitness and clubs, is just as important.</p>
-                        <p>If you can't find the information you need, we're here to help! Ask us questions like:</p>
+        <!-- SVG Bottom Background Shape -->
+        <svg class="g-pos-abs g-bottom-0" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1921 183.5"
+            enable-background="new 0 0 1921 183.5" xml:space="preserve">
+            <path fill="#FFFFFF" d="M0,183.5v-142c0,0,507,171,1171,58c0,0,497-93,750,84H0z" />
+            <path opacity="0.2" fill="#FFFFFF" d="M0,183V0c0,0,507,220.4,1171,74.7c0,0,497-119.9,750,108.3H0z" />
+        </svg>
+        <!-- End SVG Bottom Background Shape -->
+    </div>
+    <!-- End Promo Block -->
 
-                        <ul class="mb-4">
-                            <li><a class="u-link-v5 g-color-main--hover" href="#">When is the exam timetable
-                                    posted?</a></li>
-                            <li><a class="u-link-v5 g-color-main--hover" href="#">How long will it take for my
-                                    student loan application to be assessed?</a></li>
-                        </ul>
+    <!-- About Current Students -->
+    <div id="content" class="container g-py-70">
+        <div class="row">
+            <div class="col-lg-9 order-lg-2">
+                <div class="g-pl-15--lg">
+                    <h2>Current Students</h2>
+                    <p>As a student, it's all about having the right information at the right time. You need to know
+                        how to get information when you need it—whether it’s tips on how to study, important dates
+                        or access to your student records. And it's not all about the classroom—making time for
+                        other activities on campus, such as fitness and clubs, is just as important.</p>
+                    <p>If you can't find the information you need, we're here to help! Ask us questions like:</p>
 
-                        <!-- Search -->
-                        <form class="input-group u-shadow-v19 g-brd-primary--focus g-rounded-30">
-                            <input class="form-control h-100 g-brd-secondary-light-v2 g-rounded-left-30 g-px-30 g-py-12"
-                                type="text" placeholder="Search all current students services websites">
-                            <button
-                                class="btn input-group-addon d-flex align-items-center u-shadow-v33 g-brd-none g-color-white g-bg-primary g-bg-main--hover g-rounded-right-30 g-transition-0_2 g-px-30"
-                                type="button">
-                                Ask Unify
-                            </button>
-                        </form>
-                        <!-- End Search -->
-
-                        <hr class="g-brd-secondary-light-v2 my-5">
-
-                        <div class="row">
-                            <div class="col-md-6 g-mb-30">
-                                <h3 class="h4 mb-3">Show all System Logins</h3>
-
-                                <div class="g-overflow-hidden">
-                                    <a class="u-block-hover g-text-underline--none--hover" href="#">
-                                        <img class="img-fluid u-block-hover__main--zoom-v1"
-                                            src="web/assets/include/svg/svg-system-login1.svg"
-                                            align="Image Description">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 g-mb-30">
-                                <h3 class="h4 mb-3">System Logins</h3>
-
-                                <!-- Links -->
-                                <ul class="list-unstyled">
-                                    <li class="py-1">
-                                        <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
-                                            href="#">
-                                            Email <i class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
-                                        </a>
-                                    </li>
-                                    <li class="py-1">
-                                        <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
-                                            href="#">
-                                            Blackboard <i
-                                                class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
-                                        </a>
-                                    </li>
-                                    <li class="py-1">
-                                        <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
-                                            href="#">
-                                            Canvas <i class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
-                                        </a>
-                                    </li>
-                                    <li class="py-1">
-                                        <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
-                                            href="#">
-                                            MyUni <i class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
-                                        </a>
-                                    </li>
-                                    <li class="py-1">
-                                        <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
-                                            href="#">
-                                            Semester 2 exam timetables <i
-                                                class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
-                                        </a>
-                                    </li>
-                                    <li class="py-1">
-                                        <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
-                                            href="#">
-                                            Graduation <i
-                                                class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <!-- End Links -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 order-lg-1">
-                    <!-- Sidebar Links -->
-                    <ul class="list-unstyled">
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                Academic Calendar
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                Academic Support
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                Athletics &amp; Recreation
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                Career &amp; Leadership
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                Communities on Campus
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                Getting Involved
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                Health &amp; Wellness
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                International Centre
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                Residence &amp; Housing
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                Safety &amp; Respect
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
-                                href="#">
-                                <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
-                                Timetable
-                            </a>
-                        </li>
+                    <ul class="mb-4">
+                        <li><a class="u-link-v5 g-color-main--hover" href="#">When is the exam timetable
+                                posted?</a></li>
+                        <li><a class="u-link-v5 g-color-main--hover" href="#">How long will it take for my
+                                student loan application to be assessed?</a></li>
                     </ul>
-                    <!-- End Sidebar Links -->
-                </div>
-            </div>
-        </div>
-        <!-- End About Current Students -->
 
-        <!-- More Links -->
-        <div class="g-bg-img-hero" style="background-image: url(web/assets/include/svg/svg-bg1.svg);">
-            <div class="container g-py-100">
-                <!-- Heading -->
-                <div class="g-max-width-645 text-center mx-auto g-mb-60">
-                    <h2 class="h1">Service for Current Students</h2>
-                </div>
-                <!-- End Heading -->
+                    <!-- Search -->
+                    <form class="input-group u-shadow-v19 g-brd-primary--focus g-rounded-30">
+                        <input class="form-control h-100 g-brd-secondary-light-v2 g-rounded-left-30 g-px-30 g-py-12"
+                            type="text" placeholder="Search all current students services websites">
+                        <button
+                            class="btn input-group-addon d-flex align-items-center u-shadow-v33 g-brd-none g-color-white g-bg-primary g-bg-main--hover g-rounded-right-30 g-transition-0_2 g-px-30"
+                            type="button">
+                            Ask Unify
+                        </button>
+                    </form>
+                    <!-- End Search -->
 
-                <div class="card-group d-block d-md-flex g-mx-minus-4">
-                    <div class="card g-brd-none g-mx-4 g-mb-8">
-                        <!-- Links -->
-                        <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
-                            <span
-                                class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
-                                <i class="icon-finance-245 u-line-icon-pro"></i>
-                            </span>
-                            <h3 class="h4">Money</h3>
-                            <p class="g-color-text-light-v1">University fees and costs, and financial support such as
-                                scholarships, bursaries and research funding.</p>
-                            <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
-                                    class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+                    <hr class="g-brd-secondary-light-v2 my-5">
+
+                    <div class="row">
+                        <div class="col-md-6 g-mb-30">
+                            <h3 class="h4 mb-3">Show all System Logins</h3>
+
+                            <div class="g-overflow-hidden">
+                                <a class="u-block-hover g-text-underline--none--hover" href="#">
+                                    <img class="img-fluid u-block-hover__main--zoom-v1"
+                                        src="web/assets/include/svg/svg-system-login1.svg" align="Image Description">
+                                </a>
+                            </div>
                         </div>
-                        <!-- End Links -->
-                    </div>
 
-                    <div class="card g-brd-none g-mx-4 g-mb-8">
-                        <!-- Links -->
-                        <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
-                            <span
-                                class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
-                                <i class="icon-education-039 u-line-icon-pro"></i>
-                            </span>
-                            <h3 class="h4">Your Studies</h3>
-                            <p class="g-color-text-light-v1">Enrolment and course planning, timetables, exams and
-                                assessments, honours and higher degree by research.</p>
-                            <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
-                                    class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
-                        </div>
-                        <!-- End Links -->
-                    </div>
+                        <div class="col-md-6 g-mb-30">
+                            <h3 class="h4 mb-3">System Logins</h3>
 
-                    <div class="card g-brd-none g-mx-4 g-mb-8">
-                        <!-- Links -->
-                        <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
-                            <span
-                                class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
-                                <i class="icon-education-055 u-line-icon-pro"></i>
-                            </span>
-                            <h3 class="h4">New Students</h3>
-                            <p class="g-color-text-light-v1">Essential information and resources to help get you
-                                started at Sydney.</p>
-                            <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
-                                    class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+                            <!-- Links -->
+                            <ul class="list-unstyled">
+                                <li class="py-1">
+                                    <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
+                                        href="#">
+                                        Email <i class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
+                                    </a>
+                                </li>
+                                <li class="py-1">
+                                    <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
+                                        href="#">
+                                        Blackboard <i class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
+                                    </a>
+                                </li>
+                                <li class="py-1">
+                                    <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
+                                        href="#">
+                                        Canvas <i class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
+                                    </a>
+                                </li>
+                                <li class="py-1">
+                                    <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
+                                        href="#">
+                                        MyUni <i class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
+                                    </a>
+                                </li>
+                                <li class="py-1">
+                                    <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
+                                        href="#">
+                                        Semester 2 exam timetables <i
+                                            class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
+                                    </a>
+                                </li>
+                                <li class="py-1">
+                                    <a class="d-flex align-items-center u-link-v5 g-color-main--hover g-font-size-15"
+                                        href="#">
+                                        Graduation <i class="g-font-size-13 ml-auto material-icons">arrow_forward</i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- End Links -->
                         </div>
-                        <!-- End Links -->
-                    </div>
-                </div>
-
-                <div class="card-group d-block d-md-flex g-mx-minus-4">
-                    <div class="card g-brd-none g-mx-4 g-mb-8">
-                        <!-- Links -->
-                        <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
-                            <span
-                                class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
-                                <i class="icon-communication-058 u-line-icon-pro"></i>
-                            </span>
-                            <h3 class="h4">Support</h3>
-                            <p class="g-color-text-light-v1">Health, wellbeing and support services, mentoring, and
-                                clubs and societies.</p>
-                            <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
-                                    class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
-                        </div>
-                        <!-- End Links -->
-                    </div>
-
-                    <div class="card g-brd-none g-mx-4 g-mb-8">
-                        <!-- Links -->
-                        <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
-                            <span
-                                class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
-                                <i class="icon-education-103 u-line-icon-pro-v3"></i>
-                            </span>
-                            <h3 class="h4">Student IT and Online Learning</h3>
-                            <p class="g-color-text-light-v1">Log in to University systems, find computers and access
-                                wi-fi, get the most out of online learning (LMS), help.</p>
-                            <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
-                                    class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
-                        </div>
-                        <!-- End Links -->
-                    </div>
-
-                    <div class="card g-brd-none g-mx-4 g-mb-8">
-                        <!-- Links -->
-                        <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
-                            <span
-                                class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
-                                <i class="icon-communication-040 u-line-icon-pro"></i>
-                            </span>
-                            <h3 class="h4">Administration</h3>
-                            <p class="g-color-text-light-v1">Update your personal details, obtain an academic
-                                transcript, check key dates, learn about graduation, make a complaint or raise a
-                                concern.</p>
-                            <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
-                                    class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
-                        </div>
-                        <!-- End Links -->
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- End More Links -->
 
-        <!-- Admission Heading -->
-        <div class="container">
+            <div class="col-lg-3 order-lg-1">
+                <!-- Sidebar Links -->
+                <ul class="list-unstyled">
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            Academic Calendar
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            Academic Support
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            Athletics &amp; Recreation
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            Career &amp; Leadership
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            Communities on Campus
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            Getting Involved
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            Health &amp; Wellness
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            International Centre
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            Residence &amp; Housing
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            Safety &amp; Respect
+                        </a>
+                    </li>
+                    <li class="mb-1">
+                        <a class="d-block u-link-v5 g-color-text g-color-white--hover g-bg-secondary g-bg-main--hover g-font-size-default rounded g-pl-30--hover g-px-20 g-py-7"
+                            href="#">
+                            <i class="g-font-size-13 g-pos-rel g-top-2 mr-2 material-icons">arrow_forward</i>
+                            Timetable
+                        </a>
+                    </li>
+                </ul>
+                <!-- End Sidebar Links -->
+            </div>
+        </div>
+    </div>
+    <!-- End About Current Students -->
+
+    <!-- More Links -->
+    <div class="g-bg-img-hero" style="background-image: url(web/assets/include/svg/svg-bg1.svg);">
+        <div class="container g-py-100">
             <!-- Heading -->
             <div class="g-max-width-645 text-center mx-auto g-mb-60">
-                <h2 class="h1 mb-3">Notices</h2>
-                <p>Get the latest notices and newsworthy updates on the latest Unify announcements.</p>
+                <h2 class="h1">Service for Current Students</h2>
             </div>
             <!-- End Heading -->
-        </div>
-        <!-- End Admission Heading -->
 
-        <!-- Notice -->
-        <div class="g-bg-secondary">
-            <div class="container-fluid g-px-8 g-pt-8">
-                <!-- Notice Carousel -->
-                <div class="js-carousel u-carousel-v5 g-mx-minus-4" data-slides-show="4" data-slides-scroll="1"
-                    data-arrows-classes="u-icon-v3 u-icon-size--sm g-absolute-centered--x g-bottom-minus-70 g-color-main g-color-white--hover g-bg-secondary g-bg-primary--hover rounded g-pa-11"
-                    data-arrow-left-classes="fa fa-angle-left g-ml-minus-25"
-                    data-arrow-right-classes="fa fa-angle-right g-ml-25"
-                    data-responsive='[{
+            <div class="card-group d-block d-md-flex g-mx-minus-4">
+                <div class="card g-brd-none g-mx-4 g-mb-8">
+                    <!-- Links -->
+                    <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+                        <span class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
+                            <i class="icon-finance-245 u-line-icon-pro"></i>
+                        </span>
+                        <h3 class="h4">Money</h3>
+                        <p class="g-color-text-light-v1">University fees and costs, and financial support such as
+                            scholarships, bursaries and research funding.</p>
+                        <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
+                                class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+                    </div>
+                    <!-- End Links -->
+                </div>
+
+                <div class="card g-brd-none g-mx-4 g-mb-8">
+                    <!-- Links -->
+                    <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+                        <span class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
+                            <i class="icon-education-039 u-line-icon-pro"></i>
+                        </span>
+                        <h3 class="h4">Your Studies</h3>
+                        <p class="g-color-text-light-v1">Enrolment and course planning, timetables, exams and
+                            assessments, honours and higher degree by research.</p>
+                        <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
+                                class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+                    </div>
+                    <!-- End Links -->
+                </div>
+
+                <div class="card g-brd-none g-mx-4 g-mb-8">
+                    <!-- Links -->
+                    <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+                        <span class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
+                            <i class="icon-education-055 u-line-icon-pro"></i>
+                        </span>
+                        <h3 class="h4">New Students</h3>
+                        <p class="g-color-text-light-v1">Essential information and resources to help get you
+                            started at Sydney.</p>
+                        <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
+                                class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+                    </div>
+                    <!-- End Links -->
+                </div>
+            </div>
+
+            <div class="card-group d-block d-md-flex g-mx-minus-4">
+                <div class="card g-brd-none g-mx-4 g-mb-8">
+                    <!-- Links -->
+                    <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+                        <span class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
+                            <i class="icon-communication-058 u-line-icon-pro"></i>
+                        </span>
+                        <h3 class="h4">Support</h3>
+                        <p class="g-color-text-light-v1">Health, wellbeing and support services, mentoring, and
+                            clubs and societies.</p>
+                        <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
+                                class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+                    </div>
+                    <!-- End Links -->
+                </div>
+
+                <div class="card g-brd-none g-mx-4 g-mb-8">
+                    <!-- Links -->
+                    <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+                        <span class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
+                            <i class="icon-education-103 u-line-icon-pro-v3"></i>
+                        </span>
+                        <h3 class="h4">Student IT and Online Learning</h3>
+                        <p class="g-color-text-light-v1">Log in to University systems, find computers and access
+                            wi-fi, get the most out of online learning (LMS), help.</p>
+                        <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
+                                class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+                    </div>
+                    <!-- End Links -->
+                </div>
+
+                <div class="card g-brd-none g-mx-4 g-mb-8">
+                    <!-- Links -->
+                    <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+                        <span class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
+                            <i class="icon-communication-040 u-line-icon-pro"></i>
+                        </span>
+                        <h3 class="h4">Administration</h3>
+                        <p class="g-color-text-light-v1">Update your personal details, obtain an academic
+                            transcript, check key dates, learn about graduation, make a complaint or raise a
+                            concern.</p>
+                        <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
+                                class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+                    </div>
+                    <!-- End Links -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End More Links -->
+
+    <!-- Admission Heading -->
+    <div class="container">
+        <!-- Heading -->
+        <div class="g-max-width-645 text-center mx-auto g-mb-60">
+            <h2 class="h1 mb-3">Notices</h2>
+            <p>Get the latest notices and newsworthy updates on the latest Unify announcements.</p>
+        </div>
+        <!-- End Heading -->
+    </div>
+    <!-- End Admission Heading -->
+
+    <!-- Notice -->
+    <div class="g-bg-secondary">
+        <div class="container-fluid g-px-8 g-pt-8">
+            <!-- Notice Carousel -->
+            <div class="js-carousel u-carousel-v5 g-mx-minus-4" data-slides-show="4" data-slides-scroll="1"
+                data-arrows-classes="u-icon-v3 u-icon-size--sm g-absolute-centered--x g-bottom-minus-70 g-color-main g-color-white--hover g-bg-secondary g-bg-primary--hover rounded g-pa-11"
+                data-arrow-left-classes="fa fa-angle-left g-ml-minus-25"
+                data-arrow-right-classes="fa fa-angle-right g-ml-25"
+                data-responsive='[{
                  "breakpoint": 992,
                  "settings": {
                    "slidesToShow": 3
@@ -413,328 +374,162 @@
                  }
                }]'>
 
-                    <!-- Notice - Article -->
-                    <div class="js-slide g-mx-4 g-mb-8">
-                        <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
-                            <div class="g-width-150 g-height-150 mx-auto mb-4">
-                                <img class="img-fluid u-info-v11-1-img rounded-circle"
-                                    src="web/assets/img-temp/150x150/img1.jpg" alt="Image Description">
-                            </div>
-                            <div class="mb-5">
-                                <h3 class="mb-3">Semester 2 Student Services and Amenities Fee (SSAF)</h3>
-                                <p>Your Semester 2 SSAF statement is now available. Log in to Unify Student to access
-                                    your statement...</p>
-                            </div>
-                            <a class="btn g-brd-secondary-light-v2 g-brd-primary--hover g-color-text-light-v1 g-color-white--hover g-bg-primary--hover g-font-size-15 g-rounded-30 g-px-25 g-py-10"
-                                href="#">Read Now</a>
+                <!-- Notice - Article -->
+                <div class="js-slide g-mx-4 g-mb-8">
+                    <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
+                        <div class="g-width-150 g-height-150 mx-auto mb-4">
+                            <img class="img-fluid u-info-v11-1-img rounded-circle"
+                                src="web/assets/img-temp/150x150/img1.jpg" alt="Image Description">
                         </div>
-                    </div>
-                    <!-- End Notice - Article -->
-
-                    <!-- Notice - Article -->
-                    <div class="js-slide g-mx-4 g-mb-8">
-                        <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
-                            <div class="g-width-150 g-height-150 mx-auto mb-4">
-                                <img class="img-fluid u-info-v11-1-img rounded-circle"
-                                    src="web/assets/img-temp/150x150/img5.jpg" alt="Image Description">
-                            </div>
-                            <div class="mb-5">
-                                <h3 class="mb-3">New undergraduate curriculum</h3>
-                                <p>The University's reimagined Sydney Undergraduate Experience will launch in 2018. If
-                                    you're a current first-year student, you may be eligibl...</p>
-                            </div>
-                            <a class="btn g-brd-secondary-light-v2 g-brd-primary--hover g-color-text-light-v1 g-color-white--hover g-bg-primary--hover g-font-size-15 g-rounded-30 g-px-25 g-py-10"
-                                href="#">Read Now</a>
+                        <div class="mb-5">
+                            <h3 class="mb-3">Semester 2 Student Services and Amenities Fee (SSAF)</h3>
+                            <p>Your Semester 2 SSAF statement is now available. Log in to Unify Student to access
+                                your statement...</p>
                         </div>
+                        <a class="btn g-brd-secondary-light-v2 g-brd-primary--hover g-color-text-light-v1 g-color-white--hover g-bg-primary--hover g-font-size-15 g-rounded-30 g-px-25 g-py-10"
+                            href="#">Read Now</a>
                     </div>
-                    <!-- End Notice - Article -->
-
-                    <!-- Notice - Article -->
-                    <div class="js-slide g-mx-4 g-mb-8">
-                        <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
-                            <div class="g-width-150 g-height-150 mx-auto mb-4">
-                                <img class="img-fluid u-info-v11-1-img rounded-circle"
-                                    src="web/assets/img-temp/150x150/img3.jpg" alt="Image Description">
-                            </div>
-                            <div class="mb-5">
-                                <h3 class="mb-3">Unify Uni Alert is now live</h3>
-                                <p>A new emergency alert system is now live across our campuses allowing us to send you
-                                    vital safety information directly to your mobile in the e...</p>
-                            </div>
-                            <a class="btn g-brd-secondary-light-v2 g-brd-primary--hover g-color-text-light-v1 g-color-white--hover g-bg-primary--hover g-font-size-15 g-rounded-30 g-px-25 g-py-10"
-                                href="#">Read Now</a>
-                        </div>
-                    </div>
-                    <!-- End Notice - Article -->
-
-                    <!-- Notice - Article -->
-                    <div class="js-slide g-mx-4 g-mb-8">
-                        <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
-                            <div class="g-width-150 g-height-150 mx-auto mb-4">
-                                <img class="img-fluid u-info-v11-1-img rounded-circle"
-                                    src="web/assets/img-temp/150x150/img4.jpg" alt="Image Description">
-                            </div>
-                            <div class="mb-5">
-                                <h3 class="mb-3">Semester 2 exam timetables</h3>
-                                <p>Your Semester 2 exam timetable is now available.</p>
-                                <p>Seat numbers are no longer displayed on the timetable. Your seat number will...</p>
-                            </div>
-                            <a class="btn g-brd-secondary-light-v2 g-brd-primary--hover g-color-text-light-v1 g-color-white--hover g-bg-primary--hover g-font-size-15 g-rounded-30 g-px-25 g-py-10"
-                                href="#">Read Now</a>
-                        </div>
-                    </div>
-                    <!-- End Notice - Article -->
-
-                    <!-- Notice - Article -->
-                    <div class="js-slide g-mx-4 g-mb-8">
-                        <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
-                            <div class="g-width-150 g-height-150 mx-auto mb-4">
-                                <img class="img-fluid u-info-v11-1-img rounded-circle"
-                                    src="web/assets/img-temp/150x150/img2.jpg" alt="Image Description">
-                            </div>
-                            <div class="mb-5">
-                                <h3 class="mb-3">University Health Service</h3>
-                                <p>The University Health Service medical centre on Level 3, Wentworth Building, will
-                                    close for renovations from Saturday 2 December...</p>
-                            </div>
-                            <a class="btn g-brd-secondary-light-v2 g-brd-primary--hover g-color-text-light-v1 g-color-white--hover g-bg-primary--hover g-font-size-15 g-rounded-30 g-px-25 g-py-10"
-                                href="#">Read Now</a>
-                        </div>
-                    </div>
-                    <!-- End Notice - Article -->
                 </div>
-                <!-- End Notice Carousel -->
+                <!-- End Notice - Article -->
+
+                <!-- Notice - Article -->
+                <div class="js-slide g-mx-4 g-mb-8">
+                    <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
+                        <div class="g-width-150 g-height-150 mx-auto mb-4">
+                            <img class="img-fluid u-info-v11-1-img rounded-circle"
+                                src="web/assets/img-temp/150x150/img5.jpg" alt="Image Description">
+                        </div>
+                        <div class="mb-5">
+                            <h3 class="mb-3">New undergraduate curriculum</h3>
+                            <p>The University's reimagined Sydney Undergraduate Experience will launch in 2018. If
+                                you're a current first-year student, you may be eligibl...</p>
+                        </div>
+                        <a class="btn g-brd-secondary-light-v2 g-brd-primary--hover g-color-text-light-v1 g-color-white--hover g-bg-primary--hover g-font-size-15 g-rounded-30 g-px-25 g-py-10"
+                            href="#">Read Now</a>
+                    </div>
+                </div>
+                <!-- End Notice - Article -->
+
+                <!-- Notice - Article -->
+                <div class="js-slide g-mx-4 g-mb-8">
+                    <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
+                        <div class="g-width-150 g-height-150 mx-auto mb-4">
+                            <img class="img-fluid u-info-v11-1-img rounded-circle"
+                                src="web/assets/img-temp/150x150/img3.jpg" alt="Image Description">
+                        </div>
+                        <div class="mb-5">
+                            <h3 class="mb-3">Unify Uni Alert is now live</h3>
+                            <p>A new emergency alert system is now live across our campuses allowing us to send you
+                                vital safety information directly to your mobile in the e...</p>
+                        </div>
+                        <a class="btn g-brd-secondary-light-v2 g-brd-primary--hover g-color-text-light-v1 g-color-white--hover g-bg-primary--hover g-font-size-15 g-rounded-30 g-px-25 g-py-10"
+                            href="#">Read Now</a>
+                    </div>
+                </div>
+                <!-- End Notice - Article -->
+
+                <!-- Notice - Article -->
+                <div class="js-slide g-mx-4 g-mb-8">
+                    <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
+                        <div class="g-width-150 g-height-150 mx-auto mb-4">
+                            <img class="img-fluid u-info-v11-1-img rounded-circle"
+                                src="web/assets/img-temp/150x150/img4.jpg" alt="Image Description">
+                        </div>
+                        <div class="mb-5">
+                            <h3 class="mb-3">Semester 2 exam timetables</h3>
+                            <p>Your Semester 2 exam timetable is now available.</p>
+                            <p>Seat numbers are no longer displayed on the timetable. Your seat number will...</p>
+                        </div>
+                        <a class="btn g-brd-secondary-light-v2 g-brd-primary--hover g-color-text-light-v1 g-color-white--hover g-bg-primary--hover g-font-size-15 g-rounded-30 g-px-25 g-py-10"
+                            href="#">Read Now</a>
+                    </div>
+                </div>
+                <!-- End Notice - Article -->
+
+                <!-- Notice - Article -->
+                <div class="js-slide g-mx-4 g-mb-8">
+                    <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
+                        <div class="g-width-150 g-height-150 mx-auto mb-4">
+                            <img class="img-fluid u-info-v11-1-img rounded-circle"
+                                src="web/assets/img-temp/150x150/img2.jpg" alt="Image Description">
+                        </div>
+                        <div class="mb-5">
+                            <h3 class="mb-3">University Health Service</h3>
+                            <p>The University Health Service medical centre on Level 3, Wentworth Building, will
+                                close for renovations from Saturday 2 December...</p>
+                        </div>
+                        <a class="btn g-brd-secondary-light-v2 g-brd-primary--hover g-color-text-light-v1 g-color-white--hover g-bg-primary--hover g-font-size-15 g-rounded-30 g-px-25 g-py-10"
+                            href="#">Read Now</a>
+                    </div>
+                </div>
+                <!-- End Notice - Article -->
             </div>
+            <!-- End Notice Carousel -->
         </div>
-        <!-- End Notice -->
+    </div>
+    <!-- End Notice -->
 
-        <!-- Call to Action -->
-        <div class="g-pos-rel">
-            <div class="container text-center g-pt-150 g-pb-50">
-                <!-- Heading -->
-                <div class="g-max-width-645 mx-auto g-mb-40">
-                    <h2 class="h1 mb-3">Join Unify University</h2>
-                    <p>Our strategy is simple: to create a place where the best researchers and most promising students
-                        can achieve their full potential.</p>
-                </div>
-                <!-- End Heading -->
-
-                <a class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-rounded-30 g-px-35 g-py-13"
-                    href="page-apply-1.html">Apply Now</a>
-
-                <!-- SVG Shape -->
-                <svg class="d-inline-block g-width-35" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 37 1"
-                    enable-background="new 0 0 37 1" xml:space="preserve">
-                    <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="0" y1="0.5"
-                        x2="37" y2="0.5">
-                        <stop offset="0" style="stop-color:#f5f6fa" />
-                        <stop offset="1" style="stop-color:#b5b8cb" />
-                    </linearGradient>
-                    <line fill="none" stroke="url(#SVGID_5_)" stroke-miterlimit="10" x1="37"
-                        y1="0.5" x2="0" y2="0.5" />
-                </svg>
-                <!-- End SVG Shape -->
-
-                <span class="align-middle g-color-primary mx-1">or</span>
-
-                <!-- SVG Shape -->
-                <svg class="d-inline-block g-width-35" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 37 1"
-                    enable-background="new 0 0 37 1" xml:space="preserve">
-                    <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-10" y1="-1.5"
-                        x2="27" y2="-1.5" gradientTransform="matrix(-1 0 0 -1 27 -1)">
-                        <stop offset="0" style="stop-color:#f5f6fa" />
-                        <stop offset="1" style="stop-color:#b5b8cb" />
-                    </linearGradient>
-                    <line fill="none" stroke="url(#SVGID_6_)" stroke-miterlimit="10" x1="0"
-                        y1="0.5" x2="37" y2="0.5" />
-                </svg>
-                <!-- End SVG Shape -->
-
-                <a class="btn u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-rounded-30 g-px-35 g-py-13"
-                    href="page-contacts-1.html">Contact Us</a>
+    <!-- Call to Action -->
+    <div class="g-pos-rel">
+        <div class="container text-center g-pt-150 g-pb-50">
+            <!-- Heading -->
+            <div class="g-max-width-645 mx-auto g-mb-40">
+                <h2 class="h1 mb-3">Join Unify University</h2>
+                <p>Our strategy is simple: to create a place where the best researchers and most promising students
+                    can achieve their full potential.</p>
             </div>
+            <!-- End Heading -->
 
-            <!-- SVG Background Shape -->
-            <svg class="g-pos-abs g-bottom-0 g-left-0 g-z-index-minus-1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 323"
-                enable-background="new 0 0 1920 323" xml:space="preserve">
-                <polygon fill="#f0f2f8" points="0,323 1920,323 1920,0 " />
-                <polygon fill="#f5f6fa" points="-0.5,322.5 -0.5,131.5 658.3,212.3 " />
+            <a class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-rounded-30 g-px-35 g-py-13"
+                href="page-apply-1.html">Apply Now</a>
+
+            <!-- SVG Shape -->
+            <svg class="d-inline-block g-width-35" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 37 1"
+                enable-background="new 0 0 37 1" xml:space="preserve">
+                <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="0" y1="0.5"
+                    x2="37" y2="0.5">
+                    <stop offset="0" style="stop-color:#f5f6fa" />
+                    <stop offset="1" style="stop-color:#b5b8cb" />
+                </linearGradient>
+                <line fill="none" stroke="url(#SVGID_5_)" stroke-miterlimit="10" x1="37" y1="0.5"
+                    x2="0" y2="0.5" />
             </svg>
-            <!-- End SVG Background Shape -->
+            <!-- End SVG Shape -->
+
+            <span class="align-middle g-color-primary mx-1">or</span>
+
+            <!-- SVG Shape -->
+            <svg class="d-inline-block g-width-35" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 37 1"
+                enable-background="new 0 0 37 1" xml:space="preserve">
+                <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-10" y1="-1.5"
+                    x2="27" y2="-1.5" gradientTransform="matrix(-1 0 0 -1 27 -1)">
+                    <stop offset="0" style="stop-color:#f5f6fa" />
+                    <stop offset="1" style="stop-color:#b5b8cb" />
+                </linearGradient>
+                <line fill="none" stroke="url(#SVGID_6_)" stroke-miterlimit="10" x1="0" y1="0.5"
+                    x2="37" y2="0.5" />
+            </svg>
+            <!-- End SVG Shape -->
+
+            <a class="btn u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-rounded-30 g-px-35 g-py-13"
+                href="page-contacts-1.html">Contact Us</a>
         </div>
-        <!-- End Call to Action -->
 
-        <!-- Footer -->
-        <footer class="g-bg-secondary g-pt-100 g-pb-50">
-            <div class="container">
-                <div class="row g-mb-40">
-                    <div class="col-6 col-md-3 g-mb-20">
-                        <!-- Footer Links -->
-                        <ul class="list-unstyled">
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Future Students</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Current Students</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Alumni</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Faculty &amp; Staff</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Donors</a></li>
-                        </ul>
-                        <!-- End Footer Links -->
-                    </div>
+        <!-- SVG Background Shape -->
+        <svg class="g-pos-abs g-bottom-0 g-left-0 g-z-index-minus-1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 323"
+            enable-background="new 0 0 1920 323" xml:space="preserve">
+            <polygon fill="#f0f2f8" points="0,323 1920,323 1920,0 " />
+            <polygon fill="#f5f6fa" points="-0.5,322.5 -0.5,131.5 658.3,212.3 " />
+        </svg>
+        <!-- End SVG Background Shape -->
+    </div>
+    <!-- End Call to Action -->
+@endsection
 
-                    <div class="col-6 col-md-3 g-mb-20">
-                        <!-- Footer Links -->
-                        <ul class="list-unstyled">
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">News &amp; Media</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Research &amp; Innovation</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Academics</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Programs of Study</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">University Life</a></li>
-                        </ul>
-                        <!-- End Footer Links -->
-                    </div>
-
-                    <div class="col-6 col-md-3 g-mb-20">
-                        <!-- Footer Links -->
-                        <ul class="list-unstyled">
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Contacts</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Careers</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Accessibility</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Privacy</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Site Feedback</a></li>
-                        </ul>
-                        <!-- End Footer Links -->
-                    </div>
-
-                    <div class="col-6 col-md-3 g-mb-20">
-                        <!-- Footer Links -->
-                        <ul class="list-unstyled">
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Downtown Ontario Campus</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Mississauga Campus</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Scarborough Campus</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Campus Maps</a></li>
-                            <li class="g-py-5"><a
-                                    class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16"
-                                    href="#">Campus Safety</a></li>
-                        </ul>
-                        <!-- End Footer Links -->
-                    </div>
-                </div>
-
-                <!-- Footer Copyright -->
-                <div class="row justify-content-lg-center align-items-center text-center">
-                    <div class="col-sm-6 col-md-4 col-lg-3 order-md-3 g-mb-30">
-                        <a class="u-link-v5 g-color-text g-color-primary--hover" href="#">
-                            <i class="align-middle mr-2 icon-real-estate-027 u-line-icon-pro"></i>
-                            Kingston, Ontario, Canada
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-4 col-lg-3 order-md-2 g-mb-30">
-                        <!-- Social Icons -->
-                        <ul class="list-inline mb-0">
-                            <li class="list-inline-item g-mx-2">
-                                <a class="u-icon-v1 u-icon-size--sm u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-primary--hover rounded-circle"
-                                    href="#">
-                                    <i class="g-font-size-default fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item g-mx-2">
-                                <a class="u-icon-v1 u-icon-size--sm u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-primary--hover rounded-circle"
-                                    href="#">
-                                    <i class="g-font-size-default fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item g-mx-2">
-                                <a class="u-icon-v1 u-icon-size--sm u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-primary--hover rounded-circle"
-                                    href="#">
-                                    <i class="g-font-size-default fa fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item g-mx-2">
-                                <a class="u-icon-v1 u-icon-size--sm u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-primary--hover rounded-circle"
-                                    href="#">
-                                    <i class="g-font-size-default fa fa-youtube"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item g-mx-2">
-                                <a class="u-icon-v1 u-icon-size--sm u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-primary--hover rounded-circle"
-                                    href="#">
-                                    <i class="g-font-size-default fa fa-linkedin"></i>
-                                </a>
-                            </li>
-                        </ul>
-                        <!-- End Social Icons -->
-                    </div>
-
-                    <div class="col-md-4 col-lg-3 order-md-1 g-mb-30">
-                        <p class="g-color-text mb-0">University of Unify - Since 1978</p>
-                    </div>
-                </div>
-                <!-- End Footer Copyright -->
-            </div>
-        </footer>
-        <!-- End Footer -->
-
-        <!-- Go to Top -->
-        <a class="js-go-to u-go-to-v1 u-shadow-v32 g-width-40 g-height-40 g-color-primary g-color-white--hover g-bg-white g-bg-main--hover g-bg-main--focus g-font-size-12 rounded-circle"
-            href="#" data-type="fixed" data-position='{
-       "bottom": 15,
-       "right": 15
-     }'
-            data-offset-top="400" data-compensation="#js-header" data-show-effect="slideInUp"
-            data-hide-effect="slideInDown">
-            <i class="hs-icon hs-icon-arrow-top"></i>
-        </a>
-        <!-- End Go to Top -->
-    </main>
-
-    <!-- JS Global Compulsory -->
-    <script src="web/assets/vendor/jquery/jquery.min.js"></script>
-    <script src="web/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="web/assets/vendor/popper.js/popper.min.js"></script>
-    <script src="web/assets/vendor/bootstrap/bootstrap.min.js"></script>
-
-    <!-- JS Implementing Plugins -->
+@section('scripts')
     <script src="web/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
     <script src="web/assets/vendor/slick-carousel/slick/slick.js"></script>
 
@@ -777,8 +572,4 @@
             $.HSCore.components.HSGoTo.init('.js-go-to');
         });
     </script>
-</body>
-
-<!-- Mirrored from htmlstream.com/preview/unify-v2.6.3/multipage/education/page-current-students-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Feb 2026 13:34:26 GMT -->
-
-</html>
+@endsection

@@ -1,6 +1,6 @@
 @extends('website.layouts.master')
 @section('title')
-    Home
+    {{ str_starts_with(app()->getLocale(), 'id') ? 'Beranda' : 'Home' }}
 @endsection
 @section('styles')
     <link rel="stylesheet" href="web/assets/vendor/icon-awesome/css/font-awesome.min.css">
@@ -345,7 +345,7 @@
                                     cx="93.5" cy="93.5" r="81" />
                                 <path fill="none" stroke="#49c1aa" stroke-width="7" stroke-linecap="round"
                                     stroke-miterlimit="10" d="M93.5,12.5
-                                                      c44.7,0,81,36.3,81,81c0,21.3-8.2,40.6-21.6,55.1" />
+                                                          c44.7,0,81,36.3,81,81c0,21.3-8.2,40.6-21.6,55.1" />
                             </g>
                         </svg>
                         <!-- End Research - SVG Shape -->
@@ -374,7 +374,7 @@
                                 cx="93.5" cy="93.5" r="81" />
                             <path fill="none" stroke="#a27fcc" stroke-width="7" stroke-linecap="round"
                                 stroke-miterlimit="10" d="M93.5,12.5
-                                                    c43,0,78.2,33.6,80.8,75.9" />
+                                                        c43,0,78.2,33.6,80.8,75.9" />
                         </svg>
                         <!-- End Research - SVG Shape -->
 
@@ -402,7 +402,7 @@
                                 cx="93.5" cy="93.5" r="81" />
                             <path fill="none" stroke="#61a9d1" stroke-width="7" stroke-linecap="round"
                                 stroke-miterlimit="10" d="M93.5,12.5
-                                                    c26.7,0,50.4,12.9,65.2,32.9" />
+                                                        c26.7,0,50.4,12.9,65.2,32.9" />
                         </svg>
                         <!-- End Research - SVG Shape -->
 
@@ -430,7 +430,7 @@
                                 cx="93.5" cy="93.5" r="81" />
                             <path fill="#ffffff" stroke="#d16680" stroke-width="7" stroke-linecap="round"
                                 stroke-miterlimit="10" d="M93.5,12.5
-                                                    c44.7,0,81,36.3,81,81s-36.3,81-81,81c-26.3,0-49.7-12.6-64.5-32" />
+                                                        c44.7,0,81,36.3,81,81s-36.3,81-81,81c-26.3,0-49.7-12.6-64.5-32" />
                         </svg>
                         <!-- End Research - SVG Shape -->
 
@@ -453,7 +453,7 @@
                 enable-background="new 0 0 758.2 172.3" xml:space="preserve">
                 <g id="Main_Circle">
                     <path fill="#f0f2f8" d="M324.4,118.7c0-29.5,24.7-53.6,54.8-53.6h0c30.2,0,54.8,24.1,54.8,53.6v0c0,29.5-24.7,53.6-54.8,53.6h0
-                                                C349,172.3,324.4,148.2,324.4,118.7L324.4,118.7" />
+                                                    C349,172.3,324.4,148.2,324.4,118.7L324.4,118.7" />
 
                     <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="323.9412" y1="164.2837"
                         x2="383.4379" y2="129.9333"
@@ -470,18 +470,18 @@
                 <g id="Right">
                     <path fill="none" stroke="#f0f2f8" stroke-width="8" stroke-linecap="round"
                         stroke-miterlimit="10" d="M449.4,119.3h42.9
-                                                c8.3,0,15.1-6,15.1-13.3V5.3" />
+                                                    c8.3,0,15.1-6,15.1-13.3V5.3" />
                     <path fill="none" stroke="#f0f2f8" stroke-width="8" stroke-linecap="round"
                         stroke-miterlimit="10" d="M461.4,119.3h281
-                                                c6.6,0,12-6.4,12-14.1V4.3" />
+                                                    c6.6,0,12-6.4,12-14.1V4.3" />
                 </g>
                 <g id="Left">
                     <path fill="none" stroke="#f0f2f8" stroke-width="8" stroke-linecap="round"
                         stroke-miterlimit="10" d="M309.4,119.3h-42.9
-                                                c-8.3,0-15.1-6-15.1-13.3V5.3" />
+                                                    c-8.3,0-15.1-6-15.1-13.3V5.3" />
                     <path fill="none" stroke="#f0f2f8" stroke-width="8" stroke-linecap="round"
                         stroke-miterlimit="10" d="M297.4,119.3h-281
-                                                c-6.6,0-12-6.4-12-14.1V4.3" />
+                                                    c-6.6,0-12-6.4-12-14.1V4.3" />
                 </g>
             </svg>
         </div>
@@ -493,9 +493,9 @@
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 407 172.3"
                 enable-background="new 0 0 407 172.3" xml:space="preserve">
                 <path fill="none" stroke="#f0f2f8" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" d="M134,118.1l-113.1,0
-                                              c-9.1,0-16.8-7-16.9-15.8c0-0.1,0-0.1,0-0.2V4" />
+                                                  c-9.1,0-16.8-7-16.9-15.8c0-0.1,0-0.1,0-0.2V4" />
                 <path fill="#f0f2f8" d="M148.4,118.7c0-29.5,24.7-53.6,54.8-53.6h0c30.2,0,54.8,24.1,54.8,53.6v0c0,29.5-24.7,53.6-54.8,53.6h0
-                                              C173,172.3,148.4,148.2,148.4,118.7L148.4,118.7" />
+                                                  C173,172.3,148.4,148.2,148.4,118.7L148.4,118.7" />
                 <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="147.9412" y1="164.2837"
                     x2="207.4379" y2="129.9333" gradientTransform="matrix(0.9061 0.1165 0.1165 0.8555 5.0741 -6.294)">
                     <stop offset="0" style="stop-color:#f0f2f8;stop-opacity:0" />
@@ -507,7 +507,7 @@
                 <text transform="matrix(1.0223 0 0 1 182.4563 134.7857)" fill="#ffffff" font-family="'FontAwesome'"
                     font-size="43.6866px"></text>
                 <path fill="none" stroke="#f0f2f8" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" d="M403,4.9l0,99.3
-                                              c0,8-8,14.7-18,14.8c-0.1,0-0.1,0-0.2,0H273" />
+                                                  c0,8-8,14.7-18,14.8c-0.1,0-0.1,0-0.2,0H273" />
             </svg>
         </div>
         <!-- End SVG Shape (Small Devices) -->
