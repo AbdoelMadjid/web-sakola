@@ -43,7 +43,7 @@
             @else
                 <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
             @endif
-            <span class="menu-title">{{ $menu['title'] }}</span>
+            <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
             <span class="menu-arrow"></span>
         </span>
 
@@ -76,7 +76,7 @@
             @else
                 <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
             @endif
-            <span class="menu-title">{{ $menu['title'] }}</span>
+            <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
             @if (isset($menu['badge']))
                 <span class="menu-badge">
                     <span class="{{ $menu['badge']['class'] ?? 'badge badge-info' }}">

@@ -1,0 +1,198 @@
+                            <!-- Contact Form -->
+                            <form>
+                                <!-- Signin -->
+                                <div id="signin">
+                                    <div class="u-shadow-v35 g-bg-white rounded g-px-40 g-py-50">
+                                        <div class="g-mb-20">
+                                            <label class="g-color-text-light-v1 g-font-weight-500">{{ $t('Email', 'Email') }}</label>
+                                            <div class="input-group">
+                                                <span
+                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-secondary g-rounded-right-0">
+                                                    <div
+                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
+                                                        <i class="icon-education-166 u-line-icon-pro"></i>
+                                                    </div>
+                                                </span>
+                                                <input
+                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
+                                                    id="signin-email" type="email" placeholder="john@gmail.com">
+                                            </div>
+                                            <small id="signin-email-error" class="text-danger d-none"
+                                                data-msg-id="Format email tidak valid."
+                                                data-msg-en="Invalid email format.">Invalid email format.</small>
+                                        </div>
+
+                                        <div class="g-mb-20">
+                                            <label class="g-color-text-light-v1 g-font-weight-500">{{ $t('Kata Sandi', 'Password') }}</label>
+                                            <div class="input-group">
+                                                <span
+                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-secondary g-rounded-right-0">
+                                                    <div
+                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
+                                                        <i class="icon-finance-135 u-line-icon-pro"></i>
+                                                    </div>
+                                                </span>
+                                                <input
+                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
+                                                    id="signin-password" type="password" placeholder="*********">
+                                                <span class="input-group-append">
+                                                    <button type="button" id="toggle-signin-password"
+                                                        class="btn g-brd-secondary-light-v2 g-bg-secondary g-px-15"
+                                                        aria-label="{{ $t('Tampilkan atau sembunyikan password', 'Show or hide password') }}">
+                                                        <i class="fa fa-eye" aria-hidden="true"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a class="g-color-text-light-v1 g-font-size-default"
+                                                id="forgot-password-link" href="#">{{ $t('Lupa Kata Sandi?', 'Forgot Password?') }}</a>
+                                            <button type="submit"
+                                                class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-font-size-default rounded g-px-25 g-py-7">{{ $t('Masuk', 'Signin') }}</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-center g-pt-30">
+                                        <p class="g-color-text-light-v1 g-font-size-default mb-0">{{ $t('Belum punya akun?', 'Do not have an account?') }}
+                                            <a class="g-font-size-default" id="signup-link"
+                                                href="#">{{ $t('Buat Akun', 'Create Account') }}</a></p>
+                                    </div>
+                                </div>
+                                <!-- End Signin -->
+
+                                <!-- Signup -->
+                                <div id="signup" style="display: none;">
+                                    <div class="u-shadow-v35 g-bg-white rounded g-px-40 g-py-50">
+                                        <div class="g-mb-20">
+                                            <label class="g-color-text-light-v1 g-font-weight-500">{{ $t('Nama Lengkap', 'Full name') }}</label>
+                                            <div class="input-group">
+                                                <span
+                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-transparent g-rounded-right-0">
+                                                    <div
+                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
+                                                        <i class="icon-finance-067 u-line-icon-pro"></i>
+                                                    </div>
+                                                </span>
+                                                <input
+                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
+                                                    id="signup-full-name" type="text" placeholder="John Doe">
+                                            </div>
+                                        </div>
+
+                                        <div class="g-mb-20">
+                                            <label class="g-color-text-light-v1 g-font-weight-500">{{ $t('Email', 'Email') }}</label>
+                                            <div class="input-group">
+                                                <span
+                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-secondary g-rounded-right-0">
+                                                    <div
+                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
+                                                        <i class="icon-education-166 u-line-icon-pro"></i>
+                                                    </div>
+                                                </span>
+                                                <input
+                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
+                                                    id="signup-email" type="email" placeholder="john@gmail.com">
+                                            </div>
+                                            <small id="signup-email-error" class="text-danger d-none"
+                                                data-msg-id="Format email tidak valid."
+                                                data-msg-en="Invalid email format.">Invalid email format.</small>
+                                        </div>
+
+                                        <div class="g-mb-20">
+                                            <label class="g-color-text-light-v1 g-font-weight-500">{{ $t('Kata Sandi', 'Password') }}</label>
+                                            <div class="input-group">
+                                                <span
+                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-secondary g-rounded-right-0">
+                                                    <div
+                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
+                                                        <i class="icon-finance-135 u-line-icon-pro"></i>
+                                                    </div>
+                                                </span>
+                                                <input
+                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
+                                                    id="signup-password" type="password" placeholder="*********">
+                                                <span class="input-group-append">
+                                                    <button type="button" id="toggle-signup-password"
+                                                        class="btn g-brd-secondary-light-v2 g-bg-secondary g-px-15"
+                                                        aria-label="{{ $t('Tampilkan atau sembunyikan password', 'Show or hide password') }}">
+                                                        <i class="fa fa-eye" aria-hidden="true"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="g-mb-20">
+                                            <label class="g-color-text-light-v1 g-font-weight-500">{{ $t('Konfirmasi Kata Sandi', 'Confirm Password') }}</label>
+                                            <div class="input-group">
+                                                <span
+                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-secondary g-rounded-right-0">
+                                                    <div
+                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
+                                                        <i class="icon-real-estate-056 u-line-icon-pro"></i>
+                                                    </div>
+                                                </span>
+                                                <input
+                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
+                                                    id="signup-password-confirmation" type="password" placeholder="*********">
+                                                <span class="input-group-append">
+                                                    <button type="button" id="toggle-signup-password-confirmation"
+                                                        class="btn g-brd-secondary-light-v2 g-bg-secondary g-px-15"
+                                                        aria-label="{{ $t('Tampilkan atau sembunyikan password', 'Show or hide password') }}">
+                                                        <i class="fa fa-eye" aria-hidden="true"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex">
+                                            <button type="submit"
+                                                class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-font-size-default rounded g-px-25 g-py-7 ml-auto">{{ $t('Daftar', 'Signup') }}</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-center g-pt-30">
+                                        <p class="g-color-text-light-v1 g-font-size-default mb-0">{{ $t('Sudah punya akun?', 'Already have an account?') }}
+                                            <a class="g-font-size-default" id="signin-link"
+                                                href="#">{{ $t('Masuk', 'Signin') }}</a></p>
+                                    </div>
+                                </div>
+                                <!-- End Signup -->
+
+                                <!-- Forgot Password -->
+                                <div id="forgot-password" style="display: none;">
+                                    <div class="u-shadow-v35 g-bg-white rounded g-px-40 g-py-50">
+                                        <div class="g-mb-20">
+                                            <label class="g-color-text-light-v1 g-font-weight-500">{{ $t('Masukkan email Anda', 'Enter your email') }}</label>
+                                            <div class="input-group">
+                                                <span
+                                                    class="input-group-prepend g-width-50 g-brd-secondary-light-v2 g-bg-secondary g-rounded-right-0">
+                                                    <div
+                                                        class="input-group-text justify-content-center w-100 g-bg-secondary g-brd-secondary-light-v2">
+                                                        <i class="icon-education-166 u-line-icon-pro"></i>
+                                                    </div>
+                                                </span>
+                                                <input
+                                                    class="form-control g-brd-secondary-light-v2 g-bg-secondary g-bg-secondary-dark-v1--focus g-rounded-left-0 g-px-20 g-py-12"
+                                                    id="forgot-email" type="email" placeholder="john@gmail.com">
+                                            </div>
+                                            <small id="forgot-email-error" class="text-danger d-none"
+                                                data-msg-id="Format email tidak valid."
+                                                data-msg-en="Invalid email format.">Invalid email format.</small>
+                                        </div>
+
+                                        <div class="d-flex">
+                                            <button type="submit"
+                                                class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-font-size-default rounded g-px-25 g-py-7 ml-auto">{{ $t('Pulihkan Kata Sandi', 'Recover Password') }}</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-center g-pt-30">
+                                        <p class="g-color-text-light-v1 g-font-size-default mb-0">{{ $t('Ingat kata sandi Anda?', 'Remember your password?') }}
+                                            <a class="g-font-size-default" id="go-back-link"
+                                                href="#">{{ $t('Masuk', 'Signin') }}</a></p>
+                                    </div>
+                                </div>
+                                <!-- End Forgot Password -->
+                            </form>
+                            <!-- End Contact Form -->

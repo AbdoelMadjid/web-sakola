@@ -22,7 +22,7 @@
                                 <span class="path4"></span>
                             </i>
                         </span>
-                        <span class="menu-title">Dashboards</span>
+                        <span class="menu-title">{{ __('menu.dashboards') }}</span>
                         <span class="menu-arrow"></span>
                     </span>
                     <!--end:Menu link-->
@@ -34,7 +34,7 @@
                                 <a class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}"
                                     href="{{ route($menu['route']) }}">
                                     <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                    <span class="menu-title">{{ $menu['title'] }}</span>
+                                    <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                                 </a>
                             </div>
                         @endforeach
@@ -47,8 +47,8 @@
                                 ->contains(fn($route) => request()->routeIs($route));
 
                             // teks yang sedang terlihat & teks alternatif yang akan dipakai oleh JS saat toggle
-                            $visibleText = $isActiveCollapse ? 'Show Less' : "Show {$collapsedCount} More";
-                            $altText = $isActiveCollapse ? "Show {$collapsedCount} More" : 'Show Less';
+                            $visibleText = $isActiveCollapse ? __('menu.show_less') : __('menu.show_more', ['count' => $collapsedCount]);
+                            $altText = $isActiveCollapse ? __('menu.show_more', ['count' => $collapsedCount]) : __('menu.show_less');
                         @endphp
 
                         <div class="menu-inner flex-column collapse {{ $isActiveCollapse ? 'show' : '' }}"
@@ -58,7 +58,7 @@
                                     <a class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}"
                                         href="{{ route($menu['route']) }}">
                                         <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                        <span class="menu-title">{{ $menu['title'] }}</span>
+                                        <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                                     </a>
                                 </div>
                             @endforeach
@@ -86,7 +86,7 @@
                 <!--begin:Menu item-->
                 <div class="menu-item pt-5">
                     <!--begin:Menu content-->
-                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">Pages</span>
+                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">{{ __('menu.pages') }}</span>
                     </div>
                     <!--end:Menu content-->
                 </div>
@@ -99,7 +99,7 @@
                 <!--begin:Menu item-->
                 <div class="menu-item pt-5">
                     <!--begin:Menu content-->
-                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">Apps</span>
+                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">{{ __('menu.apps') }}</span>
                     </div>
                     <!--end:Menu content-->
                 </div>
@@ -112,7 +112,7 @@
                 <!--begin:Menu item-->
                 <div class="menu-item pt-5">
                     <!--begin:Menu content-->
-                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">Layouts</span>
+                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">{{ __('menu.layouts') }}</span>
                     </div>
                     <!--end:Menu content-->
                 </div>
@@ -125,7 +125,7 @@
                 <!--begin:Menu item-->
                 <div class="menu-item pt-5">
                     <!--begin:Menu content-->
-                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">Help</span>
+                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">{{ __('menu.help') }}</span>
                     </div>
                     <!--end:Menu content-->
                 </div>

@@ -11,7 +11,7 @@
                     <div class="menu-item p-0 m-0">
                         <a href="{{ route($menu['route']) }}"
                             class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                            <span class="menu-title">{{ $menu['title'] }}</span>
+                            <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                         </a>
                     </div>
                 @endforeach
@@ -25,7 +25,7 @@
                     <div class="menu-item p-0 m-0">
                         <a href="{{ route($menu['route']) }}"
                             class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                            <span class="menu-title">{{ $menu['title'] }}</span>
+                            <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                         </a>
                     </div>
                 @endforeach

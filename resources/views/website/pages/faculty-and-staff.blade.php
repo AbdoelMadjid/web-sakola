@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <!-- Mirrored from htmlstream.com/preview/unify-v2.6.3/multipage/education/page-faculty-and-staff-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Feb 2026 13:34:26 GMT -->
 
 <head>
     <base href="{{ url('/') }}/">
     <!-- Title -->
-    <title>Multipage - Education Faculty &amp; Staff Page | Unify - Responsive Website Template</title>
+    <title>{{ str_starts_with(app()->getLocale(), 'id') ? 'Multipage - Halaman Fakultas dan Staf Pendidikan | Unify - Template Website Responsif' : 'Multipage - Education Faculty & Staff Page | Unify - Responsive Website Template' }}</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">

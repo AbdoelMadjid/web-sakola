@@ -1,3 +1,11 @@
+@php
+    $authUser = auth()->user();
+    $avatarPath = $authUser?->avatar ?: 'admin/assets/media/avatars/300-3.jpg';
+    $avatarUrl = \Illuminate\Support\Str::startsWith($avatarPath, ['http://', 'https://'])
+        ? $avatarPath
+        : asset($avatarPath);
+@endphp
+
 <!--begin::Navbar-->
 <div class="app-navbar flex-shrink-0">
     <!--begin::Search-->
@@ -85,7 +93,7 @@
         <!--begin::Menu wrapper-->
         <div class="cursor-pointer symbol symbol-35px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
             data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-            <img src="admin/assets/media/avatars/300-3.jpg" class="rounded-3" alt="user" />
+            <img src="{{ $avatarUrl }}" class="rounded-3" alt="user" />
         </div>
         <!--layout-partial:partials/menus/_user-account-menu.html-->
         @include('admin.partials.menus._user-account-menu')
@@ -93,7 +101,7 @@
     </div>
     <!--end::User menu-->
     <!--begin::Header menu toggle-->
-    <div class="app-navbar-item d-lg-none ms-2 me-n2" title="Show header menu">
+    <div class="app-navbar-item d-lg-none ms-2 me-n2" title="{{ __('menu.show_header_menu') }}">
         <div class="btn btn-flex btn-icon btn-active-color-primary w-30px h-30px" id="kt_app_header_menu_toggle">
             <i class="ki-duotone ki-element-4 fs-1"><span class="path1"></span><span class="path2"></span></i>
         </div>

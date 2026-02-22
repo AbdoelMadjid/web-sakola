@@ -30,33 +30,33 @@
                 @endphp
 
                 <a class="nav-link py-3 py-lg-6 {{ $isActiveGeneral ? 'active' : '' }} text-active-primary" href="#"
-                    data-bs-toggle="tab" data-bs-target="#kt_app_header_menu_pages_general">General</a>
+                    data-bs-toggle="tab" data-bs-target="#kt_app_header_menu_pages_general">{{ menuTitle('General') }}</a>
             </li>
             <!--end:Nav item-->
             <!--begin:Nav item-->
             <li class="nav-item mx-lg-1">
                 <a class="nav-link py-3 py-lg-6 {{ request()->routeIs('pages.account.*') ? 'active' : '' }} text-active-primary"
-                    href="#" data-bs-toggle="tab" data-bs-target="#kt_app_header_menu_pages_account">Account</a>
+                    href="#" data-bs-toggle="tab" data-bs-target="#kt_app_header_menu_pages_account">{{ menuTitle('Account') }}</a>
             </li>
             <!--end:Nav item-->
             <!--begin:Nav item-->
             <li class="nav-item mx-lg-1">
                 <a class="nav-link py-3 py-lg-6 {{ request()->routeIs('pages.authentication.*') ? 'active' : '' }} text-active-primary"
                     href="#" data-bs-toggle="tab"
-                    data-bs-target="#kt_app_header_menu_pages_authentication">Authentication</a>
+                    data-bs-target="#kt_app_header_menu_pages_authentication">{{ menuTitle('Authentication') }}</a>
             </li>
             <!--end:Nav item-->
             <!--begin:Nav item-->
             <li class="nav-item mx-lg-1">
                 <a class="nav-link py-3 py-lg-6 {{ request()->routeIs('pages.utilities.*') ? 'active' : '' }} text-active-primary"
                     href="#" data-bs-toggle="tab"
-                    data-bs-target="#kt_app_header_menu_pages_utilities">Utilities</a>
+                    data-bs-target="#kt_app_header_menu_pages_utilities">{{ menuTitle('Utilities') }}</a>
             </li>
             <!--end:Nav item-->
             <!--begin:Nav item-->
             <li class="nav-item mx-lg-1">
                 <a class="nav-link py-3 py-lg-6 {{ request()->routeIs('pages.widgets.*') ? 'active' : '' }} text-active-primary"
-                    href="#" data-bs-toggle="tab" data-bs-target="#kt_app_header_menu_pages_widgets">Widgets</a>
+                    href="#" data-bs-toggle="tab" data-bs-target="#kt_app_header_menu_pages_widgets">{{ menuTitle('Widgets') }}</a>
             </li>
             <!--end:Nav item-->
         </ul>

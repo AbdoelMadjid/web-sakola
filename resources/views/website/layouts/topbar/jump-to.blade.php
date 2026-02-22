@@ -6,7 +6,7 @@
         data-dropdown-event="hover" data-dropdown-target="#jump-to-dropdown" data-dropdown-type="css-animation"
         data-dropdown-duration="0" data-dropdown-hide-on-scroll="true" data-dropdown-animation-in="fadeIn"
         data-dropdown-animation-out="fadeOut">
-        Jump To
+        {{ __('website.jump_to') }}
         <i class="g-ml-3 fa fa-angle-down"></i>
     </a>
     <ul id="jump-to-dropdown"
@@ -14,8 +14,7 @@
         aria-labelledby="jump-to-dropdown-invoker">
         <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
             <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default"
-                href="{{ route('navbar.page', ['page' => 'apply']) }}">Apply
-                Now</a>
+                href="{{ route('navbar.page', ['page' => 'apply']) }}">{{ __('website.apply_now') }}</a>
         </li>
         <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
             <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default"
@@ -24,23 +23,23 @@
         </li>
         <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
             <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default"
-                href="{{ route('navbar.page', ['page' => 'research']) }}">Research</a>
+                href="{{ route('navbar.page', ['page' => 'research']) }}">{{ __('website.research') }}</a>
         </li>
         <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
             <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default"
-                href="{{ route('navbar.page', ['page' => 'help']) }}">Help</a>
+                href="{{ route('navbar.page', ['page' => 'help']) }}">{{ __('website.help') }}</a>
         </li>
         <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
             <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default"
-                href="{{ route('navbar.page', ['page' => 'contacts']) }}">Contacts</a>
+                href="{{ route('navbar.page', ['page' => 'contacts']) }}">{{ __('website.contacts') }}</a>
         </li>
         <li class="dropdown-item g-px-0 g-py-2">
             <a class="nav-link g-color-white g-bg-primary g-bg-primary-light-v1--hover g-font-size-default"
                 href="@auth{{ route('dashboard') }}@else{{ route('navbar.page', ['page' => 'signin']) }}@endauth">
                 @auth
-                    Dashboard
+                    {{ __('website.dashboard') }}
                 @else
-                    Sign in
+                    {{ __('website.signin') }}
                 @endauth
             </a>
         </li>

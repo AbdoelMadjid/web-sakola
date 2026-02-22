@@ -35,7 +35,7 @@
             @else
                 <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
             @endif
-            <span class="menu-title">{{ $menu['title'] }}</span>
+            <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
             <span class="menu-arrow"></span>
         </span>
 
@@ -65,7 +65,7 @@
             @else
                 <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
             @endif
-            <span class="menu-title">{{ $menu['title'] }}</span>
+            <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
             <span class="menu-arrow"></span>
         </span>
 
@@ -76,7 +76,7 @@
                         href="{{ route($child['route']) }}"
                         {{ isset($menu['target']) ? 'target=' . $menu['target'] : '' }}>
                         <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                        <span class="menu-title">{{ $child['title'] }}</span>
+                        <span class="menu-title">{{ menuTitle($child['title']) }}</span>
                     </a>
                 </div>
             @endforeach
@@ -99,7 +99,7 @@
             @else
                 <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
             @endif
-            <span class="menu-title">{{ $menu['title'] }}</span>
+            <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
 
             @if (isset($menu['badge']))
                 <span class="menu-badge">

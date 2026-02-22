@@ -23,8 +23,8 @@
                                     </i>
                                 </span>
                                 <span class="d-flex flex-column">
-                                    <span class="fs-6 fw-bold text-gray-800">{{ $card['title'] }}</span>
-                                    <span class="fs-7 text-gray-600">{{ $card['description'] }}</span>
+                                    <span class="fs-6 fw-bold text-gray-800">{{ menuTitle($card['title']) }}</span>
+                                    <span class="fs-7 text-gray-600">{{ menuDescription($card['description']) }}</span>
                                 </span>
                             </a>
                         </div>
@@ -38,14 +38,14 @@
             <div class="d-flex flex-stack flex-wrap flex-lg-nowrap gap-2 mx-5">
                 <div class="d-flex flex-column me-5">
                     <div class="fs-6 fw-bold text-gray-800">
-                        Landing Page Template
+                        {{ __('menu.landing_page_template') }}
                     </div>
                     <div class="fs-7 fw-semibold text-muted">
-                        Onpe page landing template with pricing & others
+                        {{ __('menu.landing_page_desc') }}
                     </div>
                 </div>
                 <a href="/" class="btn btn-sm btn-primary fw-bold">
-                    Explore
+                    {{ __('menu.explore') }}
                 </a>
             </div>
             <!--end:Landing-->
@@ -54,14 +54,14 @@
         <!--begin:Col-->
         <div class="menu-more bg-light col-lg-4 py-3 px-3 py-lg-6 px-lg-6 rounded-end">
             <!--begin:Heading-->
-            <h4 class="fs-6 fs-lg-4 text-gray-800 fw-bold mt-3 mb-3 ms-4">More Dashboards</h4>
+            <h4 class="fs-6 fs-lg-4 text-gray-800 fw-bold mt-3 mb-3 ms-4">{{ __('menu.more_dashboards') }}</h4>
             <!--end:Heading-->
             <!--begin:Menu item-->
             @foreach (config('header._header_dashboard.header_dashboard_other') as $menu)
                 <div class="menu-item p-0 m-0">
                     <a href="{{ route($menu['route']) }}"
                         class="menu-link py-2 {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                        <span class="menu-title">{{ $menu['title'] }}</span>
+                        <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                     </a>
                 </div>
             @endforeach

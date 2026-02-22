@@ -8,7 +8,7 @@
             <div class="col-lg-3 mb-6 mb-lg-0">
                 <!--begin:Menu heading-->
                 <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                    User Profile
+                    {{ menuTitle('User Profile') }}
                 </h4>
                 <!--end:Menu heading-->
                 <!--begin:Menu item-->
@@ -16,7 +16,7 @@
                     <div class="menu-item p-0 m-0">
                         <a href="{{ route($menu['route']) }}"
                             class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                            <span class="menu-title">{{ $menu['title'] }}</span>
+                            <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                         </a>
                     </div>
                 @endforeach
@@ -29,7 +29,7 @@
                 <div class="mb-6">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        Corporate
+                        {{ menuTitle('Corporate') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -37,7 +37,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach
@@ -48,7 +48,7 @@
                 <div class="mb-0">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        Careers
+                        {{ menuTitle('Careers') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -56,7 +56,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach
@@ -71,7 +71,7 @@
                 <div class="mb-6">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        FAQ
+                        {{ menuTitle('FAQ') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -79,7 +79,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach
@@ -90,7 +90,7 @@
                 <div class="mb-6">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        Blog
+                        {{ menuTitle('Blog') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -98,7 +98,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach
@@ -109,7 +109,7 @@
                 <div class="mb-0">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        Pricing
+                        {{ menuTitle('Pricing') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -117,7 +117,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach
@@ -132,7 +132,7 @@
                 <div class="mb-0">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        Social
+                        {{ menuTitle('Social') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -140,7 +140,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach

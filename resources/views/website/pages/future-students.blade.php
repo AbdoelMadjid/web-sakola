@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <!-- Mirrored from htmlstream.com/preview/unify-v2.6.3/multipage/education/page-future-students-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Feb 2026 13:34:18 GMT -->
 
 <head>
     <base href="{{ url('/') }}/">
     <!-- Title -->
-    <title>Multipage - Education Future Students Page | Unify - Responsive Website Template</title>
+    <title>{{ str_starts_with(app()->getLocale(), 'id') ? 'Multipage - Halaman Calon Siswa Pendidikan | Unify - Template Website Responsif' : 'Multipage - Education Future Students Page | Unify - Responsive Website Template' }}</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">

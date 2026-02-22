@@ -13,7 +13,7 @@
             class="menu-item {{ request()->routeIs(['dashboard', 'dashboards.*']) ? 'here show' : '' }} menu-here-bg menu-lg-down-accordion me-0 me-lg-2">
             <!--begin:Menu link-->
             <span class="menu-link">
-                <span class="menu-title">Dashboards</span>
+                <span class="menu-title">{{ __('menu.dashboards') }}</span>
                 <span class="menu-arrow d-lg-none"></span>
             </span>
             <!--end:Menu link-->
@@ -31,7 +31,7 @@
             class="menu-item {{ request()->routeIs('pages.*') ? 'here show' : '' }} menu-lg-down-accordion me-0 me-lg-2">
             <!--begin:Menu link-->
             <span class="menu-link">
-                <span class="menu-title">Pages</span>
+                <span class="menu-title">{{ __('menu.pages') }}</span>
                 <span class="menu-arrow d-lg-none"></span>
             </span>
             <!--end:Menu link-->
@@ -49,7 +49,7 @@
 
             <!--begin:Menu link-->
             <span class="menu-link">
-                <span class="menu-title">Apps</span>
+                <span class="menu-title">{{ __('menu.apps') }}</span>
                 <span class="menu-arrow d-lg-none"></span>
             </span>
             <!--end:Menu link-->
@@ -69,7 +69,7 @@
             class="menu-item {{ request()->routeIs(['layouts.*']) ? 'here show' : '' }} menu-lg-down-accordion me-0 me-lg-2">
             <!--begin:Menu link-->
             <span class="menu-link">
-                <span class="menu-title">Layouts</span>
+                <span class="menu-title">{{ __('menu.layouts') }}</span>
                 <span class="menu-arrow d-lg-none"></span>
             </span>
             <!--end:Menu link-->
@@ -85,7 +85,7 @@
             class="menu-item {{ request()->routeIs(['help.*']) ? 'here show' : '' }} menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
             <!--begin:Menu link-->
             <span class="menu-link">
-                <span class="menu-title">Help</span>
+                <span class="menu-title">{{ __('menu.help') }}</span>
                 <span class="menu-arrow d-lg-none"></span>
             </span>
             <!--end:Menu link-->
@@ -103,7 +103,7 @@
                                     @endfor
                                 </i>
                             </span>
-                            <span class="menu-title">{{ $menu['title'] }}</span>
+                            <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                         </a>
                     </div>
                 @endforeach

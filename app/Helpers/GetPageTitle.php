@@ -77,3 +77,43 @@ if (!function_exists('searchMenuTitle')) {
         return null;
     }
 }
+
+if (!function_exists('menuTitle')) {
+    /**
+     * Terjemahkan judul menu dari kamus menu.titles dengan fallback ke teks asli.
+     */
+    function menuTitle(?string $title): string
+    {
+        if (!$title) {
+            return '';
+        }
+
+        $titles = trans('menu.titles');
+
+        if (is_array($titles) && array_key_exists($title, $titles)) {
+            return (string) $titles[$title];
+        }
+
+        return $title;
+    }
+}
+
+if (!function_exists('menuDescription')) {
+    /**
+     * Terjemahkan deskripsi menu dari kamus menu.descriptions dengan fallback ke teks asli.
+     */
+    function menuDescription(?string $description): string
+    {
+        if (!$description) {
+            return '';
+        }
+
+        $descriptions = trans('menu.descriptions');
+
+        if (is_array($descriptions) && array_key_exists($description, $descriptions)) {
+            return (string) $descriptions[$description];
+        }
+
+        return $description;
+    }
+}

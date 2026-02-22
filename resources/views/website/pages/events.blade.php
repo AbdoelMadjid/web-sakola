@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <!-- Mirrored from htmlstream.com/preview/unify-v2.6.3/multipage/education/page-events-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Feb 2026 13:34:30 GMT -->
 
 <head>
     <base href="{{ url('/') }}/">
     <!-- Title -->
-    <title>Multipage - Education Events Page | Unify - Responsive Website Template</title>
+    <title>{{ str_starts_with(app()->getLocale(), 'id') ? 'Multipage - Halaman Acara Pendidikan | Unify - Template Website Responsif' : 'Multipage - Education Events Page | Unify - Responsive Website Template' }}</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">

@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests\Auth;
 
+use App\Models\User;
 use Illuminate\Auth\Events\Lockout;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;
@@ -41,11 +42,29 @@ class LoginRequest extends FormRequest
     {
         $this->ensureIsNotRateLimited();
 
+        $isIndonesian = str_starts_with(app()->getLocale(), 'id');
+        $emailNotFoundMessage = $isIndonesian
+            ? 'Email yang Anda masukkan tidak sesuai.'
+            : 'The email you entered does not match our records.';
+        $passwordNotMatchMessage = $isIndonesian
+            ? 'Kata sandi yang Anda masukkan tidak sesuai.'
+            : 'Password you entered does not match our records.';
+
+        $user = User::where('email', $this->string('email')->toString())->first();
+
+        if (! $user) {
+            RateLimiter::hit($this->throttleKey());
+
+            throw ValidationException::withMessages([
+                'email' => $emailNotFoundMessage,
+            ]);
+        }
+
         if (! Auth::attempt($this->only('email', 'password'), $this->boolean('remember'))) {
             RateLimiter::hit($this->throttleKey());
 
             throw ValidationException::withMessages([
-                'email' => trans('auth.failed'),
+                'password' => $passwordNotMatchMessage,
             ]);
         }
 
@@ -68,7 +87,7 @@ class LoginRequest extends FormRequest
         $seconds = RateLimiter::availableIn($this->throttleKey());
 
         throw ValidationException::withMessages([
-            'email' => trans('auth.throttle', [
+            'password' => trans('auth.throttle', [
                 'seconds' => $seconds,
                 'minutes' => ceil($seconds / 60),
             ]),

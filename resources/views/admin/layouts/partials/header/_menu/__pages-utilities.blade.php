@@ -10,7 +10,7 @@
                 <div class="mb-6">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        General Modals
+                        {{ __('menu.general_modals') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -18,7 +18,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach
@@ -30,7 +30,7 @@
                 <div class="mb-6">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        Form Modals
+                        {{ __('menu.form_modals') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -38,7 +38,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach
@@ -53,7 +53,7 @@
                 <div class="mb-6">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        Wizard Modals
+                        {{ __('menu.wizard_modals') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -61,7 +61,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach
@@ -78,7 +78,7 @@
                 <div class="mb-6">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        Search
+                        {{ menuTitle('Search') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -86,7 +86,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach
@@ -99,7 +99,7 @@
                 <div class="mb-6">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        Wizards
+                        {{ menuTitle('Wizards') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -107,7 +107,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach
@@ -120,7 +120,7 @@
                 <div class="mb-6">
                     <!--begin:Menu heading-->
                     <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">
-                        Search Modals
+                        {{ __('menu.search_modals') }}
                     </h4>
                     <!--end:Menu heading-->
                     <!--begin:Menu item-->
@@ -128,7 +128,7 @@
                         <div class="menu-item p-0 m-0">
                             <a href="{{ route($menu['route']) }}"
                                 class="menu-link {{ request()->routeIs($menu['route']) ? 'active' : '' }}">
-                                <span class="menu-title">{{ $menu['title'] }}</span>
+                                <span class="menu-title">{{ menuTitle($menu['title']) }}</span>
                             </a>
                         </div>
                     @endforeach

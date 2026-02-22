@@ -6,7 +6,7 @@
                 <ul class="list-inline d-flex align-items-center g-mb-0">
                     <li class="list-inline-item d-none d-lg-inline-block">
                         <a class="u-link-v5 g-brd-around g-brd-white-opacity-0_2 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 g-rounded-20 text-uppercase g-px-20 g-py-10"
-                            href="{{ route('navbar.page', ['page' => 'apply']) }}">Apply for Fall intake</a>
+                            href="{{ route('navbar.page', ['page' => 'apply']) }}">{{ __('website.apply_for_fall_intake') }}</a>
                     </li>
 
                     <!-- Language -->

@@ -1,4 +1,13 @@
 <!--begin::User account menu-->
+@php
+    $currentLocale = app()->getLocale() === 'id' ? 'id' : 'en';
+    $authUser = auth()->user();
+    $avatarPath = $authUser?->avatar ?: 'admin/assets/media/avatars/300-3.jpg';
+    $avatarUrl = \Illuminate\Support\Str::startsWith($avatarPath, ['http://', 'https://'])
+        ? $avatarPath
+        : asset($avatarPath);
+    $badgeRole = $authUser?->getRoleNames()->first();
+@endphp
 <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px"
     data-kt-menu="true">
     <!--begin::Menu item-->
@@ -6,16 +15,16 @@
         <div class="menu-content d-flex align-items-center px-3">
             <!--begin::Avatar-->
             <div class="symbol symbol-50px me-5">
-                <img alt="Logo" src="admin/assets/media/avatars/300-3.jpg" />
+                <img alt="Avatar" src="{{ $avatarUrl }}" />
             </div>
             <!--end::Avatar-->
             <!--begin::Username-->
             <div class="d-flex flex-column">
                 <div class="fw-bold d-flex align-items-center fs-5">
-                    Robert Fox <span class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">Pro</span>
+                    {{ $authUser?->name ?? 'User' }} <span class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">{{ $badgeRole ? ucfirst($badgeRole) : 'User' }}</span>
                 </div>
-                <a href="#" class="fw-semibold text-muted text-hover-primary fs-7">
-                    robert@kt.com </a>
+                <a href="{{ route('pages.account.overview') }}" class="fw-semibold text-muted text-hover-primary fs-7">
+                    {{ $authUser?->email ?? '-' }} </a>
             </div>
             <!--end::Username-->
         </div>
@@ -26,15 +35,15 @@
     <!--end::Menu separator-->
     <!--begin::Menu item-->
     <div class="menu-item px-5">
-        <a href="/account/overview" class="menu-link px-5">
-            My Profile
+        <a href="{{ route('pages.account.overview') }}" class="menu-link px-5">
+            {{ __('admin.my_profile') }}
         </a>
     </div>
     <!--end::Menu item-->
     <!--begin::Menu item-->
     <div class="menu-item px-5">
-        <a href="/apps/projects/list" class="menu-link px-5">
-            <span class="menu-text">My Projects</span>
+        <a href="{{ route('apps.projects.list') }}" class="menu-link px-5">
+            <span class="menu-text">{{ __('admin.my_projects') }}</span>
             <span class="menu-badge">
                 <span class="badge badge-light-danger badge-circle fw-bold fs-7">3</span>
             </span>
@@ -45,37 +54,37 @@
     <div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
         data-kt-menu-placement="left-start" data-kt-menu-offset="-15px, 0">
         <a href="#" class="menu-link px-5">
-            <span class="menu-title">My Subscription</span>
+            <span class="menu-title">{{ __('admin.my_subscription') }}</span>
             <span class="menu-arrow"></span>
         </a>
         <!--begin::Menu sub-->
         <div class="menu-sub menu-sub-dropdown w-175px py-4">
             <!--begin::Menu item-->
             <div class="menu-item px-3">
-                <a href="/account/referrals" class="menu-link px-5">
-                    Referrals
+                <a href="{{ route('pages.account.referrals') }}" class="menu-link px-5">
+                    {{ __('admin.referrals') }}
                 </a>
             </div>
             <!--end::Menu item-->
             <!--begin::Menu item-->
             <div class="menu-item px-3">
-                <a href="/account/billing" class="menu-link px-5">
-                    Billing
+                <a href="{{ route('pages.account.billing') }}" class="menu-link px-5">
+                    {{ __('admin.billing') }}
                 </a>
             </div>
             <!--end::Menu item-->
             <!--begin::Menu item-->
             <div class="menu-item px-3">
-                <a href="/account/statements" class="menu-link px-5">
-                    Payments
+                <a href="{{ route('pages.account.statements') }}" class="menu-link px-5">
+                    {{ __('admin.payments') }}
                 </a>
             </div>
             <!--end::Menu item-->
             <!--begin::Menu item-->
             <div class="menu-item px-3">
-                <a href="/account/statements" class="menu-link d-flex flex-stack px-5">
-                    Statements
-                    <span class="ms-2 lh-0" data-bs-toggle="tooltip" title="View your statements">
+                <a href="{{ route('pages.account.statements') }}" class="menu-link d-flex flex-stack px-5">
+                    {{ __('admin.statements') }}
+                    <span class="ms-2 lh-0" data-bs-toggle="tooltip" title="{{ __('admin.view_your_statements') }}">
                         <i class="ki-duotone ki-information-5 fs-5"><span class="path1"></span><span
                                 class="path2"></span><span class="path3"></span></i> </span>
                 </a>
@@ -91,7 +100,7 @@
                         <input class="form-check-input w-30px h-20px" type="checkbox" value="1" checked="checked"
                             name="notifications" />
                         <span class="form-check-label text-muted fs-7">
-                            Notifications
+                            {{ __('admin.notifications') }}
                         </span>
                     </label>
                 </div>
@@ -103,8 +112,8 @@
     <!--end::Menu item-->
     <!--begin::Menu item-->
     <div class="menu-item px-5">
-        <a href="/account/statements" class="menu-link px-5">
-            My Statements
+        <a href="{{ route('pages.account.statements') }}" class="menu-link px-5">
+            {{ __('admin.my_statements') }}
         </a>
     </div>
     <!--end::Menu item-->
@@ -135,10 +144,17 @@
         data-kt-menu-placement="left-start" data-kt-menu-offset="-15px, 0">
         <a href="#" class="menu-link px-5">
             <span class="menu-title position-relative">
-                Language
+                {{ __('admin.language') }}
                 <span class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">
-                    English <img class="w-15px h-15px rounded-1 ms-2" src="admin/assets/media/flags/united-states.svg"
-                        alt="" />
+                    @if ($currentLocale === 'id')
+                        {{ __('admin.indonesian') }}
+                        <img class="w-15px h-15px rounded-1 ms-2" src="admin/assets/media/flags/indonesia.svg"
+                            alt="Indonesia" />
+                    @else
+                        {{ __('admin.english') }}
+                        <img class="w-15px h-15px rounded-1 ms-2" src="admin/assets/media/flags/united-states.svg"
+                            alt="English" />
+                    @endif
                 </span>
             </span>
         </a>
@@ -146,51 +162,23 @@
         <div class="menu-sub menu-sub-dropdown w-175px py-4">
             <!--begin::Menu item-->
             <div class="menu-item px-3">
-                <a href="/account/settings" class="menu-link d-flex px-5 active">
+                <a href="{{ route('locale.switch', 'en') }}"
+                    class="menu-link d-flex px-5 {{ $currentLocale === 'en' ? 'active' : '' }}">
                     <span class="symbol symbol-20px me-4">
                         <img class="rounded-1" src="admin/assets/media/flags/united-states.svg" alt="" />
                     </span>
-                    English
+                    {{ __('admin.english') }}
                 </a>
             </div>
             <!--end::Menu item-->
             <!--begin::Menu item-->
             <div class="menu-item px-3">
-                <a href="/account/settings" class="menu-link d-flex px-5">
+                <a href="{{ route('locale.switch', 'id') }}"
+                    class="menu-link d-flex px-5 {{ $currentLocale === 'id' ? 'active' : '' }}">
                     <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="admin/assets/media/flags/spain.svg" alt="" />
+                        <img class="rounded-1" src="admin/assets/media/flags/indonesia.svg" alt="" />
                     </span>
-                    Spanish
-                </a>
-            </div>
-            <!--end::Menu item-->
-            <!--begin::Menu item-->
-            <div class="menu-item px-3">
-                <a href="/account/settings" class="menu-link d-flex px-5">
-                    <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="admin/assets/media/flags/germany.svg" alt="" />
-                    </span>
-                    German
-                </a>
-            </div>
-            <!--end::Menu item-->
-            <!--begin::Menu item-->
-            <div class="menu-item px-3">
-                <a href="/account/settings" class="menu-link d-flex px-5">
-                    <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="admin/assets/media/flags/japan.svg" alt="" />
-                    </span>
-                    Japanese
-                </a>
-            </div>
-            <!--end::Menu item-->
-            <!--begin::Menu item-->
-            <div class="menu-item px-3">
-                <a href="/account/settings" class="menu-link d-flex px-5">
-                    <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="admin/assets/media/flags/france.svg" alt="" />
-                    </span>
-                    French
+                    {{ __('admin.indonesian') }}
                 </a>
             </div>
             <!--end::Menu item-->
@@ -200,8 +188,8 @@
     <!--end::Menu item-->
     <!--begin::Menu item-->
     <div class="menu-item px-5 my-1">
-        <a href="/account/settings" class="menu-link px-5">
-            Account Settings
+        <a href="{{ route('pages.account.settings') }}" class="menu-link px-5">
+            {{ __('admin.account_settings') }}
         </a>
     </div>
     <!--end::Menu item-->
@@ -209,9 +197,9 @@
     <div class="menu-item px-5">
         <form method="POST" action="{{ route('logout') }}">
             @csrf
-            <a href="route('logout')" class="menu-link px-5"
+            <a href="{{ route('logout') }}" class="menu-link px-5"
                 onclick="event.preventDefault(); this.closest('form').submit();">
-                Sign Out
+                {{ __('admin.sign_out') }}
             </a>
             {{-- <x-dropdown-link :href="route('logout')"
                     onclick="event.preventDefault(); this.closest('form').submit();">

@@ -1,7 +1,7 @@
 <head>
     <base href="{{ url('/') }}/">
     <!-- Title -->
-    <title>Multipage - Education Home Page | Unify - Responsive Website Template</title>
+    <title>{{ str_starts_with(app()->getLocale(), 'id') ? 'Multipage - Beranda Pendidikan | Unify - Template Website Responsif' : 'Multipage - Education Home Page | Unify - Responsive Website Template' }}</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
