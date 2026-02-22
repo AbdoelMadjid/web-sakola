@@ -14,29 +14,29 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="web/assets/img/favicon.ico">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400" rel="stylesheet">
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/bootstrap/bootstrap.min.css">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-material/material-icons.css">
-    <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-line-pro/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-material/material-icons.css">
+    <link rel="stylesheet" href="web/assets/vendor/animate.css">
+    <link rel="stylesheet" href="web/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="web/assets/vendor/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/fancybox/jquery.fancybox.css">
 
     <!-- CSS Unify Theme -->
-    <link rel="stylesheet" href="education/assets/css/styles.multipage-education.css">
+    <link rel="stylesheet" href="web/assets/css/styles.multipage-education.css">
 
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="web/assets/css/custom.css">
 </head>
 
 <body>
@@ -46,12 +46,12 @@
         <!-- End Header -->
 
         <!-- Research Article -->
-        <div class="g-bg-img-hero" style="background-image: url(education/assets/include/svg/svg-bg1.svg);">
+        <div class="g-bg-img-hero" style="background-image: url(web/assets/include/svg/svg-bg1.svg);">
             <div class="container g-py-100">
                 <div class="row justify-content-lg-between align-items-center">
                     <div class="col-md-6 g-mb-50 g-mb-0--md">
                         <img class="img-fluid u-shadow-v39 g-brd-around g-brd-10 g-brd-white rounded"
-                            src="education/assets/img-temp/900x600/img2.jpg" alt="Image Description">
+                            src="web/assets/img-temp/900x600/img2.jpg" alt="Image Description">
                     </div>
 
                     <div class="col-md-5">
@@ -83,7 +83,7 @@
                         <div class="col-6 col-md-4 g-mb-40">
                             <!-- Research Article -->
                             <article>
-                                <img class="img-fluid g-mb-20" src="education/assets/img-temp/600x350/img16.jpg"
+                                <img class="img-fluid g-mb-20" src="web/assets/img-temp/600x350/img16.jpg"
                                     alt="Image Description">
                                 <h3 class="h4 mb-3"><a class="h4 u-link-v5" href="#">Early-career researchers
                                         excel in NHMRC fellowships</a></h3>
@@ -99,7 +99,7 @@
                         <div class="col-6 col-md-4 g-mb-40">
                             <!-- Research Article -->
                             <article>
-                                <img class="img-fluid g-mb-20" src="education/assets/img-temp/600x350/img17.jpg"
+                                <img class="img-fluid g-mb-20" src="web/assets/img-temp/600x350/img17.jpg"
                                     alt="Image Description">
                                 <h3 class="h4 mb-3"><a class="h4 u-link-v5" href="#">$2.3 million to support
                                         industry partnerships for 21 projects</a></h3>
@@ -114,7 +114,7 @@
                         <div class="col-6 col-md-4 g-mb-40">
                             <!-- Research Article -->
                             <article>
-                                <img class="img-fluid g-mb-20" src="education/assets/img-temp/600x350/img18.jpg"
+                                <img class="img-fluid g-mb-20" src="web/assets/img-temp/600x350/img18.jpg"
                                     alt="Image Description">
                                 <h3 class="h4 mb-3"><a class="h4 u-link-v5" href="#">Government partnership to
                                         establish community languages institute</a></h3>
@@ -130,7 +130,7 @@
                         <div class="col-6 col-md-4 g-mb-40">
                             <!-- Research Article -->
                             <article>
-                                <img class="img-fluid g-mb-20" src="education/assets/img-temp/600x350/img19.jpg"
+                                <img class="img-fluid g-mb-20" src="web/assets/img-temp/600x350/img19.jpg"
                                     alt="Image Description">
                                 <h3 class="h4 mb-3"><a class="h4 u-link-v5" href="#">From quantum physicist to
                                         CEO: how Michael Biercuk started Q-Ctrl</a></h3>
@@ -146,7 +146,7 @@
                         <div class="col-6 col-md-4 g-mb-40">
                             <!-- Research Article -->
                             <article>
-                                <img class="img-fluid g-mb-20" src="education/assets/img-temp/600x350/img22.jpg"
+                                <img class="img-fluid g-mb-20" src="web/assets/img-temp/600x350/img22.jpg"
                                     alt="Image Description">
                                 <h3 class="h4 mb-3"><a class="h4 u-link-v5" href="#">Why so few Australians are
                                         using medicinal cannabis on prescription</a></h3>
@@ -162,7 +162,7 @@
                         <div class="col-6 col-md-4 g-mb-40">
                             <!-- Research Article -->
                             <article>
-                                <img class="img-fluid g-mb-20" src="education/assets/img-temp/600x350/img23.jpg"
+                                <img class="img-fluid g-mb-20" src="web/assets/img-temp/600x350/img23.jpg"
                                     alt="Image Description">
                                 <h3 class="h4 mb-3"><a class="h4 u-link-v5" href="#">Nine University scholars
                                         named AAHMS Fellows</a></h3>
@@ -239,7 +239,7 @@
                         <!-- Research Article -->
                         <article>
                             <div class="g-pos-rel">
-                                <img class="img-fluid" src="education/assets/img-temp/600x350/img20.jpg"
+                                <img class="img-fluid" src="web/assets/img-temp/600x350/img20.jpg"
                                     alt="Image Description">
                                 <a class="js-fancybox g-absolute-centered" href="javascript:;"
                                     data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350"
@@ -261,7 +261,7 @@
                         <!-- Research Article -->
                         <article>
                             <div class="g-pos-rel">
-                                <img class="img-fluid" src="education/assets/img-temp/600x350/img10.jpg"
+                                <img class="img-fluid" src="web/assets/img-temp/600x350/img10.jpg"
                                     alt="Image Description">
                                 <a class="js-fancybox g-absolute-centered" href="javascript:;"
                                     data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350"
@@ -284,7 +284,7 @@
                         <!-- Research Article -->
                         <article>
                             <div class="g-pos-rel">
-                                <img class="img-fluid" src="education/assets/img-temp/600x350/img21.jpg"
+                                <img class="img-fluid" src="web/assets/img-temp/600x350/img21.jpg"
                                     alt="Image Description">
                                 <a class="js-fancybox g-absolute-centered" href="javascript:;"
                                     data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350"
@@ -313,7 +313,7 @@
                     <!-- Research Articles -->
                     <article
                         class="u-block-hover g-min-height-250 g-bg-img-hero g-bg-cover g-bg-white-gradient-opacity-v1--after g-pos-rel"
-                        style="background-image: url(education/assets/img-temp/600x400/img1.jpg);">
+                        style="background-image: url(web/assets/img-temp/600x400/img1.jpg);">
                         <div
                             class="u-block-hover__additional--partially-slide-up g-pos-abs g-bottom-0 g-left-0 g-z-index-1">
                             <div class="u-block-hover__visible g-pa-20">
@@ -331,7 +331,7 @@
                     <!-- Research Articles -->
                     <article>
                         <div class="g-pos-rel">
-                            <img class="img-fluid mb-3" src="education/assets/img-temp/600x350/img2.jpg"
+                            <img class="img-fluid mb-3" src="web/assets/img-temp/600x350/img2.jpg"
                                 alt="Image Description">
                             <a class="js-fancybox g-absolute-centered" href="javascript:;"
                                 data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350"
@@ -357,7 +357,7 @@
                     <!-- Research Articles -->
                     <article>
                         <div class="g-pos-rel">
-                            <img class="img-fluid mb-3" src="education/assets/img-temp/600x350/img11.jpg"
+                            <img class="img-fluid mb-3" src="web/assets/img-temp/600x350/img11.jpg"
                                 alt="Image Description">
                             <a class="js-fancybox g-absolute-centered" href="javascript:;"
                                 data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350"
@@ -383,7 +383,7 @@
                     <!-- Research Articles -->
                     <article
                         class="u-block-hover g-min-height-250 g-bg-img-hero g-bg-cover g-bg-white-gradient-opacity-v1--after g-pos-rel"
-                        style="background-image: url(education/assets/img-temp/600x400/img3.jpg);">
+                        style="background-image: url(web/assets/img-temp/600x400/img3.jpg);">
                         <div
                             class="u-block-hover__additional--partially-slide-up g-pos-abs g-bottom-0 g-left-0 g-z-index-1">
                             <div class="u-block-hover__visible g-pa-20">
@@ -621,25 +621,25 @@
     </main>
 
     <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="web/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="web/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="web/assets/vendor/popper.js/popper.min.js"></script>
+    <script src="web/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script src="web/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="web/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 
     <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.dropdown.js"></script>
-    <script src="assets/js/components/hs.popup.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
+    <script src="web/assets/js/hs.core.js"></script>
+    <script src="web/assets/js/components/hs.header.js"></script>
+    <script src="web/assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="web/assets/js/components/hs.dropdown.js"></script>
+    <script src="web/assets/js/components/hs.popup.js"></script>
+    <script src="web/assets/js/components/hs.go-to.js"></script>
 
     <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
+    <script src="web/assets/js/custom.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>

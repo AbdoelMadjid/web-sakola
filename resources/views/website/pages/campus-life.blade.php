@@ -14,29 +14,29 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="web/assets/img/favicon.ico">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400" rel="stylesheet">
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/bootstrap/bootstrap.min.css">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-material/material-icons.css">
-    <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-line-pro/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-material/material-icons.css">
+    <link rel="stylesheet" href="web/assets/vendor/animate.css">
+    <link rel="stylesheet" href="web/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="web/assets/vendor/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Unify Theme -->
-    <link rel="stylesheet" href="education/assets/css/styles.multipage-education.css">
+    <link rel="stylesheet" href="web/assets/css/styles.multipage-education.css">
 
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="web/assets/css/custom.css">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
 
         <!-- Promo Block -->
         <div class="g-flex-centered g-bg-img-hero g-bg-pos-top-center g-bg-cover g-bg-bluegray-opacity-0_2--after"
-            style="background-image: url(education/assets/img-temp/1920x1080/img1.jpg);" data-calc-target="#js-header">
+            style="background-image: url(web/assets/img-temp/1920x1080/img1.jpg);" data-calc-target="#js-header">
             <div class="container g-pos-rel g-z-index-1 g-py-100">
                 <div class="u-shadow-v36 g-max-width-550 g-bg-main-light-v1 g-pa-50">
                     <div class="g-mb-40">
@@ -153,7 +153,7 @@
 
         <!-- Image -->
         <div class="clearfix">
-            <img class="img-fluid" src="education/assets/img-temp/1920x1080/img2.jpg" alt="Image Description">
+            <img class="img-fluid" src="web/assets/img-temp/1920x1080/img2.jpg" alt="Image Description">
         </div>
         <!-- End Image -->
 
@@ -172,7 +172,7 @@
                     <!-- Research Articles -->
                     <article
                         class="u-block-hover g-min-height-250 g-bg-img-hero g-bg-cover g-bg-white-gradient-opacity-v1--after g-pos-rel"
-                        style="background-image: url(education/assets/img-temp/600x400/img1.jpg);">
+                        style="background-image: url(web/assets/img-temp/600x400/img1.jpg);">
                         <div
                             class="u-block-hover__additional--partially-slide-up g-pos-abs g-bottom-0 g-left-0 g-z-index-1">
                             <div class="u-block-hover__visible g-pa-20">
@@ -190,7 +190,7 @@
                     <!-- Research Articles -->
                     <article>
                         <div class="g-pos-rel">
-                            <img class="img-fluid mb-3" src="education/assets/img-temp/600x350/img23.jpg"
+                            <img class="img-fluid mb-3" src="web/assets/img-temp/600x350/img23.jpg"
                                 alt="Image Description">
                             <a class="js-fancybox g-absolute-centered"
                                 href="https://www.youtube.com/watch?v=FxiskmF16gU" title="Video">
@@ -213,7 +213,7 @@
                     <!-- Research Articles -->
                     <article>
                         <div class="g-pos-rel">
-                            <img class="img-fluid mb-3" src="education/assets/img-temp/600x350/img11.jpg"
+                            <img class="img-fluid mb-3" src="web/assets/img-temp/600x350/img11.jpg"
                                 alt="Image Description">
                             <a class="js-fancybox g-absolute-centered"
                                 href="https://www.youtube.com/watch?v=FxiskmF16gU" title="Video">
@@ -236,7 +236,7 @@
                     <!-- Research Articles -->
                     <article
                         class="u-block-hover g-min-height-250 g-bg-img-hero g-bg-cover g-bg-white-gradient-opacity-v1--after g-pos-rel"
-                        style="background-image: url(education/assets/img-temp/600x400/img3.jpg);">
+                        style="background-image: url(web/assets/img-temp/600x400/img3.jpg);">
                         <div
                             class="u-block-hover__additional--partially-slide-up g-pos-abs g-bottom-0 g-left-0 g-z-index-1">
                             <div class="u-block-hover__visible g-pa-20">
@@ -283,12 +283,13 @@
 
         <!-- Image -->
         <div class="clearfix">
-            <img class="img-fluid" src="education/assets/img-temp/1920x1080/img3.jpg" alt="Image Description">
+            <img class="img-fluid" src="web/assets/img-temp/1920x1080/img3.jpg" alt="Image Description">
         </div>
         <!-- End Image -->
 
         <!-- Student Life -->
-        <div id="student-life" class="g-bg-img-hero" style="background-image: url(assets/include/svg/svg-bg3.svg);">
+        <div id="student-life" class="g-bg-img-hero"
+            style="background-image: url(web/assets/include/svg/svg-bg3.svg);">
             <div class="container g-pt-100 g-pb-70">
                 <div class="row justify-content-lg-center g-pb-80">
                     <div class="col-lg-1 g-mb-20 g-mb-0--lg">
@@ -709,26 +710,26 @@
     </main>
 
     <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="web/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="web/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="web/assets/vendor/popper.js/popper.min.js"></script>
+    <script src="web/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="web/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="web/assets/vendor/slick-carousel/slick/slick.js"></script>
 
     <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.dropdown.js"></script>
-    <script src="assets/js/helpers/hs.height-calc.js"></script>
-    <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
+    <script src="web/assets/js/hs.core.js"></script>
+    <script src="web/assets/js/components/hs.header.js"></script>
+    <script src="web/assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="web/assets/js/components/hs.dropdown.js"></script>
+    <script src="web/assets/js/helpers/hs.height-calc.js"></script>
+    <script src="web/assets/js/components/hs.carousel.js"></script>
+    <script src="web/assets/js/components/hs.go-to.js"></script>
 
     <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
+    <script src="web/assets/js/custom.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>

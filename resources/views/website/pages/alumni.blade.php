@@ -14,34 +14,34 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="web/assets/img/favicon.ico">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400" rel="stylesheet">
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/bootstrap/bootstrap.min.css">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-material/material-icons.css">
-    <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsparallaxer.css">
-    <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
-    <link rel="stylesheet" href="assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
-    <link rel="stylesheet" href="assets/vendor/hs-bg-video/hs-bg-video.css">
-    <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-line-pro/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-material/material-icons.css">
+    <link rel="stylesheet" href="web/assets/vendor/animate.css">
+    <link rel="stylesheet" href="web/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="web/assets/vendor/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="web/assets/vendor/dzsparallaxer/dzsparallaxer.css">
+    <link rel="stylesheet" href="web/assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
+    <link rel="stylesheet" href="web/assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
+    <link rel="stylesheet" href="web/assets/vendor/hs-bg-video/hs-bg-video.css">
+    <link rel="stylesheet" href="web/assets/vendor/fancybox/jquery.fancybox.css">
 
     <!-- CSS Unify Theme -->
-    <link rel="stylesheet" href="education/assets/css/styles.multipage-education.css">
+    <link rel="stylesheet" href="web/assets/css/styles.multipage-education.css">
 
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="web/assets/css/custom.css">
 </head>
 
 <body>
@@ -51,7 +51,7 @@
         <!-- End Header -->
 
         <!-- Promo Block -->
-        <div class="g-bg-img-hero" style="background-image: url(education/assets/include/svg/svg-bg1.svg);">
+        <div class="g-bg-img-hero" style="background-image: url(web/assets/include/svg/svg-bg1.svg);">
             <div class="container g-py-100 g-py-150--lg">
                 <div class="row align-items-lg-center">
                     <div class="col-lg-6 g-mb-70 g-mb-150--sm g-mb-50--lg">
@@ -76,18 +76,18 @@
                             <!-- Promo Block Images -->
                             <div class="u-shadow-v36 g-max-width-300--sm g-pos-rel g-z-index-2 g-mb-20 g-mb-0--sm">
                                 <img class="img-fluid g-brd-around g-brd-4 g-brd-white rounded"
-                                    src="education/assets/img-temp/600x350/img1.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/600x350/img1.jpg" alt="Image Description">
                             </div>
 
                             <div
                                 class="u-shadow-v36 g-max-width-300--sm g-pos-abs--sm g-top-minus-70 g-left-130 g-z-index-1 g-mb-20 g-mb-0--sm">
                                 <img class="img-fluid g-brd-around g-brd-4 g-brd-white rounded"
-                                    src="education/assets/img-temp/600x350/img2.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/600x350/img2.jpg" alt="Image Description">
                             </div>
 
                             <div class="u-shadow-v36 g-max-width-300--sm g-pos-abs--sm g-top-65 g-right-0">
                                 <img class="img-fluid g-brd-around g-brd-4 g-brd-white rounded"
-                                    src="education/assets/img-temp/600x350/img3.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/600x350/img3.jpg" alt="Image Description">
                             </div>
                             <!-- End Promo Block Images -->
 
@@ -167,7 +167,7 @@
                 </div>
 
                 <div class="col-md-6 h-100 g-min-height-300 g-bg-size-cover g-bg-pos-center g-pos-abs--md g-top-0 g-left-0"
-                    data-bg-img-src="education/assets/img-temp/900x700/img1.jpg"></div>
+                    data-bg-img-src="web/assets/img-temp/900x700/img1.jpg"></div>
             </div>
         </div>
         <!-- End Benefits & Awards -->
@@ -273,7 +273,7 @@
                             <!-- Alumni Article -->
                             <div class="col-sm-6 g-mb-30">
                                 <article>
-                                    <img class="img-fluid mb-4" src="education/assets/img-temp/600x350/img4.jpg"
+                                    <img class="img-fluid mb-4" src="web/assets/img-temp/600x350/img4.jpg"
                                         alt="Image Description">
                                     <h2 class="h5"><a href="#">Lend a helping hand by volunteering</a></h2>
                                     <p class="g-font-size-16">Give back to the University community by getting involved
@@ -286,7 +286,7 @@
                             <!-- Alumni Article -->
                             <div class="col-sm-6 g-mb-30">
                                 <article>
-                                    <img class="img-fluid mb-4" src="education/assets/img-temp/600x350/img5.jpg"
+                                    <img class="img-fluid mb-4" src="web/assets/img-temp/600x350/img5.jpg"
                                         alt="Image Description">
                                     <h2 class="h5"><a href="#">Give a donation for the greater good</a></h2>
                                     <p class="g-font-size-16">Help us pursue limitless possibilities and make countless
@@ -299,7 +299,7 @@
                             <!-- Alumni Article -->
                             <div class="col-sm-6 g-mb-30">
                                 <article>
-                                    <img class="img-fluid mb-4" src="education/assets/img-temp/600x350/img6.jpg"
+                                    <img class="img-fluid mb-4" src="web/assets/img-temp/600x350/img6.jpg"
                                         alt="Image Description">
                                     <h2 class="h5"><a href="#">We provide many opportunities for our
                                             community</a></h2>
@@ -313,7 +313,7 @@
                             <!-- Alumni Article -->
                             <div class="col-sm-6 g-mb-30">
                                 <article>
-                                    <img class="img-fluid mb-4" src="education/assets/img-temp/600x350/img21.jpg"
+                                    <img class="img-fluid mb-4" src="web/assets/img-temp/600x350/img21.jpg"
                                         alt="Image Description">
                                     <h2 class="h5"><a href="#">Your charitable gift can become the
                                             solution</a></h2>
@@ -334,7 +334,7 @@
         <!-- End Alumni Articles -->
 
         <!-- Call to Action -->
-        <div class="g-bg-img-hero" style="background-image: url(assets/include/svg/svg-bg1.svg);">
+        <div class="g-bg-img-hero" style="background-image: url(web/assets/include/svg/svg-bg1.svg);">
             <div class="container g-pt-60 g-pb-30">
                 <div class="row justify-content-lg-center align-items-md-center">
                     <div class="col-md-9 col-lg-7 g-mb-30">
@@ -393,7 +393,7 @@
                 </div>
 
                 <div class="col-md-5 h-100 g-min-height-300 g-bg-size-cover g-bg-pos-center g-pos-abs--md g-top-0 g-right-0"
-                    data-bg-img-src="education/assets/img-temp/900x700/img2.jpg"></div>
+                    data-bg-img-src="web/assets/img-temp/900x700/img2.jpg"></div>
             </div>
         </div>
         <!-- End Secrets to Success -->
@@ -619,33 +619,33 @@
     </main>
 
     <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="web/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="web/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="web/assets/vendor/popper.js/popper.min.js"></script>
+    <script src="web/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-    <script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-    <script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
-    <script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
-    <script src="assets/vendor/hs-bg-video/hs-bg-video.js"></script>
-    <script src="assets/vendor/hs-bg-video/vendor/player.min.js"></script>
-    <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script src="web/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="web/assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="web/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+    <script src="web/assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
+    <script src="web/assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
+    <script src="web/assets/vendor/hs-bg-video/hs-bg-video.js"></script>
+    <script src="web/assets/vendor/hs-bg-video/vendor/player.min.js"></script>
+    <script src="web/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 
     <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.dropdown.js"></script>
-    <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/helpers/hs.bg-video.js"></script>
-    <script src="assets/js/components/hs.popup.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
+    <script src="web/assets/js/hs.core.js"></script>
+    <script src="web/assets/js/components/hs.header.js"></script>
+    <script src="web/assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="web/assets/js/components/hs.dropdown.js"></script>
+    <script src="web/assets/js/components/hs.carousel.js"></script>
+    <script src="web/assets/js/helpers/hs.bg-video.js"></script>
+    <script src="web/assets/js/components/hs.popup.js"></script>
+    <script src="web/assets/js/components/hs.go-to.js"></script>
 
     <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
+    <script src="web/assets/js/custom.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>

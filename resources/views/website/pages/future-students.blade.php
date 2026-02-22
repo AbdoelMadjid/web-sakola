@@ -14,31 +14,31 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="web/assets/img/favicon.ico">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400" rel="stylesheet">
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/bootstrap/bootstrap.min.css">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-material/material-icons.css">
-    <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" href="assets/vendor/hs-bg-video/hs-bg-video.css">
-    <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-line-pro/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-material/material-icons.css">
+    <link rel="stylesheet" href="web/assets/vendor/animate.css">
+    <link rel="stylesheet" href="web/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="web/assets/vendor/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="web/assets/vendor/hs-bg-video/hs-bg-video.css">
+    <link rel="stylesheet" href="web/assets/vendor/fancybox/jquery.fancybox.css">
 
     <!-- CSS Unify Theme -->
-    <link rel="stylesheet" href="education/assets/css/styles.multipage-education.css">
+    <link rel="stylesheet" href="web/assets/css/styles.multipage-education.css">
 
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="web/assets/css/custom.css">
 </head>
 
 <body>
@@ -103,8 +103,7 @@
                 <!-- Studies -->
                 <article class="col-md-4 g-mb-30">
                     <div class="g-mb-30">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img24.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img24.jpg" alt="Image Description">
                     </div>
 
                     <div class="g-mb-35">
@@ -122,8 +121,7 @@
                 <!-- Studies -->
                 <article class="col-md-4 g-mb-30">
                     <div class="g-mb-30">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img25.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img25.jpg" alt="Image Description">
                     </div>
 
                     <div class="g-mb-35">
@@ -141,8 +139,7 @@
                 <!-- Studies -->
                 <article class="col-md-4 g-mb-30">
                     <div class="g-mb-30">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img26.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img26.jpg" alt="Image Description">
                     </div>
 
                     <div class="g-mb-35">
@@ -216,11 +213,11 @@
                         data-arrow-left-classes="fa fa-angle-left g-left-40"
                         data-arrow-right-classes="fa fa-angle-right g-right-40">
                         <div class="js-slide g-min-height-70vh g-bg-size-cover g-bg-pos-top-center"
-                            data-bg-img-src="education/assets/img-temp/900x700/img3.jpg"></div>
+                            data-bg-img-src="web/assets/img-temp/900x700/img3.jpg"></div>
                         <div class="js-slide g-min-height-70vh g-bg-size-cover g-bg-pos-top-center"
-                            data-bg-img-src="education/assets/img-temp/900x700/img4.jpg"></div>
+                            data-bg-img-src="web/assets/img-temp/900x700/img4.jpg"></div>
                         <div class="js-slide g-min-height-70vh g-bg-size-cover g-bg-pos-top-center"
-                            data-bg-img-src="education/assets/img-temp/900x700/img5.jpg"></div>
+                            data-bg-img-src="web/assets/img-temp/900x700/img5.jpg"></div>
                     </div>
                     <!-- End Carousel - Image -->
                 </div>
@@ -238,8 +235,7 @@
                     <!-- Fancybox Video -->
                     <div
                         class="u-shadow-v36 g-brd-around g-brd-4 g-brd-white g-brd-primary--hover rounded g-pos-rel g-transition-0_2">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img10.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img10.jpg" alt="Image Description">
                         <a class="js-fancybox g-absolute-centered" href="javascript:;"
                             data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350" data-caption="Video">
                             <span
@@ -254,8 +250,7 @@
                     <!-- Fancybox Video -->
                     <div
                         class="u-shadow-v36 g-brd-around g-brd-4 g-brd-white g-brd-primary--hover rounded g-pos-rel g-transition-0_2">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img11.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img11.jpg" alt="Image Description">
                         <a class="js-fancybox g-absolute-centered" href="javascript:;"
                             data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350" data-caption="Video">
                             <span
@@ -270,8 +265,7 @@
                     <!-- Fancybox Video -->
                     <div
                         class="u-shadow-v36 g-brd-around g-brd-4 g-brd-white g-brd-primary--hover rounded g-pos-rel g-transition-0_2">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img9.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img9.jpg" alt="Image Description">
                         <a class="js-fancybox g-absolute-centered" href="javascript:;"
                             data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350" data-caption="Video">
                             <span
@@ -286,8 +280,7 @@
                     <!-- Fancybox Video -->
                     <div
                         class="u-shadow-v36 g-brd-around g-brd-4 g-brd-white g-brd-primary--hover rounded g-pos-rel g-transition-0_2">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img8.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img8.jpg" alt="Image Description">
                         <a class="js-fancybox g-absolute-centered" href="javascript:;"
                             data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350" data-caption="Video">
                             <span
@@ -330,7 +323,7 @@
         <!-- End Video Blocks -->
 
         <!-- Call to Action -->
-        <div class="g-bg-img-hero" style="background-image: url(assets/include/svg/svg-bg1.svg);">
+        <div class="g-bg-img-hero" style="background-image: url(web/assets/include/svg/svg-bg1.svg);">
             <div class="container g-pt-60 g-pb-30">
                 <div class="row justify-content-lg-center align-items-md-center">
                     <div class="col-md-9 col-lg-7 g-mb-30">
@@ -455,11 +448,11 @@
                         data-arrow-left-classes="fa fa-angle-left g-left-0"
                         data-arrow-right-classes="fa fa-angle-right g-right-0">
                         <div class="js-slide g-min-height-50vh g-bg-size-cover g-bg-pos-top-center"
-                            data-bg-img-src="education/assets/img-temp/600x350/img12.jpg"></div>
+                            data-bg-img-src="web/assets/img-temp/600x350/img12.jpg"></div>
                         <div class="js-slide g-min-height-50vh g-bg-size-cover g-bg-pos-top-center"
-                            data-bg-img-src="education/assets/img-temp/600x350/img14.jpg"></div>
+                            data-bg-img-src="web/assets/img-temp/600x350/img14.jpg"></div>
                         <div class="js-slide g-min-height-50vh g-bg-size-cover g-bg-pos-top-center"
-                            data-bg-img-src="education/assets/img-temp/600x350/img15.jpg"></div>
+                            data-bg-img-src="web/assets/img-temp/600x350/img15.jpg"></div>
                     </div>
                     <!-- End Carousel - Image -->
                 </div>
@@ -688,30 +681,30 @@
     </main>
 
     <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="web/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="web/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="web/assets/vendor/popper.js/popper.min.js"></script>
+    <script src="web/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-    <script src="assets/vendor/hs-bg-video/hs-bg-video.js"></script>
-    <script src="assets/vendor/hs-bg-video/vendor/player.min.js"></script>
-    <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script src="web/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="web/assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="web/assets/vendor/hs-bg-video/hs-bg-video.js"></script>
+    <script src="web/assets/vendor/hs-bg-video/vendor/player.min.js"></script>
+    <script src="web/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 
     <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.dropdown.js"></script>
-    <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/helpers/hs.bg-video.js"></script>
-    <script src="assets/js/components/hs.popup.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
+    <script src="web/assets/js/hs.core.js"></script>
+    <script src="web/assets/js/components/hs.header.js"></script>
+    <script src="web/assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="web/assets/js/components/hs.dropdown.js"></script>
+    <script src="web/assets/js/components/hs.carousel.js"></script>
+    <script src="web/assets/js/helpers/hs.bg-video.js"></script>
+    <script src="web/assets/js/components/hs.popup.js"></script>
+    <script src="web/assets/js/components/hs.go-to.js"></script>
 
     <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
+    <script src="web/assets/js/custom.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>

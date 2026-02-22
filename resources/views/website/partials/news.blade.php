@@ -33,7 +33,7 @@
 
              <!-- News -->
              <div class="js-slide u-shadow-v38 g-bg-size-cover g-bg-pos-center rounded g-mx-15 g-my-30"
-                 style="background-image: url(education/assets/img-temp/400x500/img1.jpg);">
+                 style="background-image: url(web/assets/img-temp/400x500/img1.jpg);">
                  <article class="align-self-end text-center g-pos-rel g-z-index-1 g-pa-40 mx-auto">
                      <h3 class="g-color-white">Unify University announces a new student award in honour of
                          Fashion</h3>
@@ -41,7 +41,7 @@
                          <span class="d-block g-color-white g-font-size-16 mb-2">Neyton Burchie</span>
                          <div class="d-inline-block g-width-40 g-height-40">
                              <img class="img-fluid g-brd-around g-brd-2 g-brd-primary-opacity-0_1 rounded-circle"
-                                 src="education/assets/img-temp/100x100/img3.jpg" alt="Image Description">
+                                 src="web/assets/img-temp/100x100/img3.jpg" alt="Image Description">
                          </div>
                      </div>
                      <a class="u-link-v2" href="page-blog-single-item-1.html"></a>
@@ -60,7 +60,7 @@
                          <span class="d-block g-color-text-light-v1 g-font-size-16 mb-2">Keith Margaret</span>
                          <div class="d-inline-block g-width-40 g-height-40">
                              <img class="img-fluid g-brd-around g-brd-2 g-brd-primary-opacity-0_1 rounded-circle"
-                                 src="education/assets/img-temp/100x100/img2.jpg" alt="Image Description">
+                                 src="web/assets/img-temp/100x100/img2.jpg" alt="Image Description">
                          </div>
                      </div>
                      <a class="btn btn-block g-color-primary g-color-white--hover g-bg-primary-opacity-0_1 g-bg-primary--hover g-rounded-20 g-py-10"
@@ -71,7 +71,7 @@
 
              <!-- News -->
              <div class="js-slide u-shadow-v38 g-bg-size-cover g-bg-pos-center rounded g-mx-15 g-my-30"
-                 style="background-image: url(education/assets/img-temp/400x500/img3.jpg);">
+                 style="background-image: url(web/assets/img-temp/400x500/img3.jpg);">
                  <article class="align-self-end text-center g-pos-rel g-z-index-1 g-pa-40 mx-auto">
                      <h3 class="g-color-white">The Fashion Gallery of Unify welcomes downtown to the future of
                          Ontario.</h3>
@@ -79,7 +79,7 @@
                          <span class="d-block g-color-white g-font-size-16 mb-2">Tina Krueger</span>
                          <div class="d-inline-block g-width-40 g-height-40">
                              <img class="img-fluid g-brd-around g-brd-2 g-brd-primary-opacity-0_1 rounded-circle"
-                                 src="education/assets/img-temp/100x100/img5.jpg" alt="Image Description">
+                                 src="web/assets/img-temp/100x100/img5.jpg" alt="Image Description">
                          </div>
                      </div>
                      <a class="u-link-v2" href="page-blog-single-item-1.html"></a>
@@ -98,7 +98,7 @@
                          <span class="d-block g-color-text-light-v1 g-font-size-16 mb-2">Neyton Burchie</span>
                          <div class="d-inline-block g-width-40 g-height-40">
                              <img class="img-fluid g-brd-around g-brd-2 g-brd-primary-opacity-0_1 rounded-circle"
-                                 src="education/assets/img-temp/100x100/img3.jpg" alt="Image Description">
+                                 src="web/assets/img-temp/100x100/img3.jpg" alt="Image Description">
                          </div>
                      </div>
                      <a class="btn btn-block g-color-primary g-color-white--hover g-bg-primary-opacity-0_1 g-bg-primary--hover g-rounded-20 g-py-10"
@@ -109,7 +109,7 @@
 
              <!-- News -->
              <div class="js-slide u-shadow-v38 g-bg-size-cover g-bg-pos-center rounded g-mx-15 g-my-30"
-                 style="background-image: url(education/assets/img-temp/400x500/img2.jpg);">
+                 style="background-image: url(web/assets/img-temp/400x500/img2.jpg);">
                  <article class="align-self-end text-center g-pos-rel g-z-index-1 g-pa-40 mx-auto">
                      <h3 class="g-color-white">University of Unify joins new network to drive defence research
                      </h3>
@@ -117,7 +117,7 @@
                          <span class="d-block g-color-white g-font-size-16 mb-2">Liza Nelson</span>
                          <div class="d-inline-block g-width-40 g-height-40">
                              <img class="img-fluid g-brd-around g-brd-2 g-brd-primary-opacity-0_1 rounded-circle"
-                                 src="education/assets/img-temp/100x100/img4.jpg" alt="Image Description">
+                                 src="web/assets/img-temp/100x100/img4.jpg" alt="Image Description">
                          </div>
                      </div>
                      <a class="u-link-v2" href="page-blog-single-item-1.html"></a>

@@ -8,7 +8,7 @@ use RecursiveDirectoryIterator;
 
 class RenameHtmlToBlade extends Command
 {
-    protected $signature = 'cp:blade {path=resources/views/unify/features/sliders/master-slider}';
+    protected $signature = 'cp:blade {path=resources/views/admin}';
     protected $description = 'Convert all .html files (recursive) to .blade.php in given folder';
 
     public function handle()

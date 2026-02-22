@@ -16,7 +16,7 @@
 
             <!-- Carousel Slides -->
             <div class="js-slide h-100 g-flex-centered g-bg-img-hero g-bg-cover g-bg-black-opacity-0_3--after"
-                style="background-image: url(education/assets/img-temp/1920x1080/img5.jpg);">
+                style="background-image: url(web/assets/img-temp/1920x1080/img5.jpg);">
                 <div class="container">
                     <div class="g-max-width-600 g-pos-rel g-z-index-1">
                         <a class="d-block g-text-underline--none--hover" href="#">
@@ -46,7 +46,7 @@
 
             <!-- Carousel Slides -->
             <div class="js-slide h-100 g-flex-centered g-bg-img-hero g-bg-cover g-bg-black-opacity-0_2--after"
-                style="background-image: url(education/assets/img-temp/1920x1080/img6.jpg);">
+                style="background-image: url(web/assets/img-temp/1920x1080/img6.jpg);">
                 <div class="container">
                     <div class="g-max-width-600 g-pos-rel g-z-index-1">
                         <a class="d-block g-text-underline--none--hover" href="#">
@@ -75,7 +75,7 @@
 
             <!-- Carousel Slides -->
             <div class="js-slide h-100 g-flex-centered g-bg-img-hero g-bg-pos-top-center g-bg-cover g-bg-black-opacity-0_3--after"
-                style="background-image: url(education/assets/img-temp/1920x1080/img7.jpg);">
+                style="background-image: url(web/assets/img-temp/1920x1080/img7.jpg);">
                 <div class="container">
                     <div class="g-max-width-600 g-pos-rel g-z-index-1">
                         <a class="d-block g-text-underline--none--hover" href="#">
@@ -263,7 +263,7 @@
                     <div class="col-lg-7 order-lg-2 g-mb-50">
                         <div class="g-pos-rel g-pl-15--lg">
                             <img class="img-fluid w-100 u-shadow-v19 g-brd-around g-brd-7 g-brd-secondary rounded"
-                                src="education/assets/img-temp/600x400/img1.jpg" alt="Image Description">
+                                src="web/assets/img-temp/600x400/img1.jpg" alt="Image Description">
 
                             <!-- Video Button -->
                             <div class="g-absolute-centered--y g-left-0 g-right-0 text-center mx-auto">
@@ -296,7 +296,7 @@
                             <div class="d-flex mr-3">
                                 <div class="g-width-40 g-height-40">
                                     <img class="img-fluid g-brd-around g-brd-2 g-brd-white rounded-circle"
-                                        src="education/assets/img-temp/100x100/img1.jpg" alt="Image Description">
+                                        src="web/assets/img-temp/100x100/img1.jpg" alt="Image Description">
                                 </div>
                             </div>
                             <div class="media-body">
@@ -525,7 +525,7 @@
                         <div class="row justify-content-lg-center g-mb-20">
                             <div class="col-md-3 col-lg-2 g-mb-20">
                                 <img class="img-fluid u-shadow-v36 rounded-circle mx-auto"
-                                    src="education/assets/img-temp/200x200/img3.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/200x200/img3.jpg" alt="Image Description">
                             </div>
 
                             <div class="col-md-9 col-lg-8 g-mb-20">
@@ -563,7 +563,7 @@
                         <div class="row justify-content-lg-center g-mb-20">
                             <div class="col-md-3 col-lg-2 g-mb-20">
                                 <img class="img-fluid u-shadow-v36 rounded-circle mx-auto"
-                                    src="education/assets/img-temp/200x200/img1.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/200x200/img1.jpg" alt="Image Description">
                             </div>
 
                             <div class="col-md-9 col-lg-8 g-mb-20">
@@ -601,7 +601,7 @@
                         <div class="row justify-content-lg-center g-mb-20">
                             <div class="col-md-3 col-lg-2 g-mb-20">
                                 <img class="img-fluid u-shadow-v36 rounded-circle mx-auto"
-                                    src="education/assets/img-temp/200x200/img2.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/200x200/img2.jpg" alt="Image Description">
                             </div>
 
                             <div class="col-md-9 col-lg-8 g-mb-20">
@@ -640,7 +640,7 @@
                         <div class="row justify-content-lg-center g-mb-20">
                             <div class="col-md-3 col-lg-2 g-mb-20">
                                 <img class="img-fluid u-shadow-v36 rounded-circle mx-auto"
-                                    src="education/assets/img-temp/200x200/img4.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/200x200/img4.jpg" alt="Image Description">
                             </div>
 
                             <div class="col-md-9 col-lg-8 g-mb-20">

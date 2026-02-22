@@ -35,10 +35,10 @@
                 <!-- Logo -->
                 <a class="navbar-brand g-max-width-170 g-max-width-200--lg"
                     href="{{ route('navbar.page', ['page' => 'index']) }}">
-                    <img class="img-fluid g-hidden-lg-down" src="education/assets/img/logo/logo.png" alt="Logo">
+                    <img class="img-fluid g-hidden-lg-down" src="web/assets/img/logo/logo.png" alt="Logo">
                     <img class="img-fluid g-width-80 g-hidden-md-down g-hidden-xl-up"
-                        src="education/assets/img/logo/logo-mini.png" alt="Logo">
-                    <img class="img-fluid g-hidden-lg-up" src="education/assets/img/logo/logo.png" alt="Logo">
+                        src="web/assets/img/logo/logo-mini.png" alt="Logo">
+                    <img class="img-fluid g-hidden-lg-up" src="web/assets/img/logo/logo.png" alt="Logo">
                 </a>
                 <!-- End Logo -->
 

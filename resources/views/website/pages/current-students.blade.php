@@ -14,29 +14,29 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="web/assets/img/favicon.ico">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400" rel="stylesheet">
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/bootstrap/bootstrap.min.css">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-material/material-icons.css">
-    <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-line-pro/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-material/material-icons.css">
+    <link rel="stylesheet" href="web/assets/vendor/animate.css">
+    <link rel="stylesheet" href="web/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="web/assets/vendor/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Unify Theme -->
-    <link rel="stylesheet" href="education/assets/css/styles.multipage-education.css">
+    <link rel="stylesheet" href="web/assets/css/styles.multipage-education.css">
 
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="web/assets/css/custom.css">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
         <!-- End Header -->
 
         <!-- Promo Block -->
-        <div class="g-bg-img-hero g-pos-rel" style="background-image: url(assets/img/bg/bg-img1.png);">
+        <div class="g-bg-img-hero g-pos-rel" style="background-image: url(web/assets/img/bg/bg-img1.png);">
             <div class="container g-pt-100">
                 <div class="row justify-content-lg-between">
                     <div class="col-lg-4 g-pt-50--lg">
@@ -62,7 +62,7 @@
 
                     <div class="col-lg-8 align-self-end">
                         <div class="u-shadow-v40 g-brd-around g-brd-7 g-brd-secondary rounded">
-                            <img class="img-fluid rounded" src="education/assets/img-temp/900x600/img1.jpg"
+                            <img class="img-fluid rounded" src="web/assets/img-temp/900x600/img1.jpg"
                                 alt="Image Description">
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                                 <div class="g-overflow-hidden">
                                     <a class="u-block-hover g-text-underline--none--hover" href="#">
                                         <img class="img-fluid u-block-hover__main--zoom-v1"
-                                            src="education/assets/include/svg/svg-system-login1.svg"
+                                            src="web/assets/include/svg/svg-system-login1.svg"
                                             align="Image Description">
                                     </a>
                                 </div>
@@ -265,7 +265,7 @@
         <!-- End About Current Students -->
 
         <!-- More Links -->
-        <div class="g-bg-img-hero" style="background-image: url(assets/include/svg/svg-bg1.svg);">
+        <div class="g-bg-img-hero" style="background-image: url(web/assets/include/svg/svg-bg1.svg);">
             <div class="container g-py-100">
                 <!-- Heading -->
                 <div class="g-max-width-645 text-center mx-auto g-mb-60">
@@ -418,7 +418,7 @@
                         <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
                             <div class="g-width-150 g-height-150 mx-auto mb-4">
                                 <img class="img-fluid u-info-v11-1-img rounded-circle"
-                                    src="education/assets/img-temp/150x150/img1.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/150x150/img1.jpg" alt="Image Description">
                             </div>
                             <div class="mb-5">
                                 <h3 class="mb-3">Semester 2 Student Services and Amenities Fee (SSAF)</h3>
@@ -436,7 +436,7 @@
                         <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
                             <div class="g-width-150 g-height-150 mx-auto mb-4">
                                 <img class="img-fluid u-info-v11-1-img rounded-circle"
-                                    src="education/assets/img-temp/150x150/img5.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/150x150/img5.jpg" alt="Image Description">
                             </div>
                             <div class="mb-5">
                                 <h3 class="mb-3">New undergraduate curriculum</h3>
@@ -454,7 +454,7 @@
                         <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
                             <div class="g-width-150 g-height-150 mx-auto mb-4">
                                 <img class="img-fluid u-info-v11-1-img rounded-circle"
-                                    src="education/assets/img-temp/150x150/img3.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/150x150/img3.jpg" alt="Image Description">
                             </div>
                             <div class="mb-5">
                                 <h3 class="mb-3">Unify Uni Alert is now live</h3>
@@ -472,7 +472,7 @@
                         <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
                             <div class="g-width-150 g-height-150 mx-auto mb-4">
                                 <img class="img-fluid u-info-v11-1-img rounded-circle"
-                                    src="education/assets/img-temp/150x150/img4.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/150x150/img4.jpg" alt="Image Description">
                             </div>
                             <div class="mb-5">
                                 <h3 class="mb-3">Semester 2 exam timetables</h3>
@@ -490,7 +490,7 @@
                         <div class="u-info-v11-1 g-bg-white text-center rounded g-px-40 g-py-50">
                             <div class="g-width-150 g-height-150 mx-auto mb-4">
                                 <img class="img-fluid u-info-v11-1-img rounded-circle"
-                                    src="education/assets/img-temp/150x150/img2.jpg" alt="Image Description">
+                                    src="web/assets/img-temp/150x150/img2.jpg" alt="Image Description">
                             </div>
                             <div class="mb-5">
                                 <h3 class="mb-3">University Health Service</h3>
@@ -729,25 +729,25 @@
     </main>
 
     <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="web/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="web/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="web/assets/vendor/popper.js/popper.min.js"></script>
+    <script src="web/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="web/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="web/assets/vendor/slick-carousel/slick/slick.js"></script>
 
     <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.dropdown.js"></script>
-    <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
+    <script src="web/assets/js/hs.core.js"></script>
+    <script src="web/assets/js/components/hs.header.js"></script>
+    <script src="web/assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="web/assets/js/components/hs.dropdown.js"></script>
+    <script src="web/assets/js/components/hs.carousel.js"></script>
+    <script src="web/assets/js/components/hs.go-to.js"></script>
 
     <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
+    <script src="web/assets/js/custom.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>

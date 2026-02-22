@@ -14,30 +14,30 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="web/assets/img/favicon.ico">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400" rel="stylesheet">
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/bootstrap/bootstrap.min.css">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-material/material-icons.css">
-    <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-line-pro/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-material/material-icons.css">
+    <link rel="stylesheet" href="web/assets/vendor/animate.css">
+    <link rel="stylesheet" href="web/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="web/assets/vendor/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="web/assets/vendor/fancybox/jquery.fancybox.css">
 
     <!-- CSS Unify Theme -->
-    <link rel="stylesheet" href="education/assets/css/styles.multipage-education.css">
+    <link rel="stylesheet" href="web/assets/css/styles.multipage-education.css">
 
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="web/assets/css/custom.css">
 </head>
 
 <body>
@@ -50,7 +50,7 @@
         <div class="container g-pt-20">
             <div class="u-shadow-v34 g-brd-around g-brd-12 g-brd-white rounded g-pos-rel g-z-index-1">
                 <div class="g-min-height-70vh g-flex-centered g-bg-img-hero rounded"
-                    style="background-image: url(education/assets/img-temp/1200x800/img1.jpg);">
+                    style="background-image: url(web/assets/img-temp/1200x800/img1.jpg);">
                     <div class="w-100 g-pos-abs g-bottom-0 g-left-0 g-z-index-1">
                         <div class="g-bg-white g-pos-rel g-px-30 g-pt-30 g-pt-0--md g-pb-15">
                             <h1><a class="h1 u-link-v5 g-color-main g-color-primary--hover g-font-size-45--md"
@@ -153,7 +153,7 @@
         <!-- End Faculty Links -->
 
         <!-- Call to Action -->
-        <div class="u-shadow-v35 g-bg-img-hero" style="background-image: url(assets/include/svg/svg-bg1.svg);">
+        <div class="u-shadow-v35 g-bg-img-hero" style="background-image: url(web/assets/include/svg/svg-bg1.svg);">
             <div class="container g-pt-100 g-py-70">
                 <div class="row align-items-md-center">
                     <div class="col-md-3 g-mb-30">
@@ -180,7 +180,7 @@
         <div class="container g-py-100">
             <div class="row justify-content-lg-between align-items-center">
                 <div class="col-md-6">
-                    <img class="img-fluid" src="education/assets/img-temp/900x700/img1.jpg" alt="Image Description">
+                    <img class="img-fluid" src="web/assets/img-temp/900x700/img1.jpg" alt="Image Description">
                 </div>
 
                 <div class="col-md-5 g-mb-50 g-mb-0--md">
@@ -202,7 +202,7 @@
         <div class="container g-pb-100">
             <div class="row justify-content-lg-between align-items-center">
                 <div class="col-md-6 order-md-2">
-                    <img class="img-fluid" src="education/assets/img-temp/900x700/img3.jpg" alt="Image Description">
+                    <img class="img-fluid" src="web/assets/img-temp/900x700/img3.jpg" alt="Image Description">
                 </div>
 
                 <div class="col-md-5 order-md-1 g-mb-50 g-mb-0--md">
@@ -257,7 +257,7 @@
                 <div class="js-slide u-block-hover g-pb-10 g-mx-15">
                     <div class="g-overflow-hidden">
                         <img class="img-fluid w-100 u-block-hover__main--zoom-v1 g-transition-0_5"
-                            src="education/assets/img-temp/400x500/img4.jpg" alt="Image Description">
+                            src="web/assets/img-temp/400x500/img4.jpg" alt="Image Description">
                     </div>
                     <div class="u-shadow-v32 g-bg-white g-pa-30">
                         <h3 class="h3 g-font-weight-500 mb-1">Alex Teseira</h3>
@@ -272,7 +272,7 @@
                 <div class="js-slide u-block-hover g-pb-10 g-mx-15">
                     <div class="g-overflow-hidden">
                         <img class="img-fluid w-100 u-block-hover__main--zoom-v1 g-transition-0_5"
-                            src="education/assets/img-temp/400x500/img5.jpg" alt="Image Description">
+                            src="web/assets/img-temp/400x500/img5.jpg" alt="Image Description">
                     </div>
                     <div class="u-shadow-v32 g-bg-white g-pa-30">
                         <h3 class="h3 g-font-weight-500 mb-1">Marina Rubapa</h3>
@@ -287,7 +287,7 @@
                 <div class="js-slide u-block-hover g-pb-10 g-mx-15">
                     <div class="g-overflow-hidden">
                         <img class="img-fluid w-100 u-block-hover__main--zoom-v1 g-transition-0_5"
-                            src="education/assets/img-temp/400x500/img6.jpg" alt="Image Description">
+                            src="web/assets/img-temp/400x500/img6.jpg" alt="Image Description">
                     </div>
                     <div class="u-shadow-v32 g-bg-white g-pa-30">
                         <h3 class="h3 g-font-weight-500 mb-1">John Smith</h3>
@@ -301,7 +301,7 @@
                 <div class="js-slide u-block-hover g-pb-10 g-mx-15">
                     <div class="g-overflow-hidden">
                         <img class="img-fluid w-100 u-block-hover__main--zoom-v1 g-transition-0_5"
-                            src="education/assets/img-temp/400x500/img7.jpg" alt="Image Description">
+                            src="web/assets/img-temp/400x500/img7.jpg" alt="Image Description">
                     </div>
                     <div class="u-shadow-v32 g-bg-white g-pa-30">
                         <h3 class="h3 g-font-weight-500 mb-1">Samantha Fox</h3>
@@ -316,7 +316,7 @@
                 <div class="js-slide u-block-hover g-pb-10 g-mx-15">
                     <div class="g-overflow-hidden">
                         <img class="img-fluid w-100 u-block-hover__main--zoom-v1 g-transition-0_5"
-                            src="education/assets/img-temp/400x500/img8.jpg" alt="Image Description">
+                            src="web/assets/img-temp/400x500/img8.jpg" alt="Image Description">
                     </div>
                     <div class="u-shadow-v32 g-bg-white g-pa-30">
                         <h3 class="h3 g-font-weight-500 mb-1">James Novel</h3>
@@ -330,7 +330,7 @@
                 <div class="js-slide u-block-hover g-pb-10 g-mx-15">
                     <div class="g-overflow-hidden">
                         <img class="img-fluid w-100 u-block-hover__main--zoom-v1 g-transition-0_5"
-                            src="education/assets/img-temp/400x500/img9.jpg" alt="Image Description">
+                            src="web/assets/img-temp/400x500/img9.jpg" alt="Image Description">
                     </div>
                     <div class="u-shadow-v32 g-bg-white g-pa-30">
                         <h3 class="h3 g-font-weight-500 mb-1">George Freeman</h3>
@@ -344,7 +344,7 @@
                 <div class="js-slide u-block-hover g-pb-10 g-mx-15">
                     <div class="g-overflow-hidden">
                         <img class="img-fluid w-100 u-block-hover__main--zoom-v1 g-transition-0_5"
-                            src="education/assets/img-temp/400x500/img10.jpg" alt="Image Description">
+                            src="web/assets/img-temp/400x500/img10.jpg" alt="Image Description">
                     </div>
                     <div class="u-shadow-v32 g-bg-white g-pa-30">
                         <h3 class="h3 g-font-weight-500 mb-1">Leyla Olsson</h3>
@@ -368,8 +368,7 @@
                     <!-- Fancybox Video -->
                     <div
                         class="u-shadow-v36 g-brd-around g-brd-7 g-brd-white g-brd-primary--hover rounded g-pos-rel g-transition-0_2">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img10.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img10.jpg" alt="Image Description">
                         <a class="js-fancybox g-absolute-centered" href="javascript:;"
                             data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350" data-caption="Video">
                             <span
@@ -384,8 +383,7 @@
                     <!-- Fancybox Video -->
                     <div
                         class="u-shadow-v36 g-brd-around g-brd-7 g-brd-white g-brd-primary--hover rounded g-pos-rel g-transition-0_2">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img11.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img11.jpg" alt="Image Description">
                         <a class="js-fancybox g-absolute-centered" href="javascript:;"
                             data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350" data-caption="Video">
                             <span
@@ -400,8 +398,7 @@
                     <!-- Fancybox Video -->
                     <div
                         class="u-shadow-v36 g-brd-around g-brd-7 g-brd-white g-brd-primary--hover rounded g-pos-rel g-transition-0_2">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img9.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img9.jpg" alt="Image Description">
                         <a class="js-fancybox g-absolute-centered" href="javascript:;"
                             data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350" data-caption="Video">
                             <span
@@ -416,8 +413,7 @@
                     <!-- Fancybox Video -->
                     <div
                         class="u-shadow-v36 g-brd-around g-brd-7 g-brd-white g-brd-primary--hover rounded g-pos-rel g-transition-0_2">
-                        <img class="img-fluid" src="education/assets/img-temp/600x350/img8.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid" src="web/assets/img-temp/600x350/img8.jpg" alt="Image Description">
                         <a class="js-fancybox g-absolute-centered" href="javascript:;"
                             data-src="//www.youtube.com/watch?v=FxiskmF16gU" data-speed="350" data-caption="Video">
                             <span
@@ -680,27 +676,27 @@
     </main>
 
     <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="web/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="web/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="web/assets/vendor/popper.js/popper.min.js"></script>
+    <script src="web/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-    <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script src="web/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="web/assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="web/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 
     <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.dropdown.js"></script>
-    <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/components/hs.popup.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
+    <script src="web/assets/js/hs.core.js"></script>
+    <script src="web/assets/js/components/hs.header.js"></script>
+    <script src="web/assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="web/assets/js/components/hs.dropdown.js"></script>
+    <script src="web/assets/js/components/hs.carousel.js"></script>
+    <script src="web/assets/js/components/hs.popup.js"></script>
+    <script src="web/assets/js/components/hs.go-to.js"></script>
 
     <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
+    <script src="web/assets/js/custom.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>

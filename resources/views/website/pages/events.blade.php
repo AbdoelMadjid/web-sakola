@@ -14,30 +14,30 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="web/assets/img/favicon.ico">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,700%7CAlegreya:400" rel="stylesheet">
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/bootstrap/bootstrap.min.css">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-material/material-icons.css">
-    <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
-    <link rel="stylesheet" href="assets/vendor/chosen/chosen.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-line-pro/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="web/assets/vendor/icon-material/material-icons.css">
+    <link rel="stylesheet" href="web/assets/vendor/animate.css">
+    <link rel="stylesheet" href="web/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="web/assets/vendor/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="web/assets/vendor/chosen/chosen.css">
 
     <!-- CSS Unify Theme -->
-    <link rel="stylesheet" href="education/assets/css/styles.multipage-education.css">
+    <link rel="stylesheet" href="web/assets/css/styles.multipage-education.css">
 
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="web/assets/css/custom.css">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
 
         <!-- Promo Block -->
         <div class="g-bg-img-hero g-bg-cover g-bg-black-opacity-0_3--after"
-            style="background-image: url(education/assets/img-temp/1920x1080/img4.jpg);">
+            style="background-image: url(web/assets/img-temp/1920x1080/img4.jpg);">
             <div class="container g-pos-rel g-z-index-1 g-pt-80 g-pb-150">
                 <div class="row justify-content-lg-between align-items-md-center">
                     <div class="col-md-6 col-lg-5 g-mb-30">
@@ -100,7 +100,7 @@
 
         <!-- Find a Course -->
         <div class="g-bg-img-hero g-bg-pos-top-center g-pos-rel g-z-index-1 g-mt-minus-150"
-            style="background-image: url(education/assets/include/svg/svg-bg4.svg);">
+            style="background-image: url(web/assets/include/svg/svg-bg4.svg);">
             <div class="container g-pt-150 g-pb-30">
                 <!-- Heading -->
                 <div class="g-max-width-645 text-center mx-auto g-mb-60">
@@ -261,7 +261,7 @@
                     <!-- Event Block -->
                     <article class="u-block-hover u-shadow-v38">
                         <div class="g-min-height-300 g-bg-img-hero g-bg-cover g-bg-white-gradient-opacity-v1--after g-pos-rel"
-                            style="background-image: url(education/assets/img-temp/400x500/img11.jpg);">
+                            style="background-image: url(web/assets/img-temp/400x500/img11.jpg);">
                             <div class="g-pos-abs g-bottom-0 g-left-0 g-right-0 g-z-index-1 g-pa-20">
                                 <div class="d-flex justify-content-between">
                                     <div class="mt-auto mb-2">
@@ -291,7 +291,7 @@
                     <!-- Event Block -->
                     <article class="u-block-hover u-shadow-v38">
                         <div class="g-min-height-300 g-bg-img-hero g-bg-cover g-bg-white-gradient-opacity-v1--after g-pos-rel"
-                            style="background-image: url(education/assets/img-temp/400x500/img12.jpg);">
+                            style="background-image: url(web/assets/img-temp/400x500/img12.jpg);">
                             <div class="g-pos-abs g-bottom-0 g-left-0 g-right-0 g-z-index-1 g-pa-20">
                                 <div class="d-flex justify-content-between">
                                     <div class="mt-auto mb-2">
@@ -321,7 +321,7 @@
                     <!-- Event Block -->
                     <article class="u-block-hover u-shadow-v38">
                         <div class="g-min-height-300 g-bg-img-hero g-bg-cover g-bg-white-gradient-opacity-v1--after g-pos-rel"
-                            style="background-image: url(education/assets/img-temp/400x500/img13.jpg);">
+                            style="background-image: url(web/assets/img-temp/400x500/img13.jpg);">
                             <div class="g-pos-abs g-bottom-0 g-left-0 g-right-0 g-z-index-1 g-pa-20">
                                 <div class="d-flex justify-content-between">
                                     <div class="mt-auto mb-2">
@@ -350,7 +350,7 @@
                     <!-- Event Block -->
                     <article class="u-block-hover u-shadow-v38">
                         <div class="g-min-height-300 g-bg-img-hero g-bg-cover g-bg-white-gradient-opacity-v1--after g-pos-rel"
-                            style="background-image: url(education/assets/img-temp/400x500/img14.jpg);">
+                            style="background-image: url(web/assets/img-temp/400x500/img14.jpg);">
                             <div class="g-pos-abs g-bottom-0 g-left-0 g-right-0 g-z-index-1 g-pa-20">
                                 <div class="d-flex justify-content-between">
                                     <div class="mt-auto mb-2">
@@ -391,7 +391,7 @@
 
                 <div class="col-md-6 col-lg-5 offset-lg-1">
                     <img class="img-fluid u-shadow-v39 g-brd-around g-brd-10 g-brd-white rounded"
-                        src="education/assets/img-temp/600x350/img17.jpg" alt="Image Description">
+                        src="web/assets/img-temp/600x350/img17.jpg" alt="Image Description">
                 </div>
             </div>
         </div>
@@ -406,7 +406,7 @@
                         <div class="row">
                             <div class="col-4">
                                 <div class="g-min-height-170 g-bg-img-hero"
-                                    style="background-image: url(education/assets/img-temp/200x200/img5.jpg);"></div>
+                                    style="background-image: url(web/assets/img-temp/200x200/img5.jpg);"></div>
                             </div>
 
                             <div class="col-8 g-min-height-170 g-flex-centered">
@@ -435,7 +435,7 @@
                         <div class="row">
                             <div class="col-4">
                                 <div class="g-min-height-170 g-bg-img-hero"
-                                    style="background-image: url(education/assets/img-temp/200x200/img6.jpg);"></div>
+                                    style="background-image: url(web/assets/img-temp/200x200/img6.jpg);"></div>
                             </div>
 
                             <div class="col-8 g-min-height-170 g-flex-centered">
@@ -466,7 +466,7 @@
                         <div class="row">
                             <div class="col-4">
                                 <div class="g-min-height-170 g-bg-img-hero"
-                                    style="background-image: url(education/assets/img-temp/200x200/img10.jpg);"></div>
+                                    style="background-image: url(web/assets/img-temp/200x200/img10.jpg);"></div>
                             </div>
 
                             <div class="col-8 g-min-height-170 g-flex-centered">
@@ -495,7 +495,7 @@
                         <div class="row">
                             <div class="col-4">
                                 <div class="g-min-height-170 g-bg-img-hero"
-                                    style="background-image: url(education/assets/img-temp/200x200/img9.jpg);"></div>
+                                    style="background-image: url(web/assets/img-temp/200x200/img9.jpg);"></div>
                             </div>
 
                             <div class="col-8 g-min-height-170 g-flex-centered">
@@ -525,7 +525,7 @@
                         <div class="row">
                             <div class="col-4">
                                 <div class="g-min-height-170 g-bg-img-hero"
-                                    style="background-image: url(education/assets/img-temp/200x200/img7.jpg);"></div>
+                                    style="background-image: url(web/assets/img-temp/200x200/img7.jpg);"></div>
                             </div>
 
                             <div class="col-8 g-min-height-170 g-flex-centered">
@@ -553,7 +553,7 @@
                         <div class="row">
                             <div class="col-4">
                                 <div class="g-min-height-170 g-bg-img-hero"
-                                    style="background-image: url(education/assets/img-temp/200x200/img8.jpg);"></div>
+                                    style="background-image: url(web/assets/img-temp/200x200/img8.jpg);"></div>
                             </div>
 
                             <div class="col-8 g-min-height-170 g-flex-centered">
@@ -799,27 +799,27 @@
     </main>
 
     <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="web/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="web/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="web/assets/vendor/popper.js/popper.min.js"></script>
+    <script src="web/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/jquery-ui/ui/widgets/datepicker.js"></script>
-    <script src="assets/vendor/chosen/chosen.jquery.js"></script>
+    <script src="web/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="web/assets/vendor/jquery-ui/ui/widgets/datepicker.js"></script>
+    <script src="web/assets/vendor/chosen/chosen.jquery.js"></script>
 
     <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.dropdown.js"></script>
-    <script src="assets/js/components/hs.datepicker.js"></script>
-    <script src="assets/js/components/hs.select.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
+    <script src="web/assets/js/hs.core.js"></script>
+    <script src="web/assets/js/components/hs.header.js"></script>
+    <script src="web/assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="web/assets/js/components/hs.dropdown.js"></script>
+    <script src="web/assets/js/components/hs.datepicker.js"></script>
+    <script src="web/assets/js/components/hs.select.js"></script>
+    <script src="web/assets/js/components/hs.go-to.js"></script>
 
     <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
+    <script src="web/assets/js/custom.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>
