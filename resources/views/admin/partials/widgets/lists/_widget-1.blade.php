@@ -10,8 +10,12 @@
             <!--begin::Menu-->
             <button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary"
                 data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                <i class="ki-duotone ki-category fs-6"><span class="path1"></span><span class="path2"></span><span
-                        class="path3"></span><span class="path4"></span></i> </button>
+                <i class="ki-duotone ki-category fs-6">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                    <span class="path3"></span>
+                    <span class="path4"></span>
+                </i> </button>
             <!--begin::Menu 1-->
             @include('admin.partials.menus._menu-1')
             <!--end::Menu 1-->
@@ -26,8 +30,10 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-50px me-5">
                 <span class="symbol-label bg-light-success">
-                    <i class="ki-duotone ki-abstract-26 fs-2x text-success"><span class="path1"></span><span
-                            class="path2"></span></i> </span>
+                    <i class="ki-duotone ki-abstract-26 fs-2x text-success">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i> </span>
             </div>
             <!--end::Symbol-->
             <!--begin::Text-->
@@ -43,8 +49,10 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-50px me-5">
                 <span class="symbol-label bg-light-warning">
-                    <i class="ki-duotone ki-pencil fs-2x text-warning"><span class="path1"></span><span
-                            class="path2"></span></i> </span>
+                    <i class="ki-duotone ki-pencil fs-2x text-warning">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i> </span>
             </div>
             <!--end::Symbol-->
             <!--begin::Text-->
@@ -60,8 +68,11 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-50px me-5">
                 <span class="symbol-label bg-light-primary">
-                    <i class="ki-duotone ki-message-text-2 fs-2x text-primary"><span class="path1"></span><span
-                            class="path2"></span><span class="path3"></span></i> </span>
+                    <i class="ki-duotone ki-message-text-2 fs-2x text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                        <span class="path3"></span>
+                    </i> </span>
             </div>
             <!--end::Symbol-->
             <!--begin::Text-->
@@ -77,9 +88,13 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-50px me-5">
                 <span class="symbol-label bg-light-danger">
-                    <i class="ki-duotone ki-disconnect fs-2x text-danger"><span class="path1"></span><span
-                            class="path2"></span><span class="path3"></span><span class="path4"></span><span
-                            class="path5"></span></i> </span>
+                    <i class="ki-duotone ki-disconnect fs-2x text-danger">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                        <span class="path3"></span>
+                        <span class="path4"></span>
+                        <span class="path5"></span>
+                    </i> </span>
             </div>
             <!--end::Symbol-->
             <!--begin::Text-->
@@ -95,8 +110,10 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-50px me-5">
                 <span class="symbol-label bg-light-info">
-                    <i class="ki-duotone ki-security-user fs-2x text-info"><span class="path1"></span><span
-                            class="path2"></span></i> </span>
+                    <i class="ki-duotone ki-security-user fs-2x text-info">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i> </span>
             </div>
             <!--end::Symbol-->
             <!--begin::Text-->

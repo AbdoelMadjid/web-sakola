@@ -69,7 +69,8 @@
                                     data-kt-stepper-action="previous">
                                     <i class="ki-duotone ki-arrow-left fs-3 me-1">
                                         <span class="path1"></span>
-                                        <span class="path2"></span> </i>Back
+                                        <span class="path2"></span>
+                                    </i>Back
                                 </button>
                             </div>
                             <!--end::Wrapper-->
@@ -79,7 +80,8 @@
                                     <span class="indicator-label">Submit
                                         <i class="ki-duotone ki-arrow-right fs-3 ms-2 me-0">
                                             <span class="path1"></span>
-                                            <span class="path2"></span> </i></span>
+                                            <span class="path2"></span>
+                                        </i></span>
                                     <span class="indicator-progress">Please wait...
                                         <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
                                 </button>

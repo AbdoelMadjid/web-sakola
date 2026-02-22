@@ -7,10 +7,10 @@
 @section('toolbar')
     @component('admin.layouts.partials._toolbar')
         @slot('li_1')
-            Apps
+            {{ __('menu.apps') }}
         @endslot
         @slot('li_2')
-            Chat
+            {{ __('menu.titles.Chat') }}
         @endslot
     @endcomponent
 @endsection
@@ -2230,7 +2230,8 @@
                                                     <!--end::Checkbox-->
                                                     <!--begin::Avatar-->
                                                     <div class="symbol symbol-35px symbol-circle">
-                                                        <img alt="Pic" src="admin/assets/media/avatars/300-13.jpg" />
+                                                        <img alt="Pic"
+                                                            src="admin/assets/media/avatars/300-13.jpg" />
                                                     </div>
                                                     <!--end::Avatar-->
                                                     <!--begin::Details-->
@@ -2323,7 +2324,8 @@
                                                     <!--end::Checkbox-->
                                                     <!--begin::Avatar-->
                                                     <div class="symbol symbol-35px symbol-circle">
-                                                        <img alt="Pic" src="admin/assets/media/avatars/300-21.jpg" />
+                                                        <img alt="Pic"
+                                                            src="admin/assets/media/avatars/300-21.jpg" />
                                                     </div>
                                                     <!--end::Avatar-->
                                                     <!--begin::Details-->
@@ -2467,5 +2469,3 @@
     <script src="admin/assets/js/custom/utilities/modals/users-search.js"></script>
     <!--end::Custom Javascript-->
 @endsection
-
-

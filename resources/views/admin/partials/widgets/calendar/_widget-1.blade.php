@@ -36,7 +36,10 @@
                     <!--end::Modal title-->
                     <!--begin::Close-->
                     <div class="btn btn-icon btn-sm btn-active-icon-primary" id="kt_modal_add_event_close">
-                        <i class="ki-duotone ki-cross fs-1"><span class="path1"></span><span class="path2"></span></i>
+                        <i class="ki-duotone ki-cross fs-1">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                        </i>
                     </div>
                     <!--end::Close-->
                 </div>
@@ -180,21 +183,32 @@
                 <div class="btn btn-icon btn-sm btn-color-gray-500 btn-active-icon-primary me-2"
                     data-bs-toggle="tooltip" data-bs-dismiss="click" title="Edit Event"
                     id="kt_modal_view_event_edit">
-                    <i class="ki-duotone ki-pencil fs-2"><span class="path1"></span><span class="path2"></span></i>
+                    <i class="ki-duotone ki-pencil fs-2">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </div>
                 <!--end::Edit-->
                 <!--begin::Edit-->
                 <div class="btn btn-icon btn-sm btn-color-gray-500 btn-active-icon-danger me-2"
                     data-bs-toggle="tooltip" data-bs-dismiss="click" title="Delete Event"
                     id="kt_modal_view_event_delete">
-                    <i class="ki-duotone ki-trash fs-2"><span class="path1"></span><span class="path2"></span><span
-                            class="path3"></span><span class="path4"></span><span class="path5"></span></i>
+                    <i class="ki-duotone ki-trash fs-2">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                        <span class="path3"></span>
+                        <span class="path4"></span>
+                        <span class="path5"></span>
+                    </i>
                 </div>
                 <!--end::Edit-->
                 <!--begin::Close-->
                 <div class="btn btn-icon btn-sm btn-color-gray-500 btn-active-icon-primary" data-bs-dismiss="modal"
                     data-bs-toggle="tooltip" data-bs-dismiss="click" title="Hide Event" data-bs-dismiss="modal">
-                    <i class="ki-duotone ki-cross fs-2x"><span class="path1"></span><span class="path2"></span></i>
+                    <i class="ki-duotone ki-cross fs-2x">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </div>
                 <!--end::Close-->
             </div>
@@ -204,9 +218,14 @@
                 <!--begin::Row-->
                 <div class="d-flex">
                     <!--begin::Icon-->
-                    <i class="ki-duotone ki-calendar-8 fs-1 text-muted me-5"><span class="path1"></span><span
-                            class="path2"></span><span class="path3"></span><span class="path4"></span><span
-                            class="path5"></span><span class="path6"></span></i> <!--end::Icon-->
+                    <i class="ki-duotone ki-calendar-8 fs-1 text-muted me-5">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                        <span class="path3"></span>
+                        <span class="path4"></span>
+                        <span class="path5"></span>
+                        <span class="path6"></span>
+                    </i> <!--end::Icon-->
                     <div class="mb-9">
                         <!--begin::Event name-->
                         <div class="d-flex align-items-center mb-2">
@@ -245,8 +264,10 @@
                 <!--begin::Row-->
                 <div class="d-flex align-items-center">
                     <!--begin::Icon-->
-                    <i class="ki-duotone ki-geolocation fs-1 text-muted me-5"><span class="path1"></span><span
-                            class="path2"></span></i> <!--end::Icon-->
+                    <i class="ki-duotone ki-geolocation fs-1 text-muted me-5">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i> <!--end::Icon-->
                     <!--begin::Event location-->
                     <div class="fs-6" data-kt-calendar="event_location"></div>
                     <!--end::Event location-->

@@ -1,5 +1,4 @@
 @extends('admin.layouts.index')
-@section('title', 'Default Dashboard')
 @section('styles')
     <!--begin::Vendor Stylesheets(used for this page only)-->
     <link href="admin/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />

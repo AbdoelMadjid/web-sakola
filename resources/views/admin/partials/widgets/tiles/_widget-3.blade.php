@@ -12,8 +12,10 @@
         <a href='#' class="text-warning fw-semibold" data-bs-toggle="modal"
             data-bs-target="#kt_modal_create_campaign">
             Create Report
-            <i class="ki-duotone ki-arrow-right fs-2 text-warning"><span class="path1"></span><span
-                    class="path2"></span></i>
+            <i class="ki-duotone ki-arrow-right fs-2 text-warning">
+                <span class="path1"></span>
+                <span class="path2"></span>
+            </i>
         </a>
         <!--end::Link-->
     </div>

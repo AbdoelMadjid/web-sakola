@@ -14,8 +14,10 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-laptop fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span></i>
+                    <i class="ki-duotone ki-laptop fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->
@@ -32,8 +34,12 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-chart-simple fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+                    <i class="ki-duotone ki-chart-simple fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                        <span class="path3"></span>
+                        <span class="path4"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->
@@ -51,8 +57,10 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-chart fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span></i>
+                    <i class="ki-duotone ki-chart fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->
@@ -70,8 +78,10 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-chart-line-down fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span></i>
+                    <i class="ki-duotone ki-chart-line-down fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->
@@ -88,8 +98,10 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-sms fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span></i>
+                    <i class="ki-duotone ki-sms fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->
@@ -106,8 +118,10 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-bank fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span></i>
+                    <i class="ki-duotone ki-bank fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->
@@ -124,8 +138,10 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-chart-line-down fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span></i>
+                    <i class="ki-duotone ki-chart-line-down fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->

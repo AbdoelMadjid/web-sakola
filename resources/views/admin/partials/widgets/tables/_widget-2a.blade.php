@@ -10,8 +10,12 @@
             <!--begin::Menu-->
             <button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary"
                 data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                <i class="ki-duotone ki-category fs-6"><span class="path1"></span><span class="path2"></span><span
-                        class="path3"></span><span class="path4"></span></i> </button>
+                <i class="ki-duotone ki-category fs-6">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                    <span class="path3"></span>
+                    <span class="path4"></span>
+                </i> </button>
             <!--begin::Menu 1-->
             <div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true"
                 id="kt_menu_68e64e5eee4f5">
@@ -145,8 +149,10 @@
                         </td>
                         <td class="text-end">
                             <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                        class="path2"></span></i> </a>
+                                <i class="ki-duotone ki-arrow-right fs-2">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </i> </a>
                         </td>
                     </tr>
                     <tr>
@@ -173,8 +179,10 @@
                         </td>
                         <td class="text-end">
                             <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                        class="path2"></span></i> </a>
+                                <i class="ki-duotone ki-arrow-right fs-2">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </i> </a>
                         </td>
                     </tr>
                     <tr>
@@ -200,8 +208,10 @@
                         </td>
                         <td class="text-end">
                             <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                        class="path2"></span></i> </a>
+                                <i class="ki-duotone ki-arrow-right fs-2">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </i> </a>
                         </td>
                     </tr>
                     <tr>
@@ -228,8 +238,10 @@
                         </td>
                         <td class="text-end">
                             <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                        class="path2"></span></i> </a>
+                                <i class="ki-duotone ki-arrow-right fs-2">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </i> </a>
                         </td>
                     </tr>
                     <tr>
@@ -256,8 +268,10 @@
                         </td>
                         <td class="text-end">
                             <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                        class="path2"></span></i> </a>
+                                <i class="ki-duotone ki-arrow-right fs-2">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </i> </a>
                         </td>
                     </tr>
                 </tbody>

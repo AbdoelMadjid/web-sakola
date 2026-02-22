@@ -46,7 +46,8 @@
                                 data-kt-menu-placement="bottom-end">
                                 <i class="ki-duotone ki-filter fs-2">
                                     <span class="path1"></span>
-                                    <span class="path2"></span> </i>Filter
+                                    <span class="path2"></span>
+                                </i>Filter
                             </button>
                             <!--begin::Menu 1-->
                             <div class="menu menu-sub menu-sub-dropdown w-300px w-md-325px" data-kt-menu="true"
@@ -146,7 +147,8 @@
                                 data-bs-target="#kt_customers_export_modal">
                                 <i class="ki-duotone ki-exit-up fs-2">
                                     <span class="path1"></span>
-                                    <span class="path2"></span> </i>Export
+                                    <span class="path2"></span>
+                                </i>Export
                             </button>
                             <!--end::Export-->
                             <!--begin::Add customer-->

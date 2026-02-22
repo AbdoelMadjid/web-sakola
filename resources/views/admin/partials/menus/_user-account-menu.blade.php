@@ -85,8 +85,11 @@
                 <a href="{{ route('pages.account.statements') }}" class="menu-link d-flex flex-stack px-5">
                     {{ __('admin.statements') }}
                     <span class="ms-2 lh-0" data-bs-toggle="tooltip" title="{{ __('admin.view_your_statements') }}">
-                        <i class="ki-duotone ki-information-5 fs-5"><span class="path1"></span><span
-                                class="path2"></span><span class="path3"></span></i> </span>
+                        <i class="ki-duotone ki-information-5 fs-5">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                            <span class="path3"></span>
+                        </i> </span>
                 </a>
             </div>
             <!--end::Menu item-->
@@ -127,12 +130,22 @@
             <span class="menu-title position-relative">
                 Mode
                 <span class="ms-5 position-absolute translate-middle-y top-50 end-0">
-                    <i class="ki-duotone ki-night-day theme-light-show fs-2"><span class="path1"></span><span
-                            class="path2"></span><span class="path3"></span><span class="path4"></span><span
-                            class="path5"></span><span class="path6"></span><span class="path7"></span><span
-                            class="path8"></span><span class="path9"></span><span class="path10"></span></i> <i
-                        class="ki-duotone ki-moon theme-dark-show fs-2"><span class="path1"></span><span
-                            class="path2"></span></i> </span>
+                    <i class="ki-duotone ki-night-day theme-light-show fs-2">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                        <span class="path3"></span>
+                        <span class="path4"></span>
+                        <span class="path5"></span>
+                        <span class="path6"></span>
+                        <span class="path7"></span>
+                        <span class="path8"></span>
+                        <span class="path9"></span>
+                        <span class="path10"></span>
+                    </i> <i
+                        class="ki-duotone ki-moon theme-dark-show fs-2">
+    <span class="path1"></span>
+    <span class="path2"></span>
+</i> </span>
             </span>
         </a>
         <!--layout-partial:partials/theme-mode/__menu.html-->

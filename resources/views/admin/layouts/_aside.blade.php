@@ -1834,7 +1834,8 @@
                                             class="btn btn-color-gray-600 btn-active-color-primary">View All
                                             <i class="ki-duotone ki-arrow-right fs-5">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i></a>
+                                                <span class="path2"></span>
+                                            </i></a>
                                     </div>
                                     <!--end::View more-->
                                 </div>
@@ -2107,7 +2108,8 @@
                                             class="btn btn-color-gray-600 btn-active-color-primary">View All
                                             <i class="ki-duotone ki-arrow-right fs-5">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i></a>
+                                                <span class="path2"></span>
+                                            </i></a>
                                     </div>
                                     <!--end::View more-->
                                 </div>

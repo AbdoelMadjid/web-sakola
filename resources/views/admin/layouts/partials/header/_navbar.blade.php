@@ -19,8 +19,13 @@
         <!--begin::Drawer toggle-->
         <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px"
             id="kt_activities_toggle">
-            <i class="ki-duotone ki-messages fs-2"><span class="path1"></span><span class="path2"></span><span
-                    class="path3"></span><span class="path4"></span><span class="path5"></span></i>
+            <i class="ki-duotone ki-messages fs-2">
+                <span class="path1"></span>
+                <span class="path2"></span>
+                <span class="path3"></span>
+                <span class="path4"></span>
+                <span class="path5"></span>
+            </i>
         </div>
         <!--end::Drawer toggle-->
     </div>
@@ -31,8 +36,12 @@
         <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px"
             data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent"
             data-kt-menu-placement="bottom-end" id="kt_menu_item_wow">
-            <i class="ki-duotone ki-notification-status fs-2"><span class="path1"></span><span
-                    class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+            <i class="ki-duotone ki-notification-status fs-2">
+                <span class="path1"></span>
+                <span class="path2"></span>
+                <span class="path3"></span>
+                <span class="path4"></span>
+            </i>
         </div>
         <!--layout-partial:partials/menus/_notifications-menu.html-->
         @include('admin.partials.menus._notifications-menu')
@@ -44,8 +53,11 @@
         <!--begin::Menu wrapper-->
         <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px position-relative"
             id="kt_drawer_chat_toggle">
-            <i class="ki-duotone ki-message-text-2 fs-2"><span class="path1"></span><span class="path2"></span><span
-                    class="path3"></span></i>
+            <i class="ki-duotone ki-message-text-2 fs-2">
+                <span class="path1"></span>
+                <span class="path2"></span>
+                <span class="path3"></span>
+            </i>
             <span
                 class="bullet bullet-dot bg-success h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink">
             </span>
@@ -59,8 +71,12 @@
         <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px"
             data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent"
             data-kt-menu-placement="bottom-end">
-            <i class="ki-duotone ki-element-11 fs-2"><span class="path1"></span><span class="path2"></span><span
-                    class="path3"></span><span class="path4"></span></i>
+            <i class="ki-duotone ki-element-11 fs-2">
+                <span class="path1"></span>
+                <span class="path2"></span>
+                <span class="path3"></span>
+                <span class="path4"></span>
+            </i>
         </div>
         <!--layout-partial:partials/menus/_my-apps-menu.html-->
         @include('admin.partials.menus._my-apps-menu')
@@ -103,7 +119,10 @@
     <!--begin::Header menu toggle-->
     <div class="app-navbar-item d-lg-none ms-2 me-n2" title="{{ __('menu.show_header_menu') }}">
         <div class="btn btn-flex btn-icon btn-active-color-primary w-30px h-30px" id="kt_app_header_menu_toggle">
-            <i class="ki-duotone ki-element-4 fs-1"><span class="path1"></span><span class="path2"></span></i>
+            <i class="ki-duotone ki-element-4 fs-1">
+                <span class="path1"></span>
+                <span class="path2"></span>
+            </i>
         </div>
     </div>
     <!--end::Header menu toggle-->
@@ -111,4 +130,3 @@
     <!--end::Header menu toggle-->
 </div>
 <!--end::Navbar-->
-

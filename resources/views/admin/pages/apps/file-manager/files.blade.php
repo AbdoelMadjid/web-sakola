@@ -133,7 +133,8 @@ License: For each use you must have a valid license purchased only from above li
                                                 data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
                                                 <i class="ki-duotone ki-filter fs-6 text-muted me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>Filter</a>
+                                                    <span class="path2"></span>
+                                                </i>Filter</a>
                                             <!--end::Menu toggle-->
                                             <!--begin::Menu 1-->
                                             <div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px"
@@ -348,7 +349,8 @@ License: For each use you must have a valid license purchased only from above li
                                                         id="kt_file_manager_new_folder">
                                                         <i class="ki-duotone ki-add-folder fs-2">
                                                             <span class="path1"></span>
-                                                            <span class="path2"></span> </i>New Folder
+                                                            <span class="path2"></span>
+                                                        </i>New Folder
                                                     </button>
                                                     <!--end::Export-->
                                                     <!--begin::Add customer-->
@@ -356,7 +358,8 @@ License: For each use you must have a valid license purchased only from above li
                                                         data-bs-toggle="modal" data-bs-target="#kt_modal_upload">
                                                         <i class="ki-duotone ki-folder-up fs-2">
                                                             <span class="path1"></span>
-                                                            <span class="path2"></span> </i>Upload Files
+                                                            <span class="path2"></span>
+                                                        </i>Upload Files
                                                     </button>
                                                     <!--end::Add customer-->
                                                 </div>
@@ -3991,7 +3994,8 @@ License: For each use you must have a valid license purchased only from above li
                                                                             <i
                                                                                 class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                                                 <span class="path1"></span>
-                                                                                <span class="path2"></span> </i>apps
+                                                                                <span class="path2"></span>
+                                                                            </i>apps
                                                                         </div>
                                                                     </label>
                                                                     <!--end::Label-->
@@ -4214,7 +4218,8 @@ License: For each use you must have a valid license purchased only from above li
                                                                             <i
                                                                                 class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                                                 <span class="path1"></span>
-                                                                                <span class="path2"></span> </i>pages
+                                                                                <span class="path2"></span>
+                                                                            </i>pages
                                                                         </div>
                                                                     </label>
                                                                     <!--end::Label-->

@@ -27,8 +27,10 @@
             <!--begin::Action-->
             <button type="button"
                 class="btn btn-icon btn-sm h-auto btn-color-gray-500 btn-active-color-primary justify-content-end">
-                <i class="ki-duotone ki-exit-right-corner fs-2"><span class="path1"></span><span
-                        class="path2"></span></i> </button>
+                <i class="ki-duotone ki-exit-right-corner fs-2">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                </i> </button>
             <!--end::Action-->
         </div>
         <!--end::Item-->
@@ -43,8 +45,10 @@
             <!--begin::Action-->
             <button type="button"
                 class="btn btn-icon btn-sm h-auto btn-color-gray-500 btn-active-color-primary justify-content-end">
-                <i class="ki-duotone ki-exit-right-corner fs-2"><span class="path1"></span><span
-                        class="path2"></span></i> </button>
+                <i class="ki-duotone ki-exit-right-corner fs-2">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                </i> </button>
             <!--end::Action-->
         </div>
         <!--end::Item-->
@@ -59,8 +63,10 @@
             <!--begin::Action-->
             <button type="button"
                 class="btn btn-icon btn-sm h-auto btn-color-gray-500 btn-active-color-primary justify-content-end">
-                <i class="ki-duotone ki-exit-right-corner fs-2"><span class="path1"></span><span
-                        class="path2"></span></i> </button>
+                <i class="ki-duotone ki-exit-right-corner fs-2">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                </i> </button>
             <!--end::Action-->
         </div>
         <!--end::Item-->

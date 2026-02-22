@@ -89,7 +89,8 @@
                                 <div class="d-flex fw-bold">
                                     <i class="ki-duotone ki-arrow-up-right fs-3 me-1 text-success">
                                         <span class="path1"></span>
-                                        <span class="path2"></span> </i>$6,570
+                                        <span class="path2"></span>
+                                    </i>$6,570
                                 </div>
                             </div>
                             <div class="separator separator-dashed"></div>
@@ -98,7 +99,8 @@
                                 <div class="d-flex fw-bold">
                                     <i class="ki-duotone ki-arrow-down-left fs-3 me-1 text-danger">
                                         <span class="path1"></span>
-                                        <span class="path2"></span> </i>$408
+                                        <span class="path2"></span>
+                                    </i>$408
                                 </div>
                             </div>
                             <div class="separator separator-dashed"></div>
@@ -107,7 +109,8 @@
                                 <div class="d-flex fw-bold">
                                     <i class="ki-duotone ki-arrow-up-right fs-3 me-1 text-success">
                                         <span class="path1"></span>
-                                        <span class="path2"></span> </i>$920
+                                        <span class="path2"></span>
+                                    </i>$920
                                 </div>
                             </div>
                         </div>

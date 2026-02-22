@@ -7,7 +7,10 @@
         <span class="btn-label">
             Docs & Components
         </span>
-        <i class="ki-duotone ki-document btn-icon fs-2 m-0"><span class="path1"></span><span class="path2"></span></i>
+        <i class="ki-duotone ki-document btn-icon fs-2 m-0">
+            <span class="path1"></span>
+            <span class="path2"></span>
+        </i>
     </a>
 </div>
 <!--end::Footer-->

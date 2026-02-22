@@ -108,7 +108,8 @@
                                 id="kt_file_manager_new_folder">
                                 <i class="ki-duotone ki-add-folder fs-2">
                                     <span class="path1"></span>
-                                    <span class="path2"></span> </i>New Folder
+                                    <span class="path2"></span>
+                                </i>New Folder
                             </button>
                             <!--end::Export-->
                             <!--begin::Add customer-->
@@ -116,7 +117,8 @@
                                 data-bs-target="#kt_modal_upload">
                                 <i class="ki-duotone ki-folder-up fs-2">
                                     <span class="path1"></span>
-                                    <span class="path2"></span> </i>Upload Files
+                                    <span class="path2"></span>
+                                </i>Upload Files
                             </button>
                             <!--end::Add customer-->
                         </div>
@@ -509,7 +511,8 @@
                                                 <div class="fw-bold">
                                                     <i class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>account
+                                                        <span class="path2"></span>
+                                                    </i>account
                                                 </div>
                                             </label>
                                             <!--end::Label-->
@@ -531,7 +534,8 @@
                                                 <div class="fw-bold">
                                                     <i class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>apps
+                                                        <span class="path2"></span>
+                                                    </i>apps
                                                 </div>
                                             </label>
                                             <!--end::Label-->
@@ -553,7 +557,8 @@
                                                 <div class="fw-bold">
                                                     <i class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>widgets
+                                                        <span class="path2"></span>
+                                                    </i>widgets
                                                 </div>
                                             </label>
                                             <!--end::Label-->
@@ -575,7 +580,8 @@
                                                 <div class="fw-bold">
                                                     <i class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>assets
+                                                        <span class="path2"></span>
+                                                    </i>assets
                                                 </div>
                                             </label>
                                             <!--end::Label-->
@@ -597,7 +603,8 @@
                                                 <div class="fw-bold">
                                                     <i class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>documentation
+                                                        <span class="path2"></span>
+                                                    </i>documentation
                                                 </div>
                                             </label>
                                             <!--end::Label-->
@@ -619,7 +626,8 @@
                                                 <div class="fw-bold">
                                                     <i class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>layouts
+                                                        <span class="path2"></span>
+                                                    </i>layouts
                                                 </div>
                                             </label>
                                             <!--end::Label-->
@@ -641,7 +649,8 @@
                                                 <div class="fw-bold">
                                                     <i class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>modals
+                                                        <span class="path2"></span>
+                                                    </i>modals
                                                 </div>
                                             </label>
                                             <!--end::Label-->
@@ -663,7 +672,8 @@
                                                 <div class="fw-bold">
                                                     <i class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>authentication
+                                                        <span class="path2"></span>
+                                                    </i>authentication
                                                 </div>
                                             </label>
                                             <!--end::Label-->
@@ -685,7 +695,8 @@
                                                 <div class="fw-bold">
                                                     <i class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>dashboards
+                                                        <span class="path2"></span>
+                                                    </i>dashboards
                                                 </div>
                                             </label>
                                             <!--end::Label-->
@@ -707,7 +718,8 @@
                                                 <div class="fw-bold">
                                                     <i class="ki-duotone ki-folder fs-2 text-primary me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>pages
+                                                        <span class="path2"></span>
+                                                    </i>pages
                                                 </div>
                                             </label>
                                             <!--end::Label-->

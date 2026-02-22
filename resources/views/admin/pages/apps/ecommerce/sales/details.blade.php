@@ -78,7 +78,8 @@
                                                 <div class="d-flex align-items-center">
                                                     <i class="ki-duotone ki-calendar fs-2 me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>Date Added
+                                                        <span class="path2"></span>
+                                                    </i>Date Added
                                                 </div>
                                             </td>
                                             <td class="fw-bold text-end">29/03/2024</td>
@@ -90,7 +91,8 @@
                                                         <span class="path1"></span>
                                                         <span class="path2"></span>
                                                         <span class="path3"></span>
-                                                        <span class="path4"></span> </i>Payment Method
+                                                        <span class="path4"></span>
+                                                    </i>Payment Method
                                                 </div>
                                             </td>
                                             <td class="fw-bold text-end">
@@ -106,7 +108,8 @@
                                                         <span class="path2"></span>
                                                         <span class="path3"></span>
                                                         <span class="path4"></span>
-                                                        <span class="path5"></span> </i>Shipping Method
+                                                        <span class="path5"></span>
+                                                    </i>Shipping Method
                                                 </div>
                                             </td>
                                             <td class="fw-bold text-end">
@@ -142,7 +145,8 @@
                                                     <i class="ki-duotone ki-profile-circle fs-2 me-2">
                                                         <span class="path1"></span>
                                                         <span class="path2"></span>
-                                                        <span class="path3"></span> </i>Customer
+                                                        <span class="path3"></span>
+                                                    </i>Customer
                                                 </div>
                                             </td>
                                             <td class="fw-bold text-end">
@@ -169,7 +173,8 @@
                                                 <div class="d-flex align-items-center">
                                                     <i class="ki-duotone ki-sms fs-2 me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>Email
+                                                        <span class="path2"></span>
+                                                    </i>Email
                                                 </div>
                                             </td>
                                             <td class="fw-bold text-end">
@@ -182,7 +187,8 @@
                                                 <div class="d-flex align-items-center">
                                                     <i class="ki-duotone ki-phone fs-2 me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>Phone
+                                                        <span class="path2"></span>
+                                                    </i>Phone
                                                 </div>
                                             </td>
                                             <td class="fw-bold text-end">
@@ -220,7 +226,8 @@
                                                         <span class="path2"></span>
                                                         <span class="path3"></span>
                                                         <span class="path4"></span>
-                                                        <span class="path5"></span> </i>Invoice
+                                                        <span class="path5"></span>
+                                                    </i>Invoice
                                                     <span class="ms-1" data-bs-toggle="tooltip"
                                                         title="View the invoice generated by this order.">
                                                         <i class="ki-duotone ki-information-5 text-gray-500 fs-6">
@@ -244,7 +251,8 @@
                                                         <span class="path2"></span>
                                                         <span class="path3"></span>
                                                         <span class="path4"></span>
-                                                        <span class="path5"></span> </i>Shipping
+                                                        <span class="path5"></span>
+                                                    </i>Shipping
                                                     <span class="ms-1" data-bs-toggle="tooltip"
                                                         title="View the shipping manifest generated by this order.">
                                                         <i class="ki-duotone ki-information-5 text-gray-500 fs-6">
@@ -265,7 +273,8 @@
                                                 <div class="d-flex align-items-center">
                                                     <i class="ki-duotone ki-discount fs-2 me-2">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>Reward Points
+                                                        <span class="path2"></span>
+                                                    </i>Reward Points
                                                     <span class="ms-1" data-bs-toggle="tooltip"
                                                         title="Reward value earned by customer when purchasing this order">
                                                         <i class="ki-duotone ki-information-5 text-gray-500 fs-6">

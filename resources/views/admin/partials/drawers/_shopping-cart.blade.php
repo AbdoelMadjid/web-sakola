@@ -13,7 +13,10 @@
             <div class="card-toolbar">
                 <!--begin::Close-->
                 <div class="btn btn-sm btn-icon btn-active-light-primary" id="kt_drawer_shopping_cart_close">
-                    <i class="ki-duotone ki-cross fs-2"><span class="path1"></span><span class="path2"></span></i>
+                    <i class="ki-duotone ki-cross fs-2">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </div>
                 <!--end::Close-->
             </div>
@@ -40,9 +43,11 @@
                         <span class="fw-bold text-gray-800 fs-5 me-3">5</span>
                         <a href="#"
                             class="btn btn-sm btn-light-success btn-icon-success btn-icon w-25px h-25px me-2">
-                            <i class="ki-duotone ki-minus fs-4"></i> </a>
+                            <i class="ki-duotone ki-minus fs-4"></i>
+                        </a>
                         <a href="#" class="btn btn-sm btn-light-success btn-icon w-25px h-25px">
-                            <i class="ki-duotone ki-plus fs-4"></i> </a>
+                            <i class="ki-duotone ki-plus fs-4"></i>
+                        </a>
                     </div>
                     <!--end::Wrapper-->
                 </div>
@@ -291,4 +296,3 @@
     <!--end::Messenger-->
 </div>
 <!--end::Chat drawer-->
-

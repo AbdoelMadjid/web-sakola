@@ -401,7 +401,8 @@
                                     <i class="ki-duotone ki-triangle fs-3">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
-                                        <span class="path3"></span> </i>Send Invoice
+                                        <span class="path3"></span>
+                                    </i>Send Invoice
                                 </button>
                             </div>
                             <!--end::Actions-->

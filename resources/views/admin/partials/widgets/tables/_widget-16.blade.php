@@ -32,8 +32,13 @@
                     id="kt_stats_widget_16_tab_link_1" data-bs-toggle="pill" href="#kt_stats_widget_16_tab_1">
                     <!--begin::Icon-->
                     <div class="nav-icon mb-3">
-                        <i class="ki-duotone ki-car fs-1"><span class="path1"></span><span class="path2"></span><span
-                                class="path3"></span><span class="path4"></span><span class="path5"></span></i>
+                        <i class="ki-duotone ki-car fs-1">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                            <span class="path3"></span>
+                            <span class="path4"></span>
+                            <span class="path5"></span>
+                        </i>
                     </div>
                     <!--end::Icon-->
                     <!--begin::Title-->
@@ -55,8 +60,10 @@
                     id="kt_stats_widget_16_tab_link_2" data-bs-toggle="pill" href="#kt_stats_widget_16_tab_2">
                     <!--begin::Icon-->
                     <div class="nav-icon mb-3">
-                        <i class="ki-duotone ki-bitcoin fs-1"><span class="path1"></span><span
-                                class="path2"></span></i>
+                        <i class="ki-duotone ki-bitcoin fs-1">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                        </i>
                     </div>
                     <!--end::Icon-->
                     <!--begin::Title-->
@@ -78,7 +85,10 @@
                     id="kt_stats_widget_16_tab_link_3" data-bs-toggle="pill" href="#kt_stats_widget_16_tab_3">
                     <!--begin::Icon-->
                     <div class="nav-icon mb-3">
-                        <i class="ki-duotone ki-like fs-1"><span class="path1"></span><span class="path2"></span></i>
+                        <i class="ki-duotone ki-like fs-1">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                        </i>
                     </div>
                     <!--end::Icon-->
                     <!--begin::Title-->
@@ -100,8 +110,11 @@
                     id="kt_stats_widget_16_tab_link_4" data-bs-toggle="pill" href="#kt_stats_widget_16_tab_4">
                     <!--begin::Icon-->
                     <div class="nav-icon mb-3">
-                        <i class="ki-duotone ki-tablet fs-1"><span class="path1"></span><span
-                                class="path2"></span><span class="path3"></span></i>
+                        <i class="ki-duotone ki-tablet fs-1">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                            <span class="path3"></span>
+                        </i>
                     </div>
                     <!--end::Icon-->
                     <!--begin::Title-->
@@ -123,7 +136,10 @@
                     id="kt_stats_widget_16_tab_link_5" data-bs-toggle="pill" href="#kt_stats_widget_16_tab_5">
                     <!--begin::Icon-->
                     <div class="nav-icon mb-3">
-                        <i class="ki-duotone ki-send fs-1"><span class="path1"></span><span class="path2"></span></i>
+                        <i class="ki-duotone ki-send fs-1">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                        </i>
                     </div>
                     <!--end::Icon-->
                     <!--begin::Title-->

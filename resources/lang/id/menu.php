@@ -2,6 +2,7 @@
 
 return [
     'dashboards' => 'Dasbor',
+    'home' => 'Beranda',
     'pages' => 'Halaman',
     'apps' => 'Aplikasi',
     'layouts' => 'Tata Letak',

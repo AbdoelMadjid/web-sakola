@@ -2,8 +2,11 @@
 <div data-kt-search-element="empty" class="text-center d-none">
     <!--begin::Icon-->
     <div class="pt-10 pb-10">
-        <i class="ki-duotone ki-search-list fs-4x opacity-50"><span class="path1"></span><span class="path2"></span><span
-                class="path3"></span></i>
+        <i class="ki-duotone ki-search-list fs-4x opacity-50">
+            <span class="path1"></span>
+            <span class="path2"></span>
+            <span class="path3"></span>
+        </i>
     </div>
     <!--end::Icon-->
     <!--begin::Message-->

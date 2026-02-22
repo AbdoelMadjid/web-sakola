@@ -346,7 +346,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>3 Topics</span>
+                                                                    <span class="path2"></span>
+                                                                </i>3 Topics</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -354,7 +355,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>1 Speakers</span>
+                                                                    <span class="path2"></span>
+                                                                </i>1 Speakers</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -366,7 +368,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>50 Min</span>
+                                                                    <span class="path2"></span>
+                                                                </i>50 Min</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -374,7 +377,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>72 students</span>
+                                                                    <span class="path2"></span>
+                                                                </i>72 students</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -422,7 +426,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>3 Topics</span>
+                                                                    <span class="path2"></span>
+                                                                </i>3 Topics</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -430,7 +435,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>1 Speakers</span>
+                                                                    <span class="path2"></span>
+                                                                </i>1 Speakers</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -442,7 +448,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>50 Min</span>
+                                                                    <span class="path2"></span>
+                                                                </i>50 Min</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -450,7 +457,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>72 students</span>
+                                                                    <span class="path2"></span>
+                                                                </i>72 students</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -498,7 +506,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>3 Topics</span>
+                                                                    <span class="path2"></span>
+                                                                </i>3 Topics</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -506,7 +515,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>1 Speakers</span>
+                                                                    <span class="path2"></span>
+                                                                </i>1 Speakers</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -518,7 +528,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>50 Min</span>
+                                                                    <span class="path2"></span>
+                                                                </i>50 Min</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -526,7 +537,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>72 students</span>
+                                                                    <span class="path2"></span>
+                                                                </i>72 students</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -620,7 +632,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>5 Topics</span>
+                                                                    <span class="path2"></span>
+                                                                </i>5 Topics</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -628,7 +641,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>1 Speakers</span>
+                                                                    <span class="path2"></span>
+                                                                </i>1 Speakers</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -640,7 +654,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>60 Min</span>
+                                                                    <span class="path2"></span>
+                                                                </i>60 Min</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -648,7 +663,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>137 students</span>
+                                                                    <span class="path2"></span>
+                                                                </i>137 students</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -699,7 +715,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>12 Topics</span>
+                                                                    <span class="path2"></span>
+                                                                </i>12 Topics</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -707,7 +724,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>1 Speakers</span>
+                                                                    <span class="path2"></span>
+                                                                </i>1 Speakers</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -719,7 +737,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>50 Min</span>
+                                                                    <span class="path2"></span>
+                                                                </i>50 Min</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -727,7 +746,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>72 students</span>
+                                                                    <span class="path2"></span>
+                                                                </i>72 students</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -778,7 +798,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>3 Topics</span>
+                                                                    <span class="path2"></span>
+                                                                </i>3 Topics</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -786,7 +807,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>1 Speakers</span>
+                                                                    <span class="path2"></span>
+                                                                </i>1 Speakers</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->
@@ -798,7 +820,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>50 Min</span>
+                                                                    <span class="path2"></span>
+                                                                </i>50 Min</span>
                                                             <!--end::Section-->
                                                             <!--begin::Section-->
                                                             <span
@@ -806,7 +829,8 @@
                                                                 <i
                                                                     class="ki-duotone ki-right-square fs-6 text-gray-600 me-2">
                                                                     <span class="path1"></span>
-                                                                    <span class="path2"></span> </i>72 students</span>
+                                                                    <span class="path2"></span>
+                                                                </i>72 students</span>
                                                             <!--end::Section-->
                                                         </div>
                                                         <!--end::Item-->

@@ -179,9 +179,13 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-notepad fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span><span class="path3"></span><span class="path4"></span><span
-                            class="path5"></span></i>
+                    <i class="ki-duotone ki-notepad fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                        <span class="path3"></span>
+                        <span class="path4"></span>
+                        <span class="path5"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->
@@ -198,8 +202,12 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-frame fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+                    <i class="ki-duotone ki-frame fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                        <span class="path3"></span>
+                        <span class="path4"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->
@@ -216,8 +224,11 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-message-text-2 fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span><span class="path3"></span></i>
+                    <i class="ki-duotone ki-message-text-2 fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                        <span class="path3"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->
@@ -234,8 +245,11 @@
             <!--begin::Symbol-->
             <div class="symbol symbol-40px me-4">
                 <span class="symbol-label bg-light">
-                    <i class="ki-duotone ki-profile-circle fs-2 text-primary"><span class="path1"></span><span
-                            class="path2"></span><span class="path3"></span></i>
+                    <i class="ki-duotone ki-profile-circle fs-2 text-primary">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                        <span class="path3"></span>
+                    </i>
                 </span>
             </div>
             <!--end::Symbol-->

@@ -68,8 +68,10 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -95,8 +97,10 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -122,8 +126,10 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -149,8 +155,10 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -177,8 +185,10 @@
                                 <td class="text-end">
                                     <a href="#"
                                         class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                         </tbody>
@@ -230,8 +240,10 @@
                                 <td class="text-end">
                                     <a href="#"
                                         class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -258,8 +270,10 @@
                                 <td class="text-end">
                                     <a href="#"
                                         class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -286,8 +300,10 @@
                                 <td class="text-end">
                                     <a href="#"
                                         class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                         </tbody>
@@ -339,8 +355,10 @@
                                 <td class="text-end">
                                     <a href="#"
                                         class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -367,8 +385,10 @@
                                 <td class="text-end">
                                     <a href="#"
                                         class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -395,8 +415,10 @@
                                 <td class="text-end">
                                     <a href="#"
                                         class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -423,8 +445,10 @@
                                 <td class="text-end">
                                     <a href="#"
                                         class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary">
-                                        <i class="ki-duotone ki-arrow-right fs-2"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-arrow-right fs-2">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                         </tbody>

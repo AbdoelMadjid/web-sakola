@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Str;
 
 if (!function_exists('getPageTitle')) {
     /**
@@ -84,17 +86,7 @@ if (!function_exists('menuTitle')) {
      */
     function menuTitle(?string $title): string
     {
-        if (!$title) {
-            return '';
-        }
-
-        $titles = trans('menu.titles');
-
-        if (is_array($titles) && array_key_exists($title, $titles)) {
-            return (string) $titles[$title];
-        }
-
-        return $title;
+        return translateMenuLabel($title);
     }
 }
 
@@ -115,5 +107,38 @@ if (!function_exists('menuDescription')) {
         }
 
         return $description;
+    }
+}
+
+if (!function_exists('translateMenuLabel')) {
+    /**
+     * Terjemahkan label menu dari menu.php dengan fallback ke teks asli.
+     *
+     * Mencoba urutan:
+     * - menu.<key>
+     * - menu.titles.<key>
+     * menggunakan key asli dan snake_case.
+     */
+    function translateMenuLabel(mixed $label): string
+    {
+        $text = trim(strip_tags((string) $label));
+
+        if ($text === '') {
+            return '';
+        }
+
+        $keys = array_values(array_unique([$text, Str::snake($text)]));
+
+        foreach ($keys as $key) {
+            if (Lang::has('menu.' . $key)) {
+                return (string) __('menu.' . $key);
+            }
+
+            if (Lang::has('menu.titles.' . $key)) {
+                return (string) __('menu.titles.' . $key);
+            }
+        }
+
+        return $text;
     }
 }

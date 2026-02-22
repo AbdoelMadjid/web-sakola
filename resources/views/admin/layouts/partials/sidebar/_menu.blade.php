@@ -71,11 +71,15 @@
                                     data-kt-toggle-text="{{ $altText }}"
                                     aria-expanded="{{ $isActiveCollapse ? 'true' : 'false' }}">
                                     <span data-kt-toggle-text-target="true">{{ $visibleText }}</span>
-                                    <i class="ki-duotone ki-minus-square toggle-on fs-2 me-0"><span
-                                            class="path1"></span><span class="path2"></span></i>
-                                    <i class="ki-duotone ki-plus-square toggle-off fs-2 me-0"><span
-                                            class="path1"></span><span class="path2"></span><span
-                                            class="path3"></span></i>
+                                    <i class="ki-duotone ki-minus-square toggle-on fs-2 me-0">
+                                        <span class="path1"></span>
+                                        <span class="path2"></span>
+                                    </i>
+                                    <i class="ki-duotone ki-plus-square toggle-off fs-2 me-0">
+                                        <span class="path1"></span>
+                                        <span class="path2"></span>
+                                        <span class="path3"></span>
+                                    </i>
                                 </a>
                             </div>
                         </div>

@@ -54,8 +54,10 @@
                                 <!--begin::Symbol-->
                                 <div class="symbol symbol-30px symbol-circle me-3">
                                     <span class="symbol-label bg-success">
-                                        <i class="ki-duotone ki-abstract-41 fs-5 text-white"><span
-                                                class="path1"></span><span class="path2"></span></i> </span>
+                                        <i class="ki-duotone ki-abstract-41 fs-5 text-white">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </span>
                                 </div>
                                 <!--end::Symbol-->
                                 <!--begin::Info-->
@@ -127,8 +129,10 @@
                         <a href="/apps/projects/project"
                             class="d-flex align-items-center text-primary opacity-75-hover fs-6 fw-semibold">
                             View Project
-                            <i class="ki-duotone ki-exit-right-corner fs-4 ms-1"><span class="path1"></span><span
-                                    class="path2"></span></i>
+                            <i class="ki-duotone ki-exit-right-corner fs-4 ms-1">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
                         </a>
                         <!--end::Actions-->
                     </div>

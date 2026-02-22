@@ -137,7 +137,8 @@
                                     <span class="badge badge-light-danger fs-base">
                                         <i class="ki-duotone ki-arrow-up fs-5 text-danger ms-n1">
                                             <span class="path1"></span>
-                                            <span class="path2"></span> </i>8.02%</span>
+                                            <span class="path2"></span>
+                                        </i>8.02%</span>
                                     <!--end::Badge-->
                                 </div>
                                 <!--end::Heading-->
@@ -278,7 +279,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>2.4%</span>
+                                                    <span class="path2"></span>
+                                                </i>2.4%</span>
                                             <!--end::label-->
                                         </div>
                                         <!--end::Info-->
@@ -329,7 +331,8 @@
                                             <span class="badge badge-light-danger fs-base">
                                                 <i class="ki-duotone ki-arrow-down fs-5 text-danger ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>9.4%</span>
+                                                    <span class="path2"></span>
+                                                </i>9.4%</span>
                                             <!--end::label-->
                                         </div>
                                         <!--end::Info-->
@@ -380,7 +383,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>0.2%</span>
+                                                    <span class="path2"></span>
+                                                </i>0.2%</span>
                                             <!--end::label-->
                                         </div>
                                         <!--end::Info-->
@@ -433,7 +437,8 @@
                                             <span class="badge badge-light-danger fs-base">
                                                 <i class="ki-duotone ki-arrow-down fs-5 text-danger ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>0.4%</span>
+                                                    <span class="path2"></span>
+                                                </i>0.4%</span>
                                             <!--end::label-->
                                         </div>
                                         <!--end::Info-->
@@ -484,7 +489,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>8.3%</span>
+                                                    <span class="path2"></span>
+                                                </i>8.3%</span>
                                             <!--end::label-->
                                         </div>
                                         <!--end::Info-->
@@ -621,7 +627,8 @@
                                                 <span class="badge badge-light-success fs-base">
                                                     <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>2.6%</span>
+                                                        <span class="path2"></span>
+                                                    </i>2.6%</span>
                                                 <!--end::Label-->
                                             </div>
                                             <!--end::Label-->
@@ -665,7 +672,8 @@
                                                 <span class="badge badge-light-danger fs-base">
                                                     <i class="ki-duotone ki-arrow-down fs-5 text-danger ms-n1">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>0.4%</span>
+                                                        <span class="path2"></span>
+                                                    </i>0.4%</span>
                                                 <!--end::Label-->
                                             </div>
                                             <!--end::Label-->
@@ -709,7 +717,8 @@
                                                 <span class="badge badge-light-success fs-base">
                                                     <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>0.2%</span>
+                                                        <span class="path2"></span>
+                                                    </i>0.2%</span>
                                                 <!--end::Label-->
                                             </div>
                                             <!--end::Label-->
@@ -754,7 +763,8 @@
                                                 <span class="badge badge-light-success fs-base">
                                                     <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>4.1%</span>
+                                                        <span class="path2"></span>
+                                                    </i>4.1%</span>
                                                 <!--end::Label-->
                                             </div>
                                             <!--end::Label-->
@@ -798,7 +808,8 @@
                                                 <span class="badge badge-light-danger fs-base">
                                                     <i class="ki-duotone ki-arrow-down fs-5 text-danger ms-n1">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>8.3%</span>
+                                                        <span class="path2"></span>
+                                                    </i>8.3%</span>
                                                 <!--end::Label-->
                                             </div>
                                             <!--end::Label-->
@@ -842,7 +853,8 @@
                                                 <span class="badge badge-light-success fs-base">
                                                     <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>1.9%</span>
+                                                        <span class="path2"></span>
+                                                    </i>1.9%</span>
                                                 <!--end::Label-->
                                             </div>
                                             <!--end::Label-->
@@ -912,7 +924,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>2.6%</span>
+                                                    <span class="path2"></span>
+                                                </i>2.6%</span>
                                             <!--end::Label-->
                                         </div>
                                         <!--end::Info-->
@@ -956,7 +969,8 @@
                                             <span class="badge badge-light-danger fs-base">
                                                 <i class="ki-duotone ki-arrow-down fs-5 text-danger ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>0.4%</span>
+                                                    <span class="path2"></span>
+                                                </i>0.4%</span>
                                             <!--end::Label-->
                                         </div>
                                         <!--end::Info-->
@@ -999,7 +1013,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>0.2%</span>
+                                                    <span class="path2"></span>
+                                                </i>0.2%</span>
                                             <!--end::Label-->
                                         </div>
                                         <!--end::Info-->
@@ -1043,7 +1058,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>4.1%</span>
+                                                    <span class="path2"></span>
+                                                </i>4.1%</span>
                                             <!--end::Label-->
                                         </div>
                                         <!--end::Info-->
@@ -1087,7 +1103,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>8.3%</span>
+                                                    <span class="path2"></span>
+                                                </i>8.3%</span>
                                             <!--end::Label-->
                                         </div>
                                         <!--end::Info-->
@@ -1131,7 +1148,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>1.9%</span>
+                                                    <span class="path2"></span>
+                                                </i>1.9%</span>
                                             <!--end::Label-->
                                         </div>
                                         <!--end::Info-->
@@ -1424,7 +1442,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>2.6%</span>
+                                                    <span class="path2"></span>
+                                                </i>2.6%</span>
                                             <!--end::label-->
                                             <!--end::Info-->
                                         </div>
@@ -1473,7 +1492,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>4.1%</span>
+                                                    <span class="path2"></span>
+                                                </i>4.1%</span>
                                             <!--end::label-->
                                             <!--end::Info-->
                                         </div>
@@ -1522,7 +1542,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>0.2%</span>
+                                                    <span class="path2"></span>
+                                                </i>0.2%</span>
                                             <!--end::label-->
                                             <!--end::Info-->
                                         </div>
@@ -1573,7 +1594,8 @@
                                             <span class="badge badge-light-danger fs-base">
                                                 <i class="ki-duotone ki-arrow-down fs-5 text-danger ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>0.4%</span>
+                                                    <span class="path2"></span>
+                                                </i>0.4%</span>
                                             <!--end::label-->
                                             <!--end::Info-->
                                         </div>
@@ -1622,7 +1644,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>8.3%</span>
+                                                    <span class="path2"></span>
+                                                </i>8.3%</span>
                                             <!--end::label-->
                                             <!--end::Info-->
                                         </div>
@@ -1637,7 +1660,8 @@
                                         class="text-primary opacity-75-hover fs-6 fw-bold">View Store Analytics
                                         <i class="ki-duotone ki-arrow-right fs-3 text-primary">
                                             <span class="path1"></span>
-                                            <span class="path2"></span> </i></a>
+                                            <span class="path2"></span>
+                                        </i></a>
                                 </div>
                                 <!--end::Link-->
                             </div>

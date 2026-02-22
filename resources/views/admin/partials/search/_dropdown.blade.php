@@ -5,7 +5,10 @@
     <!--begin::Search toggle-->
     <div class="d-flex align-items-center" data-kt-search-element="toggle" id="kt_header_search_toggle">
         <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px">
-            <i class="ki-duotone ki-magnifier fs-2"><span class="path1"></span><span class="path2"></span></i>
+            <i class="ki-duotone ki-magnifier fs-2">
+                <span class="path1"></span>
+                <span class="path2"></span>
+            </i>
         </div>
     </div>
     <!--end::Search toggle-->

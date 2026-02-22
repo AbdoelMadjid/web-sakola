@@ -458,7 +458,8 @@
                                             data-bs-toggle="modal" data-bs-target="#kt_modal_add_schedule">
                                             <i class="ki-duotone ki-brush fs-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Add Schedule
+                                                <span class="path2"></span>
+                                            </i>Add Schedule
                                         </button>
                                     </div>
                                     <!--end::Card toolbar-->
@@ -2009,7 +2010,8 @@
                                             <i class="ki-duotone ki-add-files fs-3">
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
-                                                <span class="path3"></span> </i>Add Task
+                                                <span class="path3"></span>
+                                            </i>Add Task
                                         </button>
                                     </div>
                                     <!--end::Card toolbar-->
@@ -2552,7 +2554,8 @@
                                                 <span class="path2"></span>
                                                 <span class="path3"></span>
                                                 <span class="path4"></span>
-                                                <span class="path5"></span> </i>Add Authentication Step
+                                                <span class="path5"></span>
+                                            </i>Add Authentication Step
                                         </button>
                                         <!--begin::Menu-->
                                         <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-6 w-200px py-4"
@@ -2920,7 +2923,8 @@
                                             id="kt_modal_sign_out_sesions">
                                             <i class="ki-duotone ki-entrance-right fs-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Sign out all sessions
+                                                <span class="path2"></span>
+                                            </i>Sign out all sessions
                                         </button>
                                         <!--end::Filter-->
                                     </div>
@@ -2992,7 +2996,8 @@
                                         <button type="button" class="btn btn-sm btn-light-primary">
                                             <i class="ki-duotone ki-cloud-download fs-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Download Report
+                                                <span class="path2"></span>
+                                            </i>Download Report
                                         </button>
                                         <!--end::Button-->
                                     </div>
@@ -3100,7 +3105,8 @@
                                         <button type="button" class="btn btn-sm btn-light-primary">
                                             <i class="ki-duotone ki-cloud-download fs-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Download Report
+                                                <span class="path2"></span>
+                                            </i>Download Report
                                         </button>
                                         <!--end::Button-->
                                     </div>

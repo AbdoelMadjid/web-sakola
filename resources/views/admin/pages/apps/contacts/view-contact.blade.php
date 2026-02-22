@@ -104,7 +104,8 @@
                                     <span class="path2"></span>
                                     <span class="path3"></span>
                                     <span class="path4"></span>
-                                    <span class="path5"></span> </i>Add new contact</a>
+                                    <span class="path5"></span>
+                                </i>Add new contact</a>
                             <!--end::Add new contact-->
                         </div>
                         <!--end::Card body-->
@@ -611,7 +612,8 @@
                                     <i class="ki-duotone ki-message-text-2 fs-2">
                                         <span class="path1"></span>
                                         <span class="path2"></span>
-                                        <span class="path3"></span> </i>Chat
+                                        <span class="path3"></span>
+                                    </i>Chat
                                 </button>
                                 <!--end::Chat-->
                                 <!--begin::Chat-->
@@ -621,7 +623,8 @@
                                         <span class="path2"></span>
                                         <span class="path3"></span>
                                         <span class="path4"></span>
-                                        <span class="path5"></span> </i>Message</a>
+                                        <span class="path5"></span>
+                                    </i>Message</a>
                                 <!--end::Chat-->
                                 <!--begin::Action menu-->
                                 <a href="#" class="btn btn-sm btn-icon btn-light btn-active-light-primary"
@@ -711,7 +714,8 @@
                                             <span class="path3"></span>
                                             <span class="path4"></span>
                                             <span class="path5"></span>
-                                            <span class="path6"></span> </i>Meetings</a>
+                                            <span class="path6"></span>
+                                        </i>Meetings</a>
                                 </li>
                                 <!--end:::Tab item-->
                                 <!--begin:::Tab item-->
@@ -720,7 +724,8 @@
                                         data-bs-toggle="tab" href="#kt_contact_view_activity">
                                         <i class="ki-duotone ki-save-2 fs-4 me-1">
                                             <span class="path1"></span>
-                                            <span class="path2"></span> </i>Activity</a>
+                                            <span class="path2"></span>
+                                        </i>Activity</a>
                                 </li>
                                 <!--end:::Tab item-->
                             </ul>

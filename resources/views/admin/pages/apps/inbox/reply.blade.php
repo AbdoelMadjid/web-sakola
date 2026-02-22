@@ -293,7 +293,8 @@
                                                     <span class="path1"></span>
                                                     <span class="path2"></span>
                                                     <span class="path3"></span>
-                                                    <span class="path4"></span> </i>New
+                                                    <span class="path4"></span>
+                                                </i>New
                                                 Group</a>
                                         </div>
                                         <!--end::Menu item-->
@@ -317,7 +318,8 @@
                                                     <span class="path2"></span>
                                                     <span class="path3"></span>
                                                     <span class="path4"></span>
-                                                    <span class="path5"></span> </i>Groups
+                                                    <span class="path5"></span>
+                                                </i>Groups
                                                 <span class="badge badge-light-primary ms-auto">new</span></a>
                                         </div>
                                         <!--end::Menu item-->
@@ -326,7 +328,8 @@
                                             <a href="#" class="menu-link px-3">
                                                 <i class="ki-duotone ki-element-2 fs-3 me-3">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>Calls</a>
+                                                    <span class="path2"></span>
+                                                </i>Calls</a>
                                         </div>
                                         <!--end::Menu item-->
                                         <!--begin::Menu item-->
@@ -344,7 +347,8 @@
                                             <a href="#" class="menu-link px-3">
                                                 <i class="ki-duotone ki-magnifier fs-3 me-3">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>Help</a>
+                                                    <span class="path2"></span>
+                                                </i>Help</a>
                                         </div>
                                         <!--end::Menu item-->
                                         <!--begin::Menu item-->
@@ -352,7 +356,8 @@
                                             <a href="#" class="menu-link px-3">
                                                 <i class="ki-duotone ki-shield-tick fs-3 me-3">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>Privacy
+                                                    <span class="path2"></span>
+                                                </i>Privacy
                                                 <span class="badge badge-light-danger ms-auto">5</span></a>
                                         </div>
                                         <!--end::Menu item-->

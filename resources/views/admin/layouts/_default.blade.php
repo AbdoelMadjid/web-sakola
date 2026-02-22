@@ -45,4 +45,3 @@
 <!--end::App-->
 <!--layout-partial:partials/_drawers.html-->
 @include('admin.partials._drawers')
-

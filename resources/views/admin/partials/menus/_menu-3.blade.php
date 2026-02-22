@@ -20,8 +20,11 @@
         <a href="#" class="menu-link flex-stack px-3">
             Create Payment
             <span class="ms-2" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference">
-                <i class="ki-duotone ki-information fs-6"><span class="path1"></span><span class="path2"></span><span
-                        class="path3"></span></i> </span>
+                <i class="ki-duotone ki-information fs-6">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                    <span class="path3"></span>
+                </i> </span>
         </a>
     </div>
     <!--end::Menu item-->

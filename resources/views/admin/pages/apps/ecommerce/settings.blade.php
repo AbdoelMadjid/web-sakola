@@ -41,7 +41,8 @@
                                     <span class="path2"></span>
                                     <span class="path3"></span>
                                     <span class="path4"></span>
-                                    <span class="path5"></span> </i>Store</a>
+                                    <span class="path5"></span>
+                                </i>Store</a>
                         </li>
                         <!--end:::Tab item-->
                         <!--begin:::Tab item-->
@@ -50,7 +51,8 @@
                                 href="#kt_ecommerce_settings_localization">
                                 <i class="ki-duotone ki-compass fs-2 me-2">
                                     <span class="path1"></span>
-                                    <span class="path2"></span> </i>Localization</a>
+                                    <span class="path2"></span>
+                                </i>Localization</a>
                         </li>
                         <!--end:::Tab item-->
                         <!--begin:::Tab item-->
@@ -60,7 +62,8 @@
                                 <i class="ki-duotone ki-package fs-2 me-2">
                                     <span class="path1"></span>
                                     <span class="path2"></span>
-                                    <span class="path3"></span> </i>Products</a>
+                                    <span class="path3"></span>
+                                </i>Products</a>
                         </li>
                         <!--end:::Tab item-->
                         <!--begin:::Tab item-->
@@ -72,7 +75,8 @@
                                     <span class="path2"></span>
                                     <span class="path3"></span>
                                     <span class="path4"></span>
-                                    <span class="path5"></span> </i>Customers</a>
+                                    <span class="path5"></span>
+                                </i>Customers</a>
                         </li>
                         <!--end:::Tab item-->
                     </ul>

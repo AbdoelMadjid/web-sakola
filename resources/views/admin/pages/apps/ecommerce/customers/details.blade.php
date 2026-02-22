@@ -518,7 +518,8 @@
                                             <i class="ki-duotone ki-plus-square fs-3">
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
-                                                <span class="path3"></span> </i>Add new address</a>
+                                                <span class="path3"></span>
+                                            </i>Add new address</a>
                                     </div>
                                     <!--end::Card toolbar-->
                                 </div>
@@ -934,7 +935,8 @@
                                                 <span class="path2"></span>
                                                 <span class="path3"></span>
                                                 <span class="path4"></span>
-                                                <span class="path5"></span> </i>Add Authentication Step
+                                                <span class="path5"></span>
+                                            </i>Add Authentication Step
                                         </button>
                                         <!--begin::Menu-->
                                         <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-6 w-200px py-4"
@@ -1029,7 +1031,8 @@
                                             <i class="ki-duotone ki-plus-square fs-3">
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
-                                                <span class="path3"></span> </i>Add new method</a>
+                                                <span class="path3"></span>
+                                            </i>Add new method</a>
                                     </div>
                                     <!--end::Card toolbar-->
                                 </div>

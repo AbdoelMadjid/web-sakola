@@ -10,8 +10,12 @@
             <!--begin::Menu-->
             <button type="button" class="btn btn-clean btn-sm btn-icon btn-icon-primary btn-active-light-primary me-n3"
                 data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                <i class="ki-duotone ki-category fs-6 text-primary"><span class="path1"></span><span
-                        class="path2"></span><span class="path3"></span><span class="path4"></span></i> </button>
+                <i class="ki-duotone ki-category fs-6 text-primary">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                    <span class="path3"></span>
+                    <span class="path4"></span>
+                </i> </button>
             <!--begin::Menu 2-->
             @include('admin.partials.menus._menu-5')
             <!--end::Menu 2-->

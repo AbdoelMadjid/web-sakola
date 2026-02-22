@@ -39,8 +39,10 @@
                         <span class="fs-1 fw-semibold text-gray-500 me-1 mt-n1">$</span>
                         <span class="fs-3x fw-bold text-gray-800 me-2 lh-1 ls-n2">18,89</span>
                         <span class="badge badge-light-success fs-base">
-                            <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span
-                                    class="path2"></span></i>
+                            <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
                             4,8%
                         </span>
                     </div>
@@ -140,8 +142,10 @@
                         <span class="fs-1 fw-semibold text-gray-500 me-1 mt-n1">$</span>
                         <span class="fs-3x fw-bold text-gray-800 me-2 lh-1 ls-n2">8,55</span>
                         <span class="badge badge-light-success fs-base">
-                            <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span
-                                    class="path2"></span></i>
+                            <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
                             2.2%
                         </span>
                     </div>

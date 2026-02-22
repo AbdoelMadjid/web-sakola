@@ -90,7 +90,8 @@
                                             href="/pages/general/social/feeds">
                                             <i class="ki-duotone ki-row-horizontal fs-3 text-muted me-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Feeds
+                                                <span class="path2"></span>
+                                            </i>Feeds
                                             <!--begin::Bullet-->
                                             <span
                                                 class="bullet-custom position-absolute start-0 top-0 w-3px h-100 bg-primary rounded-end"></span>
@@ -105,7 +106,8 @@
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
                                                 <span class="path3"></span>
-                                                <span class="path4"></span> </i>Activity
+                                                <span class="path4"></span>
+                                            </i>Activity
                                             <!--begin::Bullet-->
                                             <span
                                                 class="bullet-custom position-absolute start-0 top-0 w-3px h-100 bg-primary rounded-end"></span>
@@ -119,7 +121,8 @@
                                             <i class="ki-duotone ki-profile-circle fs-3 text-muted me-3">
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
-                                                <span class="path3"></span> </i>Followers
+                                                <span class="path3"></span>
+                                            </i>Followers
                                             <!--begin::Bullet-->
                                             <span
                                                 class="bullet-custom position-absolute start-0 top-0 w-3px h-100 bg-primary rounded-end"></span>
@@ -132,7 +135,8 @@
                                             href="/pages/general/social/settings">
                                             <i class="ki-duotone ki-setting-2 fs-3 text-muted me-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Settings
+                                                <span class="path2"></span>
+                                            </i>Settings
                                             <!--begin::Bullet-->
                                             <span
                                                 class="bullet-custom position-absolute start-0 top-0 w-3px h-100 bg-primary rounded-end"></span>

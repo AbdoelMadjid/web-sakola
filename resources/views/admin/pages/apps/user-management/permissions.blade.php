@@ -45,7 +45,8 @@
                             <i class="ki-duotone ki-plus-square fs-3">
                                 <span class="path1"></span>
                                 <span class="path2"></span>
-                                <span class="path3"></span> </i>Add Permission
+                                <span class="path3"></span>
+                            </i>Add Permission
                         </button>
                         <!--end::Button-->
                     </div>

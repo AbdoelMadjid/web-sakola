@@ -80,11 +80,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -122,11 +126,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -164,11 +172,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -206,11 +218,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -248,11 +264,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                         </tbody>
@@ -315,11 +335,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -357,11 +381,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -399,11 +427,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -441,11 +473,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                         </tbody>
@@ -508,11 +544,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -550,11 +590,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                             <tr>
@@ -592,11 +636,15 @@
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="ki-duotone ki-twitter fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-twitter fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                     <a href="#" class="btn btn-icon btn-light-facebook btn-sm">
-                                        <i class="ki-duotone ki-facebook fs-4"><span class="path1"></span><span
-                                                class="path2"></span></i> </a>
+                                        <i class="ki-duotone ki-facebook fs-4">
+                                            <span class="path1"></span>
+                                            <span class="path2"></span>
+                                        </i> </a>
                                 </td>
                             </tr>
                         </tbody>

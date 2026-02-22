@@ -257,7 +257,8 @@
                             <span class="badge badge-light-success fs-base">
                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                     <span class="path1"></span>
-                                    <span class="path2"></span> </i>2.1%</span>
+                                    <span class="path2"></span>
+                                </i>2.1%</span>
                             <!--end::Badge-->
                         </div>
                         <!--end::Body-->
@@ -292,7 +293,8 @@
                             <span class="badge badge-light-danger fs-base">
                                 <i class="ki-duotone ki-arrow-down fs-5 text-danger ms-n1">
                                     <span class="path1"></span>
-                                    <span class="path2"></span> </i>0.47%</span>
+                                    <span class="path2"></span>
+                                </i>0.47%</span>
                             <!--end::Badge-->
                         </div>
                         <!--end::Body-->
@@ -328,7 +330,8 @@
                             <span class="badge badge-light-success fs-base">
                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                     <span class="path1"></span>
-                                    <span class="path2"></span> </i>0.6%</span>
+                                    <span class="path2"></span>
+                                </i>0.6%</span>
                             <!--end::Badge-->
                         </div>
                         <!--end::Body-->
@@ -363,7 +366,8 @@
                             <span class="badge badge-light-success fs-base">
                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                     <span class="path1"></span>
-                                    <span class="path2"></span> </i>3%</span>
+                                    <span class="path2"></span>
+                                </i>3%</span>
                             <!--end::Badge-->
                         </div>
                         <!--end::Body-->

@@ -1021,7 +1021,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>4,8%</span>
+                                                    <span class="path2"></span>
+                                                </i>4,8%</span>
                                         </div>
                                         <!--end::Statistics-->
                                         <!--begin::Description-->
@@ -1122,7 +1123,8 @@
                                             <span class="badge badge-light-success fs-base">
                                                 <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>2.2%</span>
+                                                    <span class="path2"></span>
+                                                </i>2.2%</span>
                                         </div>
                                         <!--end::Statistics-->
                                         <!--begin::Description-->

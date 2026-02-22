@@ -61,17 +61,20 @@
                                             <i class="ki-duotone ki-profile-circle fs-4 me-1">
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
-                                                <span class="path3"></span> </i>Developer</a>
+                                                <span class="path3"></span>
+                                            </i>Developer</a>
                                         <a href="#"
                                             class="d-flex align-items-center text-gray-500 text-hover-primary me-5 mb-2">
                                             <i class="ki-duotone ki-geolocation fs-4 me-1">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>SF, Bay Area</a>
+                                                <span class="path2"></span>
+                                            </i>SF, Bay Area</a>
                                         <a href="#"
                                             class="d-flex align-items-center text-gray-500 text-hover-primary mb-2">
                                             <i class="ki-duotone ki-sms fs-4 me-1">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>max@kt.com</a>
+                                                <span class="path2"></span>
+                                            </i>max@kt.com</a>
                                     </div>
                                     <!--end::Info-->
                                 </div>
@@ -607,12 +610,14 @@
                                         <i class="ki-duotone ki-message-text-2 fs-2">
                                             <span class="path1"></span>
                                             <span class="path2"></span>
-                                            <span class="path3"></span> </i>120</a>
+                                            <span class="path3"></span>
+                                        </i>120</a>
                                     <a href="#"
                                         class="btn btn-sm btn-light btn-color-muted btn-active-light-danger px-4 py-2">
                                         <i class="ki-duotone ki-heart fs-2">
                                             <span class="path1"></span>
-                                            <span class="path2"></span> </i>15</a>
+                                            <span class="path2"></span>
+                                        </i>15</a>
                                 </div>
                                 <!--end::Toolbar-->
                             </div>
@@ -766,12 +771,14 @@
                                         <i class="ki-duotone ki-message-text-2 fs-2">
                                             <span class="path1"></span>
                                             <span class="path2"></span>
-                                            <span class="path3"></span> </i>12</a>
+                                            <span class="path3"></span>
+                                        </i>12</a>
                                     <a href="#"
                                         class="btn btn-sm btn-light btn-color-muted btn-active-light-danger px-4 py-2">
                                         <i class="ki-duotone ki-heart fs-2">
                                             <span class="path1"></span>
-                                            <span class="path2"></span> </i>150</a>
+                                            <span class="path2"></span>
+                                        </i>150</a>
                                 </div>
                                 <!--end::Toolbar-->
                             </div>
@@ -1004,12 +1011,14 @@
                                         <i class="ki-duotone ki-message-text-2 fs-2">
                                             <span class="path1"></span>
                                             <span class="path2"></span>
-                                            <span class="path3"></span> </i>22</a>
+                                            <span class="path3"></span>
+                                        </i>22</a>
                                     <a href="#"
                                         class="btn btn-sm btn-light btn-color-muted btn-active-light-danger px-4 py-2">
                                         <i class="ki-duotone ki-heart fs-2">
                                             <span class="path1"></span>
-                                            <span class="path2"></span> </i>59</a>
+                                            <span class="path2"></span>
+                                        </i>59</a>
                                 </div>
                                 <!--end::Toolbar-->
                             </div>
@@ -1170,12 +1179,14 @@
                                         <i class="ki-duotone ki-message-text-2 fs-2">
                                             <span class="path1"></span>
                                             <span class="path2"></span>
-                                            <span class="path3"></span> </i>20</a>
+                                            <span class="path3"></span>
+                                        </i>20</a>
                                     <a href="#"
                                         class="btn btn-sm btn-light btn-color-muted btn-active-light-danger px-4 py-2">
                                         <i class="ki-duotone ki-heart fs-2">
                                             <span class="path1"></span>
-                                            <span class="path2"></span> </i>50</a>
+                                            <span class="path2"></span>
+                                        </i>50</a>
                                 </div>
                                 <!--end::Toolbar-->
                             </div>

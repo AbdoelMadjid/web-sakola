@@ -1,8 +1,10 @@
 <!--begin::Form-->
 <form data-kt-search-element="form" class="w-100 position-relative mb-3" autocomplete="off">
     <!--begin::Icon-->
-    <i class="ki-duotone ki-magnifier fs-2 text-gray-500 position-absolute top-50 translate-middle-y ms-0"><span
-            class="path1"></span><span class="path2"></span></i> <!--end::Icon-->
+    <i class="ki-duotone ki-magnifier fs-2 text-gray-500 position-absolute top-50 translate-middle-y ms-0">
+        <span class="path1"></span>
+        <span class="path2"></span>
+    </i> <!--end::Icon-->
     <!--begin::Input-->
     <input type="text" class="search-input  form-control form-control-flush ps-10" name="search" value=""
         placeholder="Search..." data-kt-search-element="input" />
@@ -17,7 +19,10 @@
     <span
         class="search-reset  btn btn-flush btn-active-color-primary position-absolute top-50 end-0 translate-middle-y lh-0 d-none"
         data-kt-search-element="clear">
-        <i class="ki-duotone ki-cross fs-2 fs-lg-1 me-0"><span class="path1"></span><span class="path2"></span></i>
+        <i class="ki-duotone ki-cross fs-2 fs-lg-1 me-0">
+            <span class="path1"></span>
+            <span class="path2"></span>
+        </i>
     </span>
     <!--end::Reset-->
     <!--begin::Toolbar-->
@@ -25,7 +30,10 @@
         <!--begin::Preferences toggle-->
         <div data-kt-search-element="preferences-show" class="btn btn-icon w-20px btn-sm btn-active-color-primary me-1"
             data-bs-toggle="tooltip" title="Show search preferences">
-            <i class="ki-duotone ki-setting-2 fs-2"><span class="path1"></span><span class="path2"></span></i>
+            <i class="ki-duotone ki-setting-2 fs-2">
+                <span class="path1"></span>
+                <span class="path2"></span>
+            </i>
         </div>
         <!--end::Preferences toggle-->
         <!--begin::Advanced search toggle-->

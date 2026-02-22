@@ -1,8 +1,11 @@
 <!--begin::Notice-->
 <div class="notice d-flex bg-light-primary rounded border-primary border border-dashed min-w-lg-600px flex-shrink-0 p-6">
     <!--begin::Icon-->
-    <i class="ki-duotone ki-devices-2 fs-2tx text-primary me-4"><span class="path1"></span><span
-            class="path2"></span><span class="path3"></span></i> <!--end::Icon-->
+    <i class="ki-duotone ki-devices-2 fs-2tx text-primary me-4">
+        <span class="path1"></span>
+        <span class="path2"></span>
+        <span class="path3"></span>
+    </i> <!--end::Icon-->
     <!--begin::Wrapper-->
     <div class="d-flex flex-stack flex-grow-1 flex-wrap flex-md-nowrap">
         <!--begin::Content-->

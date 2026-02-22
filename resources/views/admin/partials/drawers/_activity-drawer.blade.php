@@ -9,7 +9,10 @@
             <div class="card-toolbar">
                 <button type="button" class="btn btn-sm btn-icon btn-active-light-primary me-n5"
                     id="kt_activities_close">
-                    <i class="ki-duotone ki-cross fs-1"><span class="path1"></span><span class="path2"></span></i>
+                    <i class="ki-duotone ki-cross fs-1">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </button>
             </div>
         </div>
@@ -29,8 +32,11 @@
                         <!--end::Timeline line-->
                         <!--begin::Timeline icon-->
                         <div class="timeline-icon">
-                            <i class="ki-duotone ki-message-text-2 fs-2 text-gray-500"><span class="path1"></span><span
-                                    class="path2"></span><span class="path3"></span></i>
+                            <i class="ki-duotone ki-message-text-2 fs-2 text-gray-500">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                                <span class="path3"></span>
+                            </i>
                         </div>
                         <!--end::Timeline icon-->
                         <!--begin::Timeline content-->
@@ -154,8 +160,10 @@
                         <!--end::Timeline line-->
                         <!--begin::Timeline icon-->
                         <div class="timeline-icon me-4">
-                            <i class="ki-duotone ki-flag fs-2 text-gray-500"><span class="path1"></span><span
-                                    class="path2"></span></i>
+                            <i class="ki-duotone ki-flag fs-2 text-gray-500">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
                         </div>
                         <!--end::Timeline icon-->
                         <!--begin::Timeline content-->
@@ -192,9 +200,13 @@
                         <!--end::Timeline line-->
                         <!--begin::Timeline icon-->
                         <div class="timeline-icon">
-                            <i class="ki-duotone ki-disconnect fs-2 text-gray-500"><span class="path1"></span><span
-                                    class="path2"></span><span class="path3"></span><span
-                                    class="path4"></span><span class="path5"></span></i>
+                            <i class="ki-duotone ki-disconnect fs-2 text-gray-500">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                                <span class="path3"></span>
+                                <span class="path4"></span>
+                                <span class="path5"></span>
+                            </i>
                         </div>
                         <!--end::Timeline icon-->
                         <!--begin::Timeline content-->
@@ -295,8 +307,10 @@
                         <!--end::Timeline line-->
                         <!--begin::Timeline icon-->
                         <div class="timeline-icon">
-                            <i class="ki-duotone ki-abstract-26 fs-2 text-gray-500"><span class="path1"></span><span
-                                    class="path2"></span></i>
+                            <i class="ki-duotone ki-abstract-26 fs-2 text-gray-500">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
                         </div>
                         <!--end::Timeline icon-->
                         <!--begin::Timeline content-->
@@ -336,8 +350,10 @@
                         <!--end::Timeline line-->
                         <!--begin::Timeline icon-->
                         <div class="timeline-icon">
-                            <i class="ki-duotone ki-pencil fs-2 text-gray-500"><span class="path1"></span><span
-                                    class="path2"></span></i>
+                            <i class="ki-duotone ki-pencil fs-2 text-gray-500">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
                         </div>
                         <!--end::Timeline icon-->
                         <!--begin::Timeline content-->
@@ -425,8 +441,10 @@
                         <!--end::Timeline line-->
                         <!--begin::Timeline icon-->
                         <div class="timeline-icon">
-                            <i class="ki-duotone ki-sms fs-2 text-gray-500"><span class="path1"></span><span
-                                    class="path2"></span></i>
+                            <i class="ki-duotone ki-sms fs-2 text-gray-500">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
                         </div>
                         <!--end::Timeline icon-->
                         <!--begin::Timeline content-->
@@ -466,8 +484,10 @@
                         <!--end::Timeline line-->
                         <!--begin::Timeline icon-->
                         <div class="timeline-icon">
-                            <i class="ki-duotone ki-pencil fs-2 text-gray-500"><span class="path1"></span><span
-                                    class="path2"></span></i>
+                            <i class="ki-duotone ki-pencil fs-2 text-gray-500">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
                         </div>
                         <!--end::Timeline icon-->
                         <!--begin::Timeline content-->
@@ -508,9 +528,12 @@
                         <!--end::Timeline line-->
                         <!--begin::Timeline icon-->
                         <div class="timeline-icon">
-                            <i class="ki-duotone ki-basket fs-2 text-gray-500"><span class="path1"></span><span
-                                    class="path2"></span><span class="path3"></span><span
-                                    class="path4"></span></i>
+                            <i class="ki-duotone ki-basket fs-2 text-gray-500">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                                <span class="path3"></span>
+                                <span class="path4"></span>
+                            </i>
                         </div>
                         <!--end::Timeline icon-->
                         <!--begin::Timeline content-->
@@ -548,11 +571,13 @@
         <!--begin::Footer-->
         <div class="card-footer py-5 text-center" id="kt_activities_footer">
             <a href="/pages/user-profile/activity" class="btn btn-bg-body text-primary">
-                View All Activities <i class="ki-duotone ki-arrow-right fs-3 text-primary"><span
-                        class="path1"></span><span class="path2"></span></i> </a>
+                View All Activities <i class="ki-duotone ki-arrow-right fs-3 text-primary">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                </i>
+            </a>
         </div>
         <!--end::Footer-->
     </div>
 </div>
 <!--end::Activities drawer-->
-

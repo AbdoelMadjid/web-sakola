@@ -443,7 +443,8 @@
                                             <i class="ki-duotone ki-plus-square fs-3">
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
-                                                <span class="path3"></span> </i>Add payment
+                                                <span class="path3"></span>
+                                            </i>Add payment
                                         </button>
                                         <!--end::Filter-->
                                     </div>
@@ -806,7 +807,8 @@
                                             <i class="ki-duotone ki-plus-square fs-3">
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
-                                                <span class="path3"></span> </i>Add new method</a>
+                                                <span class="path3"></span>
+                                            </i>Add new method</a>
                                     </div>
                                     <!--end::Card toolbar-->
                                 </div>
@@ -1449,7 +1451,8 @@
                                             data-bs-toggle="modal" data-bs-target="#kt_modal_adjust_balance">
                                             <i class="ki-duotone ki-pencil fs-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Adjust Balance</a>
+                                                <span class="path2"></span>
+                                            </i>Adjust Balance</a>
                                     </div>
                                     <!--end::Card toolbar-->
                                 </div>
@@ -2205,7 +2208,8 @@
                                         <button type="button" class="btn btn-sm btn-light-primary">
                                             <i class="ki-duotone ki-cloud-download fs-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Download Report
+                                                <span class="path2"></span>
+                                            </i>Download Report
                                         </button>
                                         <!--end::Button-->
                                     </div>
@@ -2377,7 +2381,8 @@
                                         <button type="button" class="btn btn-sm btn-light-primary">
                                             <i class="ki-duotone ki-cloud-download fs-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Download Report
+                                                <span class="path2"></span>
+                                            </i>Download Report
                                         </button>
                                         <!--end::Button-->
                                     </div>
@@ -2573,7 +2578,8 @@
                                                         data-kt-countup-value="16">0</span>%
                                                     <i class="ki-duotone ki-arrow-down fs-1 text-danger">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i></span>
+                                                        <span class="path2"></span>
+                                                    </i></span>
                                                 <span class="fs-6 fw-semibold text-muted d-block lh-1 pt-2">Change</span>
                                             </div>
                                             <!--end::Col-->

@@ -46,7 +46,8 @@
                 <span class="badge badge-success fs-base">
                     <i class="ki-duotone ki-arrow-up fs-5 text-white ms-n1">
                         <span class="path1"></span>
-                        <span class="path2"></span> </i>4.5%</span>
+                        <span class="path2"></span>
+                    </i>4.5%</span>
                 <!--end::Label-->
             </div>
             <!--end::Statistics-->

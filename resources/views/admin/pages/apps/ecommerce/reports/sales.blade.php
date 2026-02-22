@@ -54,7 +54,8 @@
                             data-kt-menu-placement="bottom-end">
                             <i class="ki-duotone ki-exit-up fs-2">
                                 <span class="path1"></span>
-                                <span class="path2"></span> </i>Export Report
+                                <span class="path2"></span>
+                            </i>Export Report
                         </button>
                         <!--begin::Menu-->
                         <div id="kt_ecommerce_report_sales_export_menu"

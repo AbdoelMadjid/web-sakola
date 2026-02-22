@@ -61,17 +61,20 @@
                                             <i class="ki-duotone ki-profile-circle fs-4 me-1">
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
-                                                <span class="path3"></span> </i>Developer</a>
+                                                <span class="path3"></span>
+                                            </i>Developer</a>
                                         <a href="#"
                                             class="d-flex align-items-center text-gray-500 text-hover-primary me-5 mb-2">
                                             <i class="ki-duotone ki-geolocation fs-4 me-1">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>SF, Bay Area</a>
+                                                <span class="path2"></span>
+                                            </i>SF, Bay Area</a>
                                         <a href="#"
                                             class="d-flex align-items-center text-gray-500 text-hover-primary mb-2">
                                             <i class="ki-duotone ki-sms fs-4 me-1">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>max@kt.com</a>
+                                                <span class="path2"></span>
+                                            </i>max@kt.com</a>
                                     </div>
                                     <!--end::Info-->
                                 </div>

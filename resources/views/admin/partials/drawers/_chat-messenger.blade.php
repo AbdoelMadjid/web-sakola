@@ -27,8 +27,12 @@
                 <div class="me-0">
                     <button class="btn btn-sm btn-icon btn-active-color-primary" data-kt-menu-trigger="click"
                         data-kt-menu-placement="bottom-end">
-                        <i class="ki-duotone ki-dots-square fs-2"><span class="path1"></span><span
-                                class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+                        <i class="ki-duotone ki-dots-square fs-2">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                            <span class="path3"></span>
+                            <span class="path4"></span>
+                        </i>
                     </button>
                     <!--begin::Menu 3-->
                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-3"
@@ -55,8 +59,12 @@
                                 Invite Contacts
                                 <span class="ms-2" data-bs-toggle="tooltip"
                                     title="Specify a contact email to send an invitation">
-                                    <i class="ki-duotone ki-information fs-7"><span class="path1"></span><span
-                                            class="path2"></span><span class="path3"></span></i> </span>
+                                    <i class="ki-duotone ki-information fs-7">
+                                        <span class="path1"></span>
+                                        <span class="path2"></span>
+                                        <span class="path3"></span>
+                                    </i>
+                                </span>
                             </a>
                         </div>
                         <!--end::Menu item-->
@@ -109,8 +117,10 @@
                 <!--end::Menu-->
                 <!--begin::Close-->
                 <div class="btn btn-sm btn-icon btn-active-color-primary" id="kt_drawer_chat_close">
-                    <i class="ki-duotone ki-cross-square fs-2"><span class="path1"></span><span
-                            class="path2"></span></i>
+                    <i class="ki-duotone ki-cross-square fs-2">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i>
                 </div>
                 <!--end::Close-->
             </div>
@@ -395,8 +405,10 @@
                         <i class="ki-duotone ki-paper-clip fs-3"></i> </button>
                     <button class="btn btn-sm btn-icon btn-active-light-primary me-1" type="button"
                         data-bs-toggle="tooltip" title="Coming soon">
-                        <i class="ki-duotone ki-cloud-add fs-3"><span class="path1"></span><span
-                                class="path2"></span></i> </button>
+                        <i class="ki-duotone ki-cloud-add fs-3">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                        </i> </button>
                 </div>
                 <!--end::Actions-->
                 <!--begin::Send-->
@@ -410,4 +422,3 @@
     <!--end::Messenger-->
 </div>
 <!--end::Chat drawer-->
-

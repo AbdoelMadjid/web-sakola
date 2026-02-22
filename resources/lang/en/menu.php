@@ -2,6 +2,7 @@
 
 return [
     'dashboards' => 'Dashboards',
+    'home' => 'Home',
     'pages' => 'Pages',
     'apps' => 'Apps',
     'layouts' => 'Layouts',

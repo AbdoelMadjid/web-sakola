@@ -62,7 +62,8 @@
                                 data-bs-target="#kt_customers_export_modal">
                                 <i class="ki-duotone ki-exit-up fs-2">
                                     <span class="path1"></span>
-                                    <span class="path2"></span> </i>Export
+                                    <span class="path2"></span>
+                                </i>Export
                             </button>
                             <!--end::Export-->
                             <!--begin::Add customer-->

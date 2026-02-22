@@ -39,8 +39,10 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-35px me-4">
                             <span class="symbol-label bg-light-primary">
-                                <i class="ki-duotone ki-abstract-28 fs-2 text-primary"><span class="path1"></span><span
-                                        class="path2"></span></i>
+                                <i class="ki-duotone ki-abstract-28 fs-2 text-primary">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </i>
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -64,8 +66,11 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-35px me-4">
                             <span class="symbol-label bg-light-danger">
-                                <i class="ki-duotone ki-information fs-2 text-danger"><span class="path1"></span><span
-                                        class="path2"></span><span class="path3"></span></i>
+                                <i class="ki-duotone ki-information fs-2 text-danger">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                    <span class="path3"></span>
+                                </i>
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -89,8 +94,10 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-35px me-4">
                             <span class="symbol-label bg-light-warning">
-                                <i class="ki-duotone ki-briefcase fs-2 text-warning"><span class="path1"></span><span
-                                        class="path2"></span></i>
+                                <i class="ki-duotone ki-briefcase fs-2 text-warning">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </i>
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -114,8 +121,10 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-35px me-4">
                             <span class="symbol-label bg-light-success">
-                                <i class="ki-duotone ki-abstract-12 fs-2 text-success"><span class="path1"></span><span
-                                        class="path2"></span></i>
+                                <i class="ki-duotone ki-abstract-12 fs-2 text-success">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </i>
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -139,9 +148,12 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-35px me-4">
                             <span class="symbol-label bg-light-primary">
-                                <i class="ki-duotone ki-colors-square fs-2 text-primary"><span
-                                        class="path1"></span><span class="path2"></span><span
-                                        class="path3"></span><span class="path4"></span></i>
+                                <i class="ki-duotone ki-colors-square fs-2 text-primary">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                    <span class="path3"></span>
+                                    <span class="path4"></span>
+                                </i>
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -189,18 +201,29 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-35px me-4">
                             <span class="symbol-label bg-light-warning">
-                                <i class="ki-duotone ki-color-swatch fs-2 text-warning"><span
-                                        class="path1"></span><span class="path2"></span><span
-                                        class="path3"></span><span class="path4"></span><span
-                                        class="path5"></span><span class="path6"></span><span
-                                        class="path7"></span><span class="path8"></span><span
-                                        class="path9"></span><span class="path10"></span><span
-                                        class="path11"></span><span class="path12"></span><span
-                                        class="path13"></span><span class="path14"></span><span
-                                        class="path15"></span><span class="path16"></span><span
-                                        class="path17"></span><span class="path18"></span><span
-                                        class="path19"></span><span class="path20"></span><span
-                                        class="path21"></span></i>
+                                <i class="ki-duotone ki-color-swatch fs-2 text-warning">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                    <span class="path3"></span>
+                                    <span class="path4"></span>
+                                    <span class="path5"></span>
+                                    <span class="path6"></span>
+                                    <span class="path7"></span>
+                                    <span class="path8"></span>
+                                    <span class="path9"></span>
+                                    <span class="path10"></span>
+                                    <span class="path11"></span>
+                                    <span class="path12"></span>
+                                    <span class="path13"></span>
+                                    <span class="path14"></span>
+                                    <span class="path15"></span>
+                                    <span class="path16"></span>
+                                    <span class="path17"></span>
+                                    <span class="path18"></span>
+                                    <span class="path19"></span>
+                                    <span class="path20"></span>
+                                    <span class="path21"></span>
+                                </i>
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -223,8 +246,10 @@
             <div class="py-3 text-center border-top">
                 <a href="/pages/user-profile/activity" class="btn btn-color-gray-600 btn-active-color-primary">
                     View All
-                    <i class="ki-duotone ki-arrow-right fs-5"><span class="path1"></span><span
-                            class="path2"></span></i> </a>
+                    <i class="ki-duotone ki-arrow-right fs-5">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i> </a>
             </div>
             <!--end::View more-->
         </div>
@@ -476,8 +501,10 @@
             <div class="py-3 text-center border-top">
                 <a href="/pages/user-profile/activity" class="btn btn-color-gray-600 btn-active-color-primary">
                     View All
-                    <i class="ki-duotone ki-arrow-right fs-5"><span class="path1"></span><span
-                            class="path2"></span></i> </a>
+                    <i class="ki-duotone ki-arrow-right fs-5">
+                        <span class="path1"></span>
+                        <span class="path2"></span>
+                    </i> </a>
             </div>
             <!--end::View more-->
         </div>

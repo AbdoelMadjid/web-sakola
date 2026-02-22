@@ -90,7 +90,8 @@
                                             href="/pages/general/social/feeds">
                                             <i class="ki-duotone ki-row-horizontal fs-3 text-muted me-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Feeds
+                                                <span class="path2"></span>
+                                            </i>Feeds
                                             <!--begin::Bullet-->
                                             <span
                                                 class="bullet-custom position-absolute start-0 top-0 w-3px h-100 bg-primary rounded-end"></span>
@@ -105,7 +106,8 @@
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
                                                 <span class="path3"></span>
-                                                <span class="path4"></span> </i>Activity
+                                                <span class="path4"></span>
+                                            </i>Activity
                                             <!--begin::Bullet-->
                                             <span
                                                 class="bullet-custom position-absolute start-0 top-0 w-3px h-100 bg-primary rounded-end"></span>
@@ -119,7 +121,8 @@
                                             <i class="ki-duotone ki-profile-circle fs-3 text-muted me-3">
                                                 <span class="path1"></span>
                                                 <span class="path2"></span>
-                                                <span class="path3"></span> </i>Followers
+                                                <span class="path3"></span>
+                                            </i>Followers
                                             <!--begin::Bullet-->
                                             <span
                                                 class="bullet-custom position-absolute start-0 top-0 w-3px h-100 bg-primary rounded-end"></span>
@@ -132,7 +135,8 @@
                                             href="/pages/general/social/settings">
                                             <i class="ki-duotone ki-setting-2 fs-3 text-muted me-3">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i>Settings
+                                                <span class="path2"></span>
+                                            </i>Settings
                                             <!--begin::Bullet-->
                                             <span
                                                 class="bullet-custom position-absolute start-0 top-0 w-3px h-100 bg-primary rounded-end"></span>
@@ -723,7 +727,8 @@
                                                 <i class="ki-duotone ki-message-text-2 fs-2 me-1">
                                                     <span class="path1"></span>
                                                     <span class="path2"></span>
-                                                    <span class="path3"></span> </i>2 Comments</a>
+                                                    <span class="path3"></span>
+                                                </i>2 Comments</a>
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
@@ -732,7 +737,8 @@
                                                 class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4 me-1">
                                                 <i class="ki-duotone ki-heart fs-2 me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>47k Likes</a>
+                                                    <span class="path2"></span>
+                                                </i>47k Likes</a>
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
@@ -741,7 +747,8 @@
                                                 class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4">
                                                 <i class="ki-duotone ki-bookmark fs-2 me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>900 Saves</a>
+                                                    <span class="path2"></span>
+                                                </i>900 Saves</a>
                                         </li>
                                         <!--end::Item-->
                                     </ul>
@@ -1031,7 +1038,8 @@
                                                 <i class="ki-duotone ki-message-text-2 fs-2 me-1">
                                                     <span class="path1"></span>
                                                     <span class="path2"></span>
-                                                    <span class="path3"></span> </i>3 Comments</a>
+                                                    <span class="path3"></span>
+                                                </i>3 Comments</a>
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
@@ -1040,7 +1048,8 @@
                                                 class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4 me-1">
                                                 <i class="ki-duotone ki-heart fs-2 me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>8 Likes</a>
+                                                    <span class="path2"></span>
+                                                </i>8 Likes</a>
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
@@ -1049,7 +1058,8 @@
                                                 class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4">
                                                 <i class="ki-duotone ki-bookmark fs-2 me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>47k Saves</a>
+                                                    <span class="path2"></span>
+                                                </i>47k Saves</a>
                                         </li>
                                         <!--end::Item-->
                                     </ul>
@@ -1387,7 +1397,8 @@
                                                 <i class="ki-duotone ki-message-text-2 fs-2 me-1">
                                                     <span class="path1"></span>
                                                     <span class="path2"></span>
-                                                    <span class="path3"></span> </i>4 Comments</a>
+                                                    <span class="path3"></span>
+                                                </i>4 Comments</a>
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
@@ -1396,7 +1407,8 @@
                                                 class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4 me-1">
                                                 <i class="ki-duotone ki-heart fs-2 me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>10k Likes</a>
+                                                    <span class="path2"></span>
+                                                </i>10k Likes</a>
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
@@ -1405,7 +1417,8 @@
                                                 class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4">
                                                 <i class="ki-duotone ki-bookmark fs-2 me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>2 Saves</a>
+                                                    <span class="path2"></span>
+                                                </i>2 Saves</a>
                                         </li>
                                         <!--end::Item-->
                                     </ul>
@@ -1764,7 +1777,8 @@
                                                 <i class="ki-duotone ki-message-text-2 fs-2 me-1">
                                                     <span class="path1"></span>
                                                     <span class="path2"></span>
-                                                    <span class="path3"></span> </i>10 Comments</a>
+                                                    <span class="path3"></span>
+                                                </i>10 Comments</a>
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
@@ -1773,7 +1787,8 @@
                                                 class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4 me-1">
                                                 <i class="ki-duotone ki-heart fs-2 me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>10k Likes</a>
+                                                    <span class="path2"></span>
+                                                </i>10k Likes</a>
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
@@ -1782,7 +1797,8 @@
                                                 class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4">
                                                 <i class="ki-duotone ki-bookmark fs-2 me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>3k Saves</a>
+                                                    <span class="path2"></span>
+                                                </i>3k Saves</a>
                                         </li>
                                         <!--end::Item-->
                                     </ul>
@@ -2231,7 +2247,8 @@
                                                     <i class="ki-duotone ki-message-text-2 fs-2 me-1">
                                                         <span class="path1"></span>
                                                         <span class="path2"></span>
-                                                        <span class="path3"></span> </i>3 Comments</a>
+                                                        <span class="path3"></span>
+                                                    </i>3 Comments</a>
                                             </li>
                                             <!--end::Item-->
                                             <!--begin::Item-->
@@ -2240,7 +2257,8 @@
                                                     class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4 me-1">
                                                     <i class="ki-duotone ki-heart fs-2 me-1">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>15k Likes</a>
+                                                        <span class="path2"></span>
+                                                    </i>15k Likes</a>
                                             </li>
                                             <!--end::Item-->
                                             <!--begin::Item-->
@@ -2249,7 +2267,8 @@
                                                     class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4">
                                                     <i class="ki-duotone ki-bookmark fs-2 me-1">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>3.8k Saves</a>
+                                                        <span class="path2"></span>
+                                                    </i>3.8k Saves</a>
                                             </li>
                                             <!--end::Item-->
                                         </ul>
@@ -2580,7 +2599,8 @@
                                                     <i class="ki-duotone ki-message-text-2 fs-2 me-1">
                                                         <span class="path1"></span>
                                                         <span class="path2"></span>
-                                                        <span class="path3"></span> </i>2 Comments</a>
+                                                        <span class="path3"></span>
+                                                    </i>2 Comments</a>
                                             </li>
                                             <!--end::Item-->
                                             <!--begin::Item-->
@@ -2589,7 +2609,8 @@
                                                     class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4 me-1">
                                                     <i class="ki-duotone ki-heart fs-2 me-1">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>14k Likes</a>
+                                                        <span class="path2"></span>
+                                                    </i>14k Likes</a>
                                             </li>
                                             <!--end::Item-->
                                             <!--begin::Item-->
@@ -2598,7 +2619,8 @@
                                                     class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4">
                                                     <i class="ki-duotone ki-bookmark fs-2 me-1">
                                                         <span class="path1"></span>
-                                                        <span class="path2"></span> </i>7.5k Saves</a>
+                                                        <span class="path2"></span>
+                                                    </i>7.5k Saves</a>
                                             </li>
                                             <!--end::Item-->
                                         </ul>
@@ -2897,7 +2919,8 @@
                                                 <i class="ki-duotone ki-message-text-2 fs-2 me-1">
                                                     <span class="path1"></span>
                                                     <span class="path2"></span>
-                                                    <span class="path3"></span> </i>0 Comment</a>
+                                                    <span class="path3"></span>
+                                                </i>0 Comment</a>
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
@@ -2906,7 +2929,8 @@
                                                 class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4 me-1">
                                                 <i class="ki-duotone ki-heart fs-2 me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>0 Like</a>
+                                                    <span class="path2"></span>
+                                                </i>0 Like</a>
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
@@ -2915,7 +2939,8 @@
                                                 class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4">
                                                 <i class="ki-duotone ki-bookmark fs-2 me-1">
                                                     <span class="path1"></span>
-                                                    <span class="path2"></span> </i>0 Saves</a>
+                                                    <span class="path2"></span>
+                                                </i>0 Saves</a>
                                         </li>
                                         <!--end::Item-->
                                     </ul>

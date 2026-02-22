@@ -834,7 +834,8 @@
                                         data-kt-stepper-action="previous">
                                         <i class="ki-duotone ki-arrow-left fs-4 me-1">
                                             <span class="path1"></span>
-                                            <span class="path2"></span> </i>Previous
+                                            <span class="path2"></span>
+                                        </i>Previous
                                     </button>
                                 </div>
                                 <div>
@@ -843,7 +844,8 @@
                                         <span class="indicator-label">Submit
                                             <i class="ki-duotone ki-arrow-right fs-4 ms-2">
                                                 <span class="path1"></span>
-                                                <span class="path2"></span> </i></span>
+                                                <span class="path2"></span>
+                                            </i></span>
                                         <span class="indicator-progress">Please wait...
                                             <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
                                     </button>
